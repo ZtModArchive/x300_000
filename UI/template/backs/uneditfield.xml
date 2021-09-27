@@ -1,0 +1,90 @@
+<UILayout templateName="uneditfield">
+   <UIRegion x="0" y="0" w="16" h="16" xalign="min" yalign="min" walign="len" halign="len"/>
+   <UIState active="normal" visible="normal"/>
+   <UIAspect>
+      <default/>
+   </UIAspect>
+   <children>
+      <UIStatic name="TopLeft">
+         <UIRegion x="0" y="0" w="6" h="6" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="UI\template\backs\well_uneditfield.dds">
+               <BFRect x="0" y="0" w="6" h="6"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="TopMiddle">
+         <UIRegion x="6" y="OUT_TOP" w="-6" h="6" xalign="min" yalign="min" walign="max" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="UI\template\backs\well_uneditfield.dds">
+               <BFRect x="6" y="0" w="4" h="6"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="TopRight">
+         <UIRegion x="-6" y="0" w="6" h="6" xalign="max" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="UI\template\backs\well_uneditfield.dds">
+               <BFRect x="10" y="0" w="6" h="6"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="MidLeft">
+         <UIRegion x="0" y="6" w="6" h="-6" xalign="min" yalign="min" walign="len" halign="max"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="UI\template\backs\well_uneditfield.dds">
+               <BFRect x="0" y="6" w="6" h="4"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="BottomLeft">
+         <UIRegion x="0" y="-6" w="6" h="6" xalign="min" yalign="max" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="UI\template\backs\well_uneditfield.dds">
+               <BFRect x="0" y="10" w="6" h="6"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="BottomMiddle">
+         <UIRegion x="6" y="-6" w="-6" h="6" xalign="min" yalign="max" walign="max" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="UI\template\backs\well_uneditfield.dds">
+               <BFRect x="6" y="10" w="4" h="6"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="BottomRight">
+         <UIRegion x="-6" y="-6" w="6" h="6" xalign="max" yalign="max" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="UI\template\backs\well_uneditfield.dds">
+               <BFRect x="10" y="10" w="6" h="6"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="MidRight">
+         <UIRegion x="-6" y="6" w="6" h="-6" xalign="max" yalign="min" walign="len" halign="max"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="UI\template\backs\well_uneditfield.dds">
+               <BFRect x="10" y="6" w="6" h="4"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="Center">
+         <UIRegion x="6" y="6" w="-6" h="-6" xalign="min" yalign="min" walign="max" halign="max"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="UI\template\backs\well_uneditfield.dds">
+               <BFRect x="6" y="6" w="4" h="4"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+   </children>
+</UILayout>

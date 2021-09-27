@@ -1,0 +1,104 @@
+<UIToggleSet>
+   <UIRegion w="57" h="48"/>
+   <children>
+      <UIStatic name="fullcolor">
+         <UIRegion x="0" y="0" w="57" h="48"/>
+         <UIAspect alwayshit="never">
+            <default image="">
+               <BFRect x="0" y="0" w="64" h="64"/>
+            </default>
+            <standard>
+               <normal>
+                  <BFRect x="3" y="5" w="57" h="48"/>
+               </normal>
+               <highlighted>
+                  <BFRect x="3" y="69" w="57" h="48"/>
+               </highlighted>
+               <activated>
+                  <BFRect x="67" y="5" w="57" h="48"/>
+               </activated>
+               <disabled>
+                  <BFRect x="67" y="69" w="57" h="48"/>
+               </disabled>
+            </standard>
+            <alternate>
+               <normal>
+                  <BFRect x="67" y="5" w="57" h="48"/>
+               </normal>
+               <highlighted>
+                  <BFRect x="67" y="5" w="57" h="48"/>
+               </highlighted>
+               <activated>
+                  <BFRect x="67" y="5" w="57" h="48"/>
+               </activated>
+               <disabled>
+                  <BFRect x="67" y="69" w="57" h="48"/>
+               </disabled>
+            </alternate>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="beaker">
+         <UIRegion x="20" y="18" w="32" h="32" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIAspect string="" alwayshit="never">
+            <default image="ui/maingame/buttons.dds" sound="">
+               <BFColor r="255" g="255" b="255" a="255"/>
+            </default>
+            <standard>
+               <normal>
+                  <BFRect x="0" y="256" w="64" h="64"/>
+               </normal>
+               <highlighted>
+                  <BFRect x="0" y="320" w="64" h="64"/>
+               </highlighted>
+               <activated>
+                  <BFRect x="64" y="256" w="64" h="64"/>
+               </activated>
+               <disabled>
+                  <BFRect x="64" y="320" w="64" h="64"/>
+               </disabled>
+            </standard>
+            <alternate>
+               <normal>
+                  <BFRect x="64" y="256" w="64" h="64"/>
+               </normal>
+               <highlighted>
+                  <BFRect x="64" y="256" w="64" h="64"/>
+               </highlighted>
+               <activated>
+                  <BFRect x="64" y="256" w="64" h="64"/>
+               </activated>
+               <disabled>
+                  <BFRect x="64" y="320" w="64" h="64"/>
+               </disabled>
+            </alternate>
+         </UIAspect>
+      </UIStatic>
+      <UISlider name="progress" span="0">
+         <UIState active="normal" visible="hidden"/>
+         <UIRegion x="2" y="36" w="53" h="9"/>
+         <children>
+            <UIStatic>
+               <UIRegion walign="max" halign="max"/>
+               <UIAspect>
+                  <default image="ui/shared/white1x1.dds">
+                     <BFRect x="0" y="0" w="64" h="64"/>
+                     <BFColor r="68" g="117" b="129" a="153"/>
+                  </default>
+               </UIAspect>
+            </UIStatic>
+            <UIStatic name="thumb">
+               <UIRegion w="0" h="100" walign="% min"/>
+               <UIAspect>
+                  <default image="ui/shared/white1x1.dds">
+                     <BFRect x="0" y="0" w="1" h="1"/>
+                     <BFColor r="0" g="255" b="0" a="200"/>
+                  </default>
+               </UIAspect>
+            </UIStatic>
+         </children>
+         <thumb name="thumb" axis="x" style="stretch">
+            <UIRegion x="0" y="0" w="100" h="0" walign="% min" halign="max"/>
+         </thumb>
+      </UISlider>
+   </children>
+</UIToggleSet>

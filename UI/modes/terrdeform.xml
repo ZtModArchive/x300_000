@@ -1,0 +1,8 @@
+<TerrDeformationUI hillSpeed="5.0f" valleySpeed="5.0f" flattenSpeed="3.0f" smoothSpeed="2.0f" smoothSample="3" minCursorWidth="3.0f" maxCursorWidth="8.0f" startCursorWidth="5.0f" cursorSizeIncrement="0.5f">
+   <cursors>
+      <hill>ui/cursor_texture/hill.dds</hill>
+      <valley>ui/cursor_texture/hill.dds</valley>
+      <flatten>ui/cursor_texture/flatten.dds</flatten>
+      <smooth>ui/cursor_texture/smooth.dds</smooth>
+   </cursors>
+</TerrDeformationUI>

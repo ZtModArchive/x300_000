@@ -1,0 +1,90 @@
+<UILayout templateName="tooltip">
+   <UIRegion x="0" y="0" w="64" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+   <UIState active="normal" visible="normal"/>
+   <UIAspect>
+      <default/>
+   </UIAspect>
+   <children>
+      <UIStatic name="TopLeft">
+         <UIRegion x="0" y="0" w="8" h="8" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="ui/template/backs/Tooltips.dds">
+               <BFRect x="0" y="0" w="8" h="8"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="TopMiddle">
+         <UIRegion x="8" y="OUT_TOP" w="-8" h="8" xalign="min" yalign="min" walign="max" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="ui/template/backs/Tooltips.dds">
+               <BFRect x="8" y="0" w="16" h="8"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="TopRight">
+         <UIRegion x="-8" y="0" w="8" h="8" xalign="max" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="ui/template/backs/Tooltips.dds">
+               <BFRect x="24" y="0" w="8" h="8"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="MidLeft">
+         <UIRegion x="0" y="8" w="8" h="-8" xalign="min" yalign="min" walign="len" halign="max"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="ui/template/backs/Tooltips.dds">
+               <BFRect x="0" y="8" w="8" h="16"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="BottomLeft">
+         <UIRegion x="0" y="-8" w="8" h="8" xalign="min" yalign="max" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="ui/template/backs/Tooltips.dds">
+               <BFRect x="0" y="24" w="8" h="8"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="BottomMiddle">
+         <UIRegion x="8" y="-8" w="-8" h="8" xalign="min" yalign="max" walign="max" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="ui/template/backs/Tooltips.dds">
+               <BFRect x="8" y="24" w="16" h="8"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="BottomRight">
+         <UIRegion x="-8" y="-8" w="8" h="8" xalign="max" yalign="max" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="ui/template/backs/Tooltips.dds">
+               <BFRect x="24" y="24" w="8" h="8"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="MidRight">
+         <UIRegion x="-8" y="8" w="8" h="-8" xalign="max" yalign="min" walign="len" halign="max"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="ui/template/backs/Tooltips.dds">
+               <BFRect x="24" y="8" w="8" h="16"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="Center">
+         <UIRegion x="8" y="8" w="-8" h="-8" xalign="min" yalign="min" walign="max" halign="max"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="ui/template/backs/Tooltips.dds">
+               <BFRect x="8" y="8" w="16" h="16"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+   </children>
+</UILayout>

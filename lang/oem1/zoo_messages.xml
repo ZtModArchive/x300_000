@@ -1,0 +1,78 @@
+<ZT2Strings>
+   <zoomessages>
+      <!--Global Zoo Messages-->
+      <GuestsHungry>Guests are starving!</GuestsHungry>
+      <GuestsThirsty>Guests are thirsty!</GuestsThirsty>
+      <GuestsBathroom>Guests need more bathrooms!</GuestsBathroom>
+      <GuestsTired>Guests need more places to rest!</GuestsTired>
+      <GuestsNeedDessert>Guests would like some desserts!</GuestsNeedDessert>
+      <GuestAmusementBad>Build playgrounds, statues, fountains, and kiosks to amuse guests!</GuestAmusementBad>
+      <GuestsEntertained>Guests are really enjoying the animals!</GuestsEntertained>
+      <GuestsAmused>Guests like your exhibits!</GuestsAmused>
+      <GuestsBored>Guests think your zoo is boring!</GuestsBored>
+      <GuestsDisturbed>Guests feel bad for your animals.</GuestsDisturbed>
+      <GuestsTrashGround>Guests think the zoo is dirty.</GuestsTrashGround>
+      <GuestsTrashFull>All your trashcans are full!</GuestsTrashFull>
+      <GuestsStandingEat>Guests would like a place to sit and eat!</GuestsStandingEat>
+      <AnimalsHungry>There are lots of hungry animals in the zoo!</AnimalsHungry>
+      <AnimalsThirsty>There are lots of thirsty animals in the zoo!</AnimalsThirsty>
+      <EscapedAnimal>%s has escaped from its exhibit!</EscapedAnimal>
+      <SickAnimal>%s is sick.</SickAnimal>
+      <VerySickAnimal>%s is very sick!</VerySickAnimal>
+      <AnimalDiedSick>%s has died of illness.</AnimalDiedSick>
+      <PregnantAnimal>%s is now pregnant.</PregnantAnimal>
+      <AnimalBirth>%s has given birth.</AnimalBirth>
+      <AnimalDied>%s has died of old age.</AnimalDied>
+      <AnimalDrowning>%s is in the water and can't swim!</AnimalDrowning>
+      <GuestsCantFindATM>Guests can't find an ATM!</GuestsCantFindATM>
+      <GuestsCantFindDonationBox>Guests can't find donation boxes!</GuestsCantFindDonationBox>
+      <GuestAttacked>A guest was attacked by an animal!</GuestAttacked>
+      <AnimalAttacked>%s was attacked and killed!</AnimalAttacked>
+      <AnimalBiomeBad>Many animals are in hostile habitats!</AnimalBiomeBad>
+      <AnimalSpaceBad>Many animals don't have enough space!</AnimalSpaceBad>
+      <AnimalCaptured>%s has been captured.</AnimalCaptured>
+      <AnimalLayEgg>%s has laid an egg.</AnimalLayEgg>
+      <AnimalHatchEgg>%s has just hatched.</AnimalHatchEgg>
+      <ResearchCompleted>The research for %s is complete.</ResearchCompleted>
+      <ResearchUnaffordable>You cannot afford to research %s.</ResearchUnaffordable>
+      <AnimalHealed>%s has been healed.</AnimalHealed>
+      <GuestsEnjoyPony>Young guests love riding the pony!</GuestsEnjoyPony>
+      <GuestsEnjoyRides>Young guests love the amusement rides!</GuestsEnjoyRides>
+      <GuestsEnjoyArch>Guests think the arches are amusing.</GuestsEnjoyArch>
+      <GuestsEnjoyArchTheme>Guests appreciate the themed arches.</GuestsEnjoyArchTheme>
+      <GuestsEnjoyMap>Guests appreciate the Zoo Map.</GuestsEnjoyMap>
+      <GuestsEnjoyStatueTheme>Guests think the themed statues look great.</GuestsEnjoyStatueTheme>
+      <GuestsEnjoyStatue>Guests think the statues are impressive.</GuestsEnjoyStatue>
+      <GuestsEnjoyFountainTheme>The themed fountains are a big hit.</GuestsEnjoyFountainTheme>
+      <GuestsEnjoyFountain>Guests love the fountains in the zoo.</GuestsEnjoyFountain>
+      <GuestsEnjoyReptileKiosk>Guests are amused by the reptile kiosks!</GuestsEnjoyReptileKiosk>
+      <GuestsEnjoyInsectKiosk>Guests find the bug house very amusing!</GuestsEnjoyInsectKiosk>
+      <StaffFailure>Staff can't reach %s!</StaffFailure>
+      <ZookeeperFailPlaceFood>Zookeeper can't reach a good location to place food for %s.</ZookeeperFailPlaceFood>
+      <ZookeeperFailPlaceWater>Zookeeper can't reach a good location to place water for %s.</ZookeeperFailPlaceWater>
+      <ZookeeperFailure>Zookeeper can't reach %s!</ZookeeperFailure>
+      <EducatorFailure>Educator can't reach %s!</EducatorFailure>
+      <MWFailure>Maintenance Worker can't reach %s!</MWFailure>
+      <PriceExpensive>Guests think your zoo's prices are too high!</PriceExpensive>
+      <PriceCheap>Guests think your zoo is a bargain!</PriceCheap>
+      <PriceModerate>Guests think your zoo's prices are fair.</PriceModerate>
+      <AnimalCrated>%s has been put in a crate.</AnimalCrated>
+      <AnimalReleasedWild>Congratulations on releasing %s to the wild!</AnimalReleasedWild>
+      <AnimalAdopted>%s has been adopted!</AnimalAdopted>
+      <AnimalAdult>%s has reached adulthood!</AnimalAdult>
+      <ZooFame>Your zoo has become more famous!</ZooFame>
+      <GuestsHappy>Guests love your zoo!</GuestsHappy>
+      <GuestsAngry>Your guests are upset!</GuestsAngry>
+      <CriticalHungryAnimal>%s is really hungry!</CriticalHungryAnimal>
+      <CriticalThirstyAnimal>%s is really thirsty!</CriticalThirstyAnimal>
+      <CriticalSpaceAnimal>%s needs more space!</CriticalSpaceAnimal>
+      <CriticalBiomeAnimal>Biome is not suitable for %s!</CriticalBiomeAnimal>
+      <DirtyExhibitAnimal>%s is in a really dirty exhibit!</DirtyExhibitAnimal>
+      <ZooFameObjectsUnlocked>New objects are now available for purchase!</ZooFameObjectsUnlocked>
+      <ExhibitOpenToWorld>%s is not contained.  Guests will not view animals that are not in exhibits.</ExhibitOpenToWorld>
+      <BlockedExhibit>Guests cannot see through the fences surrounding %s's exhibit.</BlockedExhibit>
+      <NoViewingAreas>Guests cannot get close enough to view %s's exhibit.</NoViewingAreas>
+      <BlockedViewingAreas>Something is blocking guests' view of %s's exhibit.</BlockedViewingAreas>
+      <ViewingAreasNotConnected>Guests cannot reach the paths near %s's exhibit.</ViewingAreasNotConnected>
+   </zoomessages>
+</ZT2Strings>

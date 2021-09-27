@@ -1,0 +1,27 @@
+<BFTypedBinder binderType="PathArch" abstract="true">
+   <types>
+      <entity>
+         <scenery>
+            <PathArch/>
+         </scenery>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <ZTPlacementData terrainFlatten="true" moveable="false" autoFootprint="false" icon3Doffset="0 -0.045020 0.421560" icon3Dscale="0.269404" >
+      	<attachObj>
+      		<entity nodeName="ShadowNode_01" binderType="arch_collision_proxy"/>
+      		<entity nodeName="ShadowNode_02" binderType="arch_collision_proxy"/>
+      	</attachObj>
+      </ZTPlacementData>
+   </shared>
+   <binder>
+      <BFBinder repopulateMethod="byType">
+         <instance>
+         	<ZTPlaceEntityComponent/>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

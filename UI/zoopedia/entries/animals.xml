@@ -1,0 +1,36 @@
+<entries>
+   <BFHelpEntry entry="zoopedia_home">
+      <BFHelpEntry order="zoopedia_animal1" entry="zoopedia_animals">
+         <BFHelpEntry entry="zoopedia_tiger"/>
+         <BFHelpEntry entry="zoopedia_elephant"/>
+         <BFHelpEntry entry="zoopedia_beaver"/>
+         <BFHelpEntry entry="zoopedia_rhino"/>
+         <BFHelpEntry entry="zoopedia_cheetah"/>
+         <BFHelpEntry entry="zoopedia_chimp"/>
+         <BFHelpEntry entry="zoopedia_peafowl"/>
+         <BFHelpEntry entry="zoopedia_zebra"/>
+         <BFHelpEntry entry="zoopedia_camel"/>
+         <BFHelpEntry entry="zoopedia_penguin"/>
+         <BFHelpEntry entry="zoopedia_gemsbok"/>
+         <BFHelpEntry entry="zoopedia_panda" order="zoopedia_beargiantpanda"/>
+         <BFHelpEntry entry="zoopedia_flamingo"/>
+         <BFHelpEntry entry="zoopedia_grizzly" order="zoopedia_beargrizzly"/>
+         <BFHelpEntry entry="zoopedia_hippo"/>
+         <BFHelpEntry entry="zoopedia_jaguar"/>
+         <BFHelpEntry entry="zoopedia_lion"/>
+         <BFHelpEntry entry="zoopedia_moose"/>
+         <BFHelpEntry entry="zoopedia_gorilla"/>
+         <BFHelpEntry entry="zoopedia_croc"/>
+         <BFHelpEntry entry="zoopedia_okapi"/>
+         <BFHelpEntry entry="zoopedia_ostrich"/>
+         <BFHelpEntry entry="zoopedia_polarbear" order="zoopedia_bearpolar"/>
+         <BFHelpEntry entry="zoopedia_kangaroo"/>
+         <BFHelpEntry entry="zoopedia_redpanda" order="zoopedia_bearredpanda"/>
+         <BFHelpEntry entry="zoopedia_giraffe"/>
+         <BFHelpEntry entry="zoopedia_lemur"/>
+         <BFHelpEntry entry="zoopedia_leopard"/>
+         <BFHelpEntry entry="zoopedia_gazelle"/>
+         <BFHelpEntry entry="zoopedia_ibex"/>
+      </BFHelpEntry>
+   </BFHelpEntry>
+</entries>

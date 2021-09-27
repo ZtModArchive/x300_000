@@ -1,0 +1,9 @@
+<Campaign>
+   <campaign>tutorial.xml</campaign>
+   <campaign>zookeepertrainingcampaign.xml</campaign>
+   <campaign>testcampaign.xml</campaign>
+   <campaign>campaign2.xml</campaign>
+   <campaign>worldcampaign.xml</campaign>
+   <campaign>speciessurvivalcampaign.xml</campaign>
+   <campaign>pandacampaign.xml</campaign>
+</Campaign>

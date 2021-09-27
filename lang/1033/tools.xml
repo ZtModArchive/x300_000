@@ -1,0 +1,77 @@
+<ZT2Strings>
+      <LOC_STRING _locID="tools:tooltypeformat"  >
+         <font name="arial" size="9" shadowx="-1" shadowy="1">
+            <b>%text%</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="tools:inheritanceformat"  >
+         <font name="arial" size="9" shadowx="-1" shadowy="1">
+            <b>%text%</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="tools:selectedtypeformat"  >
+         <font name="arial" size="14">
+            <b>%text%</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="tools:toolheadingformat"  >
+         <font name="arial" size="14">
+            <b>%text%</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="tools:noshadow"  >
+         <font shadowx="0" shadowy="0">%text%</font>
+      </LOC_STRING>
+      <LOC_STRING _locID="tools:toolheading"  >Tools Menu</LOC_STRING>
+      <LOC_STRING _locID="tools:guitool"  >UI Tool</LOC_STRING>
+      <LOC_STRING _locID="tools:guitool_stt"  >Run UI tool</LOC_STRING>
+      <LOC_STRING _locID="tools:guitool_ltt"  >
+         <color r="255" g="248" b="178">
+            <b>Run UI tool</b>
+         </color>
+         <br>Click to run the UI tool and view layout files.</br>
+      </LOC_STRING>
+      <LOC_STRING _locID="tools:entityeditor"  >Entity Editor</LOC_STRING>
+      <LOC_STRING _locID="tools:entityeditor_stt"  >Run Entity Editor</LOC_STRING>
+      <LOC_STRING _locID="tools:entityeditor_ltt"  >
+         <color r="255" g="248" b="178">
+            <b>Run Entity Editor</b>
+         </color>
+         <br>Click to run the Entity Editor to test and modify entitys in the game.</br>
+      </LOC_STRING>
+      <LOC_STRING _locID="tools:destroyandreloadbinder_stt"  >Destroy and Reload Entity Binder</LOC_STRING>
+      <LOC_STRING _locID="tools:destroyandreloadbinder_ltt"  >
+         <color r="255" g="248" b="178">
+            <b>Destroy and Reload Entity Binder</b>
+         </color>
+         <br>Click to destroy all current instances of the entity, and reload the entity binder.</br>
+      </LOC_STRING>
+      <LOC_STRING _locID="tools:reloadbinderandreplace_stt"  >Reload Entity Binder and Replace</LOC_STRING>
+      <LOC_STRING _locID="tools:reloadbinderandreplace_ltt"  >
+         <color r="255" g="248" b="178">
+            <b>Reload Entity Binder and Replace</b>
+         </color>
+         <br>Click to reload the entity binder. All current instances of the entity will be replaced with the new one.</br>
+      </LOC_STRING>
+      <LOC_STRING _locID="tools:entityeditoropen_stt"  >Open Entity Editor</LOC_STRING>
+      <LOC_STRING _locID="tools:entityeditoropen_ltt"  >
+         <color r="255" g="248" b="178">
+            <b>Open Entity Editor</b>
+         </color>
+         <br>Click to open the Entity Editor tool window.</br>
+      </LOC_STRING>
+      <LOC_STRING _locID="tools:expand_stt"  >Expand</LOC_STRING>
+      <LOC_STRING _locID="tools:expand_ltt"  >
+         <color r="255" g="248" b="178">
+            <b>Expand</b>
+         </color>
+         <br>Click to expand the tree view</br>
+      </LOC_STRING>
+      <LOC_STRING _locID="tools:collapse_stt"  >Collapse</LOC_STRING>
+      <LOC_STRING _locID="tools:collapse_ltt"  >
+         <color r="255" g="248" b="178">
+            <b>Collapse</b>
+         </color>
+         <br>Click to collapse the tree view</br>
+      </LOC_STRING>
+</ZT2Strings>

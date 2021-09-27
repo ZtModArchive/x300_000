@@ -1,0 +1,8 @@
+<Schema name="BFScenarioAltTextData">
+	<ElementType name="BFScenarioAltTextData">
+		<extends type="BFXMLObj"/>
+		<attribute name="rulename" dt:type="string" default="" />
+		<attribute name="rulestate" dt:type="string" default="" />
+		<attribute name="ruletext" dt:type="string" default="" />
+	</ElementType>
+</Schema>

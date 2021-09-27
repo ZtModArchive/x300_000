@@ -1,0 +1,25 @@
+<UILayout name="AwardEntry">
+   <UIRegion x="0" y="0" w="0" h="64" walign="max"/>
+   <children>
+      <UIStatic>
+         <UIRegion x="0" y="6" w="64" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIAspect>
+            <default image="">
+               <BFRect x="0" y="0" w="128" h="128"/>
+               <BFColor r="255" g="255" b="255" a="255"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIText name="AwardItemName">
+         <UIRegion x="70" y="10" w="0" h="50" xalign="min" yalign="min" walign="max" halign="len"/>
+         <UIAspect>
+            <standard>
+               <normal>
+                  <BFFont/>
+               </normal>
+            </standard>
+         </UIAspect>
+         <text format="zoostatus:award_text_format" type="multi"/>
+      </UIText>
+   </children>
+</UILayout>

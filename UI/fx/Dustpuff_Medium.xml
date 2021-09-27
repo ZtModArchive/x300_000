@@ -1,0 +1,7 @@
+<BFPhysObj drawLast="true">
+   <position x="0" y="0" z="0"/>
+   <BFSceneGraphComponent modelfile="ui\fx\dust\Dustpuff_Medium.nif"/>
+   <BFHasParticleComponent/>
+   <BFForceUpdateWhenVisibleComponent/>
+   <BFSuicideComponent timeToLive=".5"/>
+</BFPhysObj>

@@ -1,0 +1,36 @@
+<ZTAdoptionSlotMgr saveable="true" slots="3" panel="ZTAdoptionPanel">
+	<fameslots>
+		<entry fame="0" slots="0" />
+		<entry fame="20" slots="1" />
+		<entry fame="40" slots="2" />
+		<entry fame="60" slots="4" />
+		<entry fame="80" slots="6" />
+		<entry fame="100" slots="8" />
+	</fameslots>
+	<loadEvents>
+		<event msg="UI_CHILD" data="UIChildData" name="Buy Animal Tab">
+			<child msg="UI_HIDE" />
+		</event>
+		<event msg="UI_CHILD" data="UIChildData" name="Adopt Animal Tab">
+			<child msg="UI_SHOW" />
+		</event>
+		<event msg="UI_CHILD" data="UIChildData" name="Adopt Animal Tab">
+			<child msg="UI_ACTIVATE_OFF" />
+		</event>
+		<event msg="UI_CHILD" data="UIChildData" name="Adopt Animal Tab">
+			<child msg="UI_ACTIVATE_ON" />
+		</event>
+		<event msg="UI_CHILD" data="UIChildData" name="scenariogoals">
+			<child msg="UI_ENABLE" />
+		</event>
+		<event msg="UI_CHILD" data="UIChildData" name="researchfilter1">
+			<child msg="UI_SHOW" />
+		</event>
+		<event msg="UI_CHILD" data="UIChildData" name="researchfilter2">
+			<child msg="UI_SHOW" />
+		</event>
+		<event msg="UI_CHILD" data="UIChildData" name="researchfilter3">
+			<child msg="UI_SHOW" />
+		</event>
+	</loadEvents>
+</ZTAdoptionSlotMgr>

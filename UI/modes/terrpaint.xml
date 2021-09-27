@@ -1,0 +1,11 @@
+<TerrPaintUI minTextureCursorWidth="1.0f" maxTextureCursorWidth="8.0f" minWaterCursorWidth="4.0f" maxWaterCursorWidth="8.0f" autoWaterRadius="1.1f" startCursorWidth="5.0f" cursorSizeIncrement="0.5f">
+   <cursors>
+      <deepwater>ui/cursor_texture/deepwater.dds</deepwater>
+      <shallowwater>ui/cursor_texture/shallowwater.dds</shallowwater>
+      <ground>ui/cursor_texture/ground.dds</ground>
+      <ground-cover>ui/cursor_texture/ground-cover.dds</ground-cover>
+      <mix>ui/cursor_texture/mix.dds</mix>
+      <foliage-mix>ui/cursor_texture/sparse.dds</foliage-mix>
+      <foliage-mix-terrain>ui/cursor_texture/dense.dds</foliage-mix-terrain>
+   </cursors>
+</TerrPaintUI>

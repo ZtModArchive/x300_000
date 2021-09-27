@@ -1,0 +1,21 @@
+<entries>
+   <BFHelpEntry entry="zoopedia_home">
+      <BFHelpEntry entry="zoopedia_shelters">
+         <BFHelpEntry entry="zoopedia_beaverlodge"/>
+         <BFHelpEntry entry="zoopedia_cubbingden"/>
+         <BFHelpEntry entry="zoopedia_elephanthouse"/>
+         <BFHelpEntry entry="zoopedia_nestbox"/>
+         <BFHelpEntry entry="zoopedia_giraffehouse"/>
+         <BFHelpEntry entry="zoopedia_groundnest"/>
+         <BFHelpEntry entry="zoopedia_treestump" order="zoopedia_treestumphollow"/>
+         <BFHelpEntry entry="zoopedia_concreteshelter"/>
+         <BFHelpEntry entry="zoopedia_rockcave"/>
+         <BFHelpEntry entry="zoopedia_snowyrockcave"/>
+         <BFHelpEntry entry="zoopedia_stable"/>
+         <BFHelpEntry entry="zoopedia_woodenshelter"/>
+         <BFHelpEntry entry="zoopedia_raisedsleepingplatform"/>
+         <BFHelpEntry entry="zoopedia_shadestructure"/>
+         <BFHelpEntry entry="zoopedia_sleepingbasket"/>
+      </BFHelpEntry>
+   </BFHelpEntry>
+</entries>

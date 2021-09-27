@@ -1,0 +1,10 @@
+<UIGraph
+	templateName="graphtmpl2"
+	name="graphtempl2"
+	numXLabels = "24"
+	numYLabels = "6"
+	forceYAxisValues = "true"
+	forcedMinY = "0"
+	forcedMaxY = "5"
+	graphTypeString = "bar"
+/>

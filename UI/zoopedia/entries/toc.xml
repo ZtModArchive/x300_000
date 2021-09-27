@@ -1,0 +1,9 @@
+<entries>
+	<BFHelpEntry entry="zoopedia_home">
+		<BFHelpEntry entry="zoopedia_staff">
+			<BFHelpEntry entry="zoopedia_animaleducator" />
+			<BFHelpEntry entry="zoopedia_maintworker" />
+			<BFHelpEntry entry="zoopedia_zookeeper" />
+		</BFHelpEntry>
+	</BFHelpEntry>
+</entries>

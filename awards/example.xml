@@ -1,0 +1,14 @@
+<UILayout>
+   <UIRegion x="0" y="0" w="0" h="74" walign="max"/>
+   <children>
+      <UIStatic template="awardsicon">
+         <UIAspect>
+            <default image="awards/award1.tga"/>
+         </UIAspect>
+      </UIStatic>
+      <UIText template="awardstext">
+         <UIAspect locid="awards:example"/>
+         <text type="multi"/>
+      </UIText>
+   </children>
+</UILayout>

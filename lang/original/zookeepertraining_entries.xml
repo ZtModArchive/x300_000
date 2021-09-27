@@ -1,0 +1,120 @@
+<ZT2Strings>
+   <ZookeeperTraining>
+      <ZookeeperTrainingintro>Zookeeper Training</ZookeeperTrainingintro>
+      <ZookeeperTrainingoverview>
+         
+          You have been given a great opportunity to take over a small local zoo. Before completely entrusting the animals into your care, however, the current owner wants to be sure that you understand that animals have individual biome needs. He has provided you with three animals that need to be placed in their appropriate biome exhibit area. 
+         
+         <p/>
+         
+          Each animal can be found in a crate near the front entrance of your zoo. When you select the crate, the information panel indicates what kind of animal is inside. You can pick up the crate and move it like any other object.  To release an animal from its crate, click the Uncrate Animal button that is on the animal's information panel. Once an animal is released, you will be able to use the information tabs to access additional information about the animal. 
+         
+         <p/>
+         
+          You will need to move and release each crated animal into its appropriate exhibit. 
+         
+         <p/>
+         
+          To verify that you can handle the basics, you've also been tasked to run the zoo for one month and ensure that the animals survive. TIP: In the interest of keeping your animals alive, you'll want to provide them with food and water.            
+      
+      </ZookeeperTrainingoverview>
+      <ZookeeperTrainingoverviewshort>You have a great opportunity to take over a small zoo, but you need to prove that you understand that animals have individual biome needs. Make sure each animal is moved into its appropriate biome exhibit area and run your new zoo for one month. Complete all scenarios in this campaign to unlock the flowerpost!      </ZookeeperTrainingoverviewshort>
+      <ZookeeperTrainingSuccessoverview>Excellent work! It's clear that you understand that animals require different habitats in order to thrive in a zoo environment.      </ZookeeperTrainingSuccessoverview>
+      <ZookeeperTrainingFailureoverview>Animals are living creatures and need the appropriate care in order to survive. Without receiving proper care in a timely fashion, animals can become sick.       </ZookeeperTrainingFailureoverview>
+      <ZookeeperTrainingresult>A thriving animal community!</ZookeeperTrainingresult>
+      <ZookeeperTraininggoal>Release each animal from its crate and place it in the appropriate biome exhibit area.      </ZookeeperTraininggoal>
+      <ZookeeperTraininggoalOK>Excellent! Your animals feel right at home in their new exhibits.      </ZookeeperTraininggoalOK>
+      <ZookeeperTrainingstayopengoal>Run your zoo for one month and ensure that you have all three animals in your zoo at the end of the month.      </ZookeeperTrainingstayopengoal>
+      <ZookeeperTrainingstayopengoalOK>Excellent! You've passed the initial test by keeping your animals alive for one month.      </ZookeeperTrainingstayopengoalOK>
+      <ZookeeperTraininggoalFailed>Oh no! You no longer have all three animals. Unfortunately, you failed to confirm that you can operate a zoo and care for the animals for one month.       </ZookeeperTraininggoalFailed>
+      <StartUpintro>Zookeeper Training</StartUpintro>
+      <StartUpoverview>
+         
+          There are a number of steps to creating a thriving zoo for both your animals and your guests. In your start-up zoo, you'll need to take things one step at a time to build your facility into a popular destination spot. 
+         
+         <p/>
+         
+          Your fledgling zoo has been given a pair of common zebras. Guests enjoy watching animals interact with each other and these two animals should help draw guests into your zoo.  
+         
+         <p/>
+         
+          Create an exhibit area of a suitable biome to meet the environment needs of your common zebras and meet their basic hunger and thirst needs.            
+      
+      </StartUpoverview>
+      <StartUpoverviewshort>There are a number of steps to creating a thriving zoo for the animals and for the guests. In your start-up zoo, you'll need to take things one step at a time to build your facility into a popular destination spot. Complete all scenarios in this campaign to unlock the flowerpost!      </StartUpoverviewshort>
+      <StartUpFailedoverview>Unfortunately, things haven't worked out quite as planned in your start-up zoo. It's important to provide care for your animals in a timely manner.      </StartUpFailedoverview>
+      <StartUpGoalOne>Create a suitable exhibit for your common zebras.      </StartUpGoalOne>
+      <StartUpGoalOneA>Meet the basic hunger and thirst needs of your common zebras.      </StartUpGoalOneA>
+      <StartUpGoalOneOK>Excellent! Your new animals have fit right into their new environment.      </StartUpGoalOneOK>
+      <StartUpGoalOneAOK>Great! Your common zebras' food and water needs have been met.      </StartUpGoalOneAOK>
+      <StartUpSuccessoverview>Now that you have guests coming to your zoo, you need to provide them with some amenities. Guests get hungry and thirsty and it is important to give them places where they can meet their needs. Place a hot dog food stand and a soda drink stand in your zoo to provide your guests with some amenities.      </StartUpSuccessoverview>
+      <StartUpGoalTwo>Place a hot dog food stand and soda drink stand in your zoo.       </StartUpGoalTwo>
+      <StartUpGoalTwoOK>Great! Now your guests have somewhere to eat and drink!      </StartUpGoalTwoOK>
+      <StartUpSuccessTwooverview>
+         
+          Although your zoo is small, it's getting off to a great start. Word of mouth will help spread the news but it would be better if you could obtain some publicity for your new zoo. A journalist has offered to print an article about your zoo and has asked for a photograph of your common zebras. The latest buzz in all the animal publications is the benefit of providing enrichment objects to stimulate animals. The journalist would like two pictures - a common zebra running around, and another that shows at least one of them interacting with a scratching post enrichment object to satisfy their hygiene need. 
+       
+         <p/>
+         
+          You will need to research the scratching post enrichment object in order to take the required photograph.            
+      
+      </StartUpSuccessTwooverview>
+      <StartUpGoalThree>Provide two photographs to help promote your zoo.  Photograph a common zebra running around and photograph a common zebra using the scratching post enrichment object. TIP: Zebras use the scratching post to satisfy their hygiene need -- dirty zebras are more likely to use the scratching post!      </StartUpGoalThree>
+      <StartUpGoalThreeOK>The photos were fabulous. Many people have just learned that you have these new animals available in your zoo!      </StartUpGoalThreeOK>
+      <StartUpSuccessThreeoverview>
+         
+          With your increased fame, you have been offered two more animals on temporary loan. You have been given two jaguars for your park, and you will be able to keep them for two months.  For the animal loan to be successful, you will need to create a suitable environment with enough space for them to exercise, provide them with adequate food and water, and ensure that they are able to satisfy their need to rest. Providing shade with trees is often a good idea, too. 
+         
+         <p/>
+         
+          You can find your jaguars in crates near the front gates.            
+      
+      </StartUpSuccessThreeoverview>
+      <StartUpGoalFour>Create a new exhibit for your jaguars and satisfy all of their basic needs.      </StartUpGoalFour>
+      <StartUpGoalFourOK>Excellent! Your jaguars are doing great!      </StartUpGoalFourOK>
+      <StartUpGoalFourFailed>Unfortunately, it's time to return the animals and they never really felt at home in their new environment.      </StartUpGoalFourFailed>
+      <StartUpSuccessFouroverview>
+         
+          Everything is progressing smoothly. The article about your common zebras has had a positive impact on guest attendance. Your jaguars are increasing popularity even more. Now that your zoo is becoming well known, you will have greater opportunities to get even more interesting animals. 
+         
+         <p/>
+         
+          The next step in superior animal care is to meet the animals' advanced needs. Animals that meet these higher level needs are more likely to reproduce, thus providing you with additional animals for your exhibits.            
+      
+      </StartUpSuccessFouroverview>
+      <StartUpGoalFive>Meet the advanced needs of your jaguars.      </StartUpGoalFive>
+      <StartUpGoalFiveOK>Excellent progress! Your jaguars are totally content! Continue along these lines and you'll be well on your way to achieving a thriving zoo.      </StartUpGoalFiveOK>
+      <StartUpGoalFiveFailed>Unfortunately, it's time to return the animals and you were unable to meet their advanced needs.      </StartUpGoalFiveFailed>
+      <StartUpSuccessFiveoverview>You've accomplished all of the basic steps to building a successful zoo. Always remember that animals have individual needs and do best when all their needs are being met. Keep an eye on what your guests are doing, since they enjoy watching happy animals. If your animals are unhappy, your guests will become upset.      </StartUpSuccessFiveoverview>
+      <StartUpresult>Your zoo is ready to grow!</StartUpresult>
+      <BeyondStartUpintro>Donation Revenue</BeyondStartUpintro>
+      <BeyondStartUpoverview>
+         
+          By following the basic steps of obtaining new animals, meeting their basic needs, providing better amenities for your guests, and enhancing your exhibits to provide for animals' advanced needs, you will increase your zoo fame.  As your zoo fame increases, so does the guest traffic through your zoo.  Happy animals make for happy guests... and happy guests, among other things, like to make donations.   
+         
+         <p/>
+         
+          With the experience you've gained creating a new start-up zoo, the next step is to transition into a successful growth facility. Expand on this basic zoo to obtain growth in zoo fame, and guest traffic. A final measure of your success will come from donations obtained in your zoo.            
+      
+      </BeyondStartUpoverview>
+      <BeyondStartUpoverviewshort>With the experience you've gained creating a new start-up, the next step is to transition into a successful growth facility. Expand on this basic zoo to obtain growth in zoo fame, and guest traffic. A final measure of your success will come from donations obtained in your zoo. Complete all scenarios in this campaign to unlock the flowerpost!      </BeyondStartUpoverviewshort>
+      <BeyondStartUpSuccessoverview>With a solid grasp of the basics of creating a thriving zoo, a successful zoo design future lies in front of you. Use these basics to take on bigger and bigger challenges from restoring dilapidated facilities to making your mark with conservation efforts. In recognition of your efforts, you have been presented with a beautiful flowerpost. You will be able to use this flowerpost in all of your future endeavors.      </BeyondStartUpSuccessoverview>
+      <BeyondStartUpresult>Donation Revenue growing! </BeyondStartUpresult>
+      <BeyondStartUpgoal>Obtain $5,000 in guest donations.      </BeyondStartUpgoal>
+      <BeyondStartUpgoalOK>Well done! Your zoo has all the markings of becoming a 5-star facility!      </BeyondStartUpgoalOK>
+   </ZookeeperTraining>
+   <ZookeeperCampaignPhotos>
+      <stt_ZebraScratchingPost>Take a photo of a common zebra using a scratching post.</stt_ZebraScratchingPost>
+      <stt_ZebraRunning>Take a photo of a common zebra running around.</stt_ZebraRunning>
+      <PHZebraPhotos>Common Zebra Photos</PHZebraPhotos>
+   </ZookeeperCampaignPhotos>
+   <ZookeeperTrainingLabels>
+      <ZookeeperTrainingshort>Zookeeper in Training</ZookeeperTrainingshort>
+      <ZookeeperTrainingS1>New Animal Arrivals</ZookeeperTrainingS1>
+      <ZookeeperTrainingS1short>New Animal Arrivals</ZookeeperTrainingS1short>
+      <StartUpS2>Start-up Zoo</StartUpS2>
+      <StartUpS2short>Start-up Zoo</StartUpS2short>
+      <BeyondStartUpS3>Beyond Start-up</BeyondStartUpS3>
+      <BeyondStartUpS3short>Beyond Start-up</BeyondStartUpS3short>
+   </ZookeeperTrainingLabels>
+</ZT2Strings>

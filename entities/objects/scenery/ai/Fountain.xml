@@ -1,0 +1,24 @@
+<BFTypedBinder binderType="Fountain" abstract="true">
+   <types>
+      <entity>
+         <scenery>
+            <Fountain/>
+         </scenery>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <ZTPlacementData terrainFlatten="true" moveable="false"/>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFSimpleLODComponent initialTextKey="snd &quot;fountain&quot; looping"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

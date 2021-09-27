@@ -1,0 +1,95 @@
+<UITreeElement rows="-1">
+   <UIRegion x="10" y="10" w="200" h="0" xalign="min" yalign="min" walign="len" halign="len"/>
+   <children>
+      <UILayout>
+         <UIRegion x="0" y="0" w="200" h="14" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIAspect>
+            <default image=""/>
+         </UIAspect>
+         <children>
+            <UIToggleButton name="expander" toggle="1">
+               <UIState active="disabled" visible="normal"/>
+               <UIRegion x="0" y="-6" w="12" h="12" xalign="min" yalign="mid" walign="len" halign="len"/>
+               <UIAspect alwayshit="true">
+                  <default image="ui/shared/plus_minus.tga">
+                     <BFColor r="0" g="255" b="255" a="255"/>
+                  </default>
+                  <standard>
+                     <normal>
+                        <BFRect x="0" y="0" w="16" h="16"/>
+                     </normal>
+                     <highlighted>
+                        <BFRect x="0" y="0" w="16" h="16"/>
+                     </highlighted>
+                     <activated>
+                        <BFRect x="0" y="0" w="16" h="16"/>
+                     </activated>
+                     <disabled>
+                        <BFRect x="0" y="16" w="16" h="16"/>
+                        <BFColor r="255" g="0" b="255" a="255"/>
+                     </disabled>
+                  </standard>
+                  <alternate>
+                     <normal>
+                        <BFRect x="16" y="0" w="16" h="16"/>
+                     </normal>
+                     <highlighted>
+                        <BFRect x="16" y="0" w="16" h="16"/>
+                     </highlighted>
+                     <activated>
+                        <BFRect x="16" y="0" w="16" h="16"/>
+                     </activated>
+                     <disabled>
+                        <BFRect x="0" y="16" w="16" h="16"/>
+                        <BFColor r="255" g="0" b="255" a="255"/>
+                     </disabled>
+                  </alternate>
+               </UIAspect>
+               <on>
+                  <event msg="UI_EXPAND"/>
+               </on>
+               <off>
+                  <event msg="UI_COLLAPSE"/>
+               </off>
+            </UIToggleButton>
+            <UIButton name="typeentry">
+               <UIRegion x="18" y="0" w="0" h="0" xalign="min" yalign="min" walign="max" halign="max"/>
+               <UIAspect>
+                  <default image="">
+                     <BFFont name="arial"/>
+                  </default>
+                  <standard>
+                     <normal>
+                        <BFFont>
+                           <BFColor r="255" g="220" b="100" a="255"/>
+                        </BFFont>
+                     </normal>
+                     <highlighted>
+                        <BFFont>
+                           <BFColor r="255" g="255" b="200" a="255"/>
+                        </BFFont>
+                     </highlighted>
+                     <activated>
+                        <BFFont>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </BFFont>
+                     </activated>
+                     <disabled>
+                        <BFFont>
+                           <BFColor r="128" g="128" b="128" a="255"/>
+                        </BFFont>
+                     </disabled>
+                  </standard>
+               </UIAspect>
+               <text format="tools:tooltypeformat"/>
+               <activate>
+                  <event msg="UI_SELF">
+                     <event msg="UI_COPY_TEXT" data="BFString" string="Selected Type Label"/>
+                  </event>
+                  <event msg="ZT_RUN_SCRIPT" data="BFString" string="global scripts\tool\entityeditor.lua populateInheritance"/>
+               </activate>
+            </UIButton>
+         </children>
+      </UILayout>
+   </children>
+</UITreeElement>

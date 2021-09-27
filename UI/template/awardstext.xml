@@ -1,0 +1,11 @@
+<UIText templateName="awardstext" name="label">
+   <UIRegion x="70" y="8" w="490" h="60" xalign="min" yalign="min" walign="len" halign="len"/>
+   <UIAspect>
+      <standard>
+         <normal>
+            <BFFont/>
+         </normal>
+      </standard>
+   </UIAspect>
+   <text type="multi"/>
+</UIText>

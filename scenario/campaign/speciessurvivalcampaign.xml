@@ -1,0 +1,6 @@
+<BFCampaign name="SpeciesSurvivalLabels:SpeciesSurvivalshort">
+   <entry name="SpeciesSurvivalLabels:VulnerableAnimalsS1" short="SpeciesSurvivalLabels:VulnerableAnimalsS1short" key="SpeciesSurvivalscenario1" scenario="scenario\goals\speciessurvivalscen1.xml" map="speciescampsc1v2" cash="20000" difficulty="difficulty:medium" description="SpeciesSurvival:VulnerableAnimalsoverviewshort"/>
+   <entry name="SpeciesSurvivalLabels:EndangeredAnimalsS2" short="SpeciesSurvivalLabels:EndangeredAnimalsS2short" key="SpeciesSurvivalscenario2" scenario="scenario\goals\speciessurvivalscen2.xml" map="speciescampscen2" cash="20000" difficulty="difficulty:medium" description="SpeciesSurvival:EndangeredAnimalsoverviewshort" state="locked"/>
+   <entry name="SpeciesSurvivalLabels:SecondGenerationS3" short="SpeciesSurvivalLabels:SecondGenerationS3short" key="SpeciesSurvivalscenario3" scenario="scenario\goals\speciessurvivalscen3.xml" map="speciescampscen3" cash="20000" difficulty="difficulty:medium" description="SpeciesSurvival:SecondGenerationoverviewshort" state="locked"/>
+      
+</BFCampaign>

@@ -1,0 +1,16 @@
+<entries>
+	<BFHelpEntry entry="zoopedia_home">
+		<BFHelpEntry entry="zoopedia_biomes">
+			<BFHelpEntry entry="zoopedia_tropicalrainforest" />
+			<BFHelpEntry entry="zoopedia_savannah" />
+			<BFHelpEntry entry="zoopedia_alpine" />
+			<BFHelpEntry entry="zoopedia_boreal" />
+			<BFHelpEntry entry="zoopedia_desert" />
+			<BFHelpEntry entry="zoopedia_grassland" />
+			<BFHelpEntry entry="zoopedia_scrub" />
+			<BFHelpEntry entry="zoopedia_temperate" />
+			<BFHelpEntry entry="zoopedia_tundra" />
+			<BFHelpEntry entry="zoopedia_wetland" />
+		</BFHelpEntry>
+	</BFHelpEntry>
+</entries>

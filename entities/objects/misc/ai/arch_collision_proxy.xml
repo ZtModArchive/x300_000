@@ -1,0 +1,22 @@
+<BFTypedBinder binderType="arch_collision_proxy">
+   <types>
+      <entity>
+         <collision_proxy>
+            <arch_collision_proxy/>
+         </collision_proxy>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared/>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFSceneGraphComponent modelfile="entities\objects\misc\PathArch_ABV.nif" scale="1.0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

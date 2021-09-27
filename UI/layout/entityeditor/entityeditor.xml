@@ -1,0 +1,1584 @@
+<UILayout name="Entity Editor Tool Layout">
+   <UIRegion x="0" y="0" w="1024" h="768" xalign="min" yalign="min" walign="len" halign="len"/>
+   <UIState active="normal" visible="normal"/>
+   <UIAspect>
+      <default/>
+   </UIAspect>
+   <children>
+      <UILayout name="Entity Editor">
+         <UIRegion x="0" y="0" w="1024" h="768" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="hidden"/>
+         <UIAspect>
+            <default/>
+         </UIAspect>
+         <children>
+            <UIButton name="Editor Opener">
+               <UIRegion x="-4" y="-16" w="30" h="64" xalign="min" yalign="mid" walign="len" halign="len"/>
+               <UIAspect>
+                  <default image="ui/shared/arrows.dds"/>
+                  <standard>
+                     <normal>
+                        <BFRect x="96" y="64" w="30" h="64"/>
+                     </normal>
+                     <highlighted>
+                        <BFRect x="64" y="64" w="30" h="64"/>
+                     </highlighted>
+                     <activated>
+                        <BFRect x="32" y="64" w="30" h="64"/>
+                     </activated>
+                     <disabled>
+                        <BFRect x="0" y="64" w="30" h="64"/>
+                     </disabled>
+                  </standard>
+               </UIAspect>
+               <activate>
+                  <event msg="UI_CHILD" data="UIChildData" name="Editor Window">
+                     <child msg="UI_SHOW"/>
+                  </event>
+               </activate>
+               <UIHelpInfo ids="tools:entityeditoropen"/>
+            </UIButton>
+            <UIButton name="Destroy and Reload Binder shortcut">
+               <UIRegion x="0" y="410" w="28" h="28" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIAspect>
+                  <default image="ui/shared/button_deleteall.dds"/>
+                  <standard>
+                     <normal>
+                        <BFRect x="8" y="8" w="48" h="48"/>
+                     </normal>
+                     <highlighted>
+                        <BFRect x="8" y="72" w="48" h="48"/>
+                     </highlighted>
+                     <activated>
+                        <BFRect x="72" y="8" w="48" h="48"/>
+                     </activated>
+                     <disabled>
+                        <BFRect x="72" y="72" w="48" h="48"/>
+                     </disabled>
+                  </standard>
+               </UIAspect>
+               <UIHelpInfo ids="tools:destroyandreloadbinder"/>
+               <activate>
+                  <event msg="UI_CHILD" data="UIChildData" name="Destroy and Reload Binder">
+                     <child msg="UI_ACTIVATE"/>
+                  </event>
+               </activate>
+            </UIButton>
+            <UIButton name="Reload Binder and Replace shortcut">
+               <UIRegion x="0" y="434" w="28" h="28" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIAspect>
+                  <default image="ui/shared/button_load.dds"/>
+                  <standard>
+                     <normal>
+                        <BFRect x="12" y="12" w="40" h="40"/>
+                     </normal>
+                     <highlighted>
+                        <BFRect x="12" y="76" w="40" h="40"/>
+                     </highlighted>
+                     <activated>
+                        <BFRect x="76" y="12" w="40" h="40"/>
+                     </activated>
+                     <disabled>
+                        <BFRect x="76" y="76" w="40" h="40"/>
+                     </disabled>
+                  </standard>
+               </UIAspect>
+               <UIHelpInfo ids="tools:reloadbinderandreplace"/>
+               <activate>
+                  <event msg="UI_CHILD" data="UIChildData" name="Reload Binder and Replace">
+                     <child msg="UI_ACTIVATE"/>
+                  </event>
+               </activate>
+            </UIButton>
+            <UIListBox columns="-1" name="Editor Window">
+               <UIRegion x="0" y="0" w="1024" h="768" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState visible="hidden"/>
+               <children>
+                  <UILayout name="Type Tree Layout">
+                     <UIRegion x="0" y="0" w="300" h="768" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIAspect>
+                        <default/>
+                     </UIAspect>
+                     <children>
+                        <UILayout name="background" template="panelwell">
+                           <UIRegion x="0" y="0" w="0" h="0" xalign="min" yalign="min" walign="max" halign="max"/>
+                        </UILayout>
+                        <UILayout name="Type Tree Button Well" template="panelwell">
+                           <UIRegion x="0" y="0" w="0" h="32" xalign="min" yalign="min" walign="max" halign="len"/>
+                           <children>
+                              <UIButton name="collapse all">
+                                 <UIRegion x="4" y="4" w="22" h="22" xalign="min" yalign="min" walign="len" halign="len"/>
+                                 <UIAspect alwayshit="true">
+                                    <default image="ui/tool/collapse.tga"/>
+                                    <standard>
+                                       <normal>
+                                          <BFRect x="0" y="0" w="32" h="32"/>
+                                       </normal>
+                                       <highlighted>
+                                          <BFRect x="32" y="0" w="32" h="32"/>
+                                       </highlighted>
+                                       <activated>
+                                          <BFRect x="0" y="32" w="32" h="32"/>
+                                       </activated>
+                                       <disabled>
+                                          <BFRect x="32" y="32" w="32" h="32"/>
+                                       </disabled>
+                                    </standard>
+                                 </UIAspect>
+                                 <UIHelpInfo ids="tools:collapse"/>
+                                 <activate>
+                                    <event msg="ZT_RUN_SCRIPT" data="BFString" string="global scripts\tool\entityeditor.lua collapseTree TypeTree"/>
+                                 </activate>
+                              </UIButton>
+                              <UIButton name="expand all">
+                                 <UIRegion x="30" y="4" w="22" h="22" xalign="min" yalign="min" walign="len" halign="len"/>
+                                 <UIAspect alwayshit="true">
+                                    <default image="ui/tool/expand.tga"/>
+                                    <standard>
+                                       <normal>
+                                          <BFRect x="0" y="0" w="32" h="32"/>
+                                       </normal>
+                                       <highlighted>
+                                          <BFRect x="32" y="0" w="32" h="32"/>
+                                       </highlighted>
+                                       <activated>
+                                          <BFRect x="0" y="32" w="32" h="32"/>
+                                       </activated>
+                                       <disabled>
+                                          <BFRect x="32" y="32" w="32" h="32"/>
+                                       </disabled>
+                                    </standard>
+                                 </UIAspect>
+                                 <UIHelpInfo ids="tools:expand"/>
+                                 <activate>
+                                    <event msg="ZT_RUN_SCRIPT" data="BFString" string="global scripts\tool\entityeditor.lua expandTree TypeTree"/>
+                                 </activate>
+                              </UIButton>
+                           </children>
+                        </UILayout>
+                        <UIListBox name="TypeTree" rows="-1" template="panel">
+                           <UIRegion x="4" y="32" w="-2" h="-4" xalign="min" yalign="min" walign="max" halign="max"/>
+                           <UIAspect>
+                              <default image="ui/shared/white1x1.tga">
+                                 <BFColor r="16" g="16" b="16" a="255"/>
+                              </default>
+                           </UIAspect>
+                           <children>
+                              <UITreeElement name="first" rows="-1">
+                                 <UIRegion x="10" y="10" w="400" h="0" xalign="min" yalign="min" walign="len" halign="len"/>
+                                 <children>
+                                    <!--Type Tree Elements-->
+                                    <UILayout>
+                                       <UIRegion x="0" y="0" w="200" h="14" xalign="min" yalign="min" walign="len" halign="len"/>
+                                       <UIAspect>
+                                          <default image=""/>
+                                       </UIAspect>
+                                       <children>
+                                          <UIToggleButton name="expander" toggle="1">
+                                             <UIRegion x="0" y="-6" w="12" h="12" xalign="min" yalign="mid" walign="len" halign="len"/>
+                                             <UIAspect alwayshit="true">
+                                                <default image="ui/shared/plus_minus.tga">
+                                                   <BFColor r="0" g="255" b="255" a="255"/>
+                                                </default>
+                                                <standard>
+                                                   <normal>
+                                                      <BFRect x="0" y="0" w="16" h="16"/>
+                                                   </normal>
+                                                   <highlighted>
+                                                      <BFRect x="0" y="0" w="16" h="16"/>
+                                                   </highlighted>
+                                                   <activated>
+                                                      <BFRect x="0" y="0" w="16" h="16"/>
+                                                   </activated>
+                                                   <disabled>
+                                                      <BFRect x="0" y="0" w="16" h="16"/>
+                                                      <BFColor r="255" g="0" b="255" a="128"/>
+                                                   </disabled>
+                                                </standard>
+                                                <alternate>
+                                                   <normal>
+                                                      <BFRect x="16" y="0" w="16" h="16"/>
+                                                   </normal>
+                                                   <highlighted>
+                                                      <BFRect x="16" y="0" w="16" h="16"/>
+                                                   </highlighted>
+                                                   <activated>
+                                                      <BFRect x="16" y="0" w="16" h="16"/>
+                                                   </activated>
+                                                   <disabled>
+                                                      <BFRect x="16" y="0" w="16" h="16"/>
+                                                      <BFColor r="255" g="0" b="255" a="255"/>
+                                                   </disabled>
+                                                </alternate>
+                                             </UIAspect>
+                                             <on>
+                                                <event msg="UI_EXPAND"/>
+                                             </on>
+                                             <off>
+                                                <event msg="UI_COLLAPSE"/>
+                                             </off>
+                                          </UIToggleButton>
+                                          <UIButton>
+                                             <UIRegion x="18" y="0" w="0" h="0" xalign="min" yalign="min" walign="max" halign="max"/>
+                                             <UIAspect>
+                                                <default image=""/>
+                                                <standard>
+                                                   <normal>
+                                                      <BFFont>
+                                                         <BFColor r="255" g="220" b="100" a="255"/>
+                                                      </BFFont>
+                                                   </normal>
+                                                   <highlighted>
+                                                      <BFFont>
+                                                         <BFColor r="255" g="255" b="200" a="255"/>
+                                                      </BFFont>
+                                                   </highlighted>
+                                                   <activated>
+                                                      <BFFont>
+                                                         <BFColor r="255" g="255" b="255" a="255"/>
+                                                      </BFFont>
+                                                   </activated>
+                                                   <disabled>
+                                                      <BFFont>
+                                                         <BFColor r="128" g="128" b="128" a="255"/>
+                                                      </BFFont>
+                                                   </disabled>
+                                                </standard>
+                                             </UIAspect>
+                                             <text format="tools:tooltypeformat">First</text>
+                                          </UIButton>
+                                       </children>
+                                    </UILayout>
+                                    <UITreeElement name="second" rows="-1">
+                                       <UIRegion x="10" y="10" w="200" h="0" xalign="min" yalign="min" walign="len" halign="len"/>
+                                       <children>
+                                          <UILayout>
+                                             <UIRegion x="0" y="0" w="200" h="14" xalign="min" yalign="min" walign="len" halign="len"/>
+                                             <UIAspect>
+                                                <default image=""/>
+                                             </UIAspect>
+                                             <children>
+                                                <UIToggleButton name="expander" toggle="1">
+                                                   <UIRegion x="0" y="-6" w="12" h="12" xalign="min" yalign="mid" walign="len" halign="len"/>
+                                                   <UIAspect alwayshit="true">
+                                                      <default image="ui/shared/plus_minus.tga">
+                                                         <BFColor r="0" g="255" b="255" a="255"/>
+                                                      </default>
+                                                      <standard>
+                                                         <normal>
+                                                            <BFRect x="0" y="0" w="16" h="16"/>
+                                                         </normal>
+                                                         <highlighted>
+                                                            <BFRect x="0" y="0" w="16" h="16"/>
+                                                         </highlighted>
+                                                         <activated>
+                                                            <BFRect x="0" y="0" w="16" h="16"/>
+                                                         </activated>
+                                                         <disabled>
+                                                            <BFRect x="0" y="0" w="16" h="16"/>
+                                                            <BFColor r="255" g="0" b="255" a="128"/>
+                                                         </disabled>
+                                                      </standard>
+                                                      <alternate>
+                                                         <normal>
+                                                            <BFRect x="16" y="0" w="16" h="16"/>
+                                                         </normal>
+                                                         <highlighted>
+                                                            <BFRect x="16" y="0" w="16" h="16"/>
+                                                         </highlighted>
+                                                         <activated>
+                                                            <BFRect x="16" y="0" w="16" h="16"/>
+                                                         </activated>
+                                                         <disabled>
+                                                            <BFRect x="16" y="0" w="16" h="16"/>
+                                                            <BFColor r="255" g="0" b="255" a="255"/>
+                                                         </disabled>
+                                                      </alternate>
+                                                   </UIAspect>
+                                                   <on>
+                                                      <event msg="UI_EXPAND"/>
+                                                   </on>
+                                                   <off>
+                                                      <event msg="UI_COLLAPSE"/>
+                                                   </off>
+                                                </UIToggleButton>
+                                                <UIButton>
+                                                   <UIRegion x="18" y="0" w="0" h="0" xalign="min" yalign="min" walign="max" halign="max"/>
+                                                   <UIAspect>
+                                                      <default image=""/>
+                                                      <standard>
+                                                         <normal>
+                                                            <BFFont>
+                                                               <BFColor r="255" g="220" b="100" a="255"/>
+                                                            </BFFont>
+                                                         </normal>
+                                                         <highlighted>
+                                                            <BFFont>
+                                                               <BFColor r="255" g="255" b="200" a="255"/>
+                                                            </BFFont>
+                                                         </highlighted>
+                                                         <activated>
+                                                            <BFFont>
+                                                               <BFColor r="255" g="255" b="255" a="255"/>
+                                                            </BFFont>
+                                                         </activated>
+                                                         <disabled>
+                                                            <BFFont>
+                                                               <BFColor r="128" g="128" b="128" a="255"/>
+                                                            </BFFont>
+                                                         </disabled>
+                                                      </standard>
+                                                   </UIAspect>
+                                                   <text format="tools:tooltypeformat">Second</text>
+                                                </UIButton>
+                                             </children>
+                                          </UILayout>
+                                          <UITreeElement name="third" rows="-1">
+                                             <UIRegion x="15" y="10" w="400" h="0" xalign="min" yalign="min" walign="len" halign="len"/>
+                                             <children>
+                                                <UILayout>
+                                                   <UIRegion x="0" y="0" w="200" h="14" xalign="min" yalign="min" walign="len" halign="len"/>
+                                                   <UIAspect>
+                                                      <default image=""/>
+                                                   </UIAspect>
+                                                   <children>
+                                                      <UIToggleButton name="expander" toggle="1">
+                                                         <UIRegion x="0" y="-6" w="12" h="12" xalign="min" yalign="mid" walign="len" halign="len"/>
+                                                         <UIAspect alwayshit="true">
+                                                            <default image="ui/shared/plus_minus.tga">
+                                                               <BFColor r="0" g="255" b="255" a="255"/>
+                                                            </default>
+                                                            <standard>
+                                                               <normal>
+                                                                  <BFRect x="0" y="0" w="16" h="16"/>
+                                                               </normal>
+                                                               <highlighted>
+                                                                  <BFRect x="0" y="0" w="16" h="16"/>
+                                                               </highlighted>
+                                                               <activated>
+                                                                  <BFRect x="0" y="0" w="16" h="16"/>
+                                                               </activated>
+                                                               <disabled>
+                                                                  <BFRect x="0" y="0" w="16" h="16"/>
+                                                                  <BFColor r="255" g="0" b="255" a="128"/>
+                                                               </disabled>
+                                                            </standard>
+                                                            <alternate>
+                                                               <normal>
+                                                                  <BFRect x="16" y="0" w="16" h="16"/>
+                                                               </normal>
+                                                               <highlighted>
+                                                                  <BFRect x="16" y="0" w="16" h="16"/>
+                                                               </highlighted>
+                                                               <activated>
+                                                                  <BFRect x="16" y="0" w="16" h="16"/>
+                                                               </activated>
+                                                               <disabled>
+                                                                  <BFRect x="16" y="0" w="16" h="16"/>
+                                                                  <BFColor r="255" g="0" b="255" a="255"/>
+                                                               </disabled>
+                                                            </alternate>
+                                                         </UIAspect>
+                                                         <on>
+                                                            <event msg="UI_EXPAND"/>
+                                                         </on>
+                                                         <off>
+                                                            <event msg="UI_COLLAPSE"/>
+                                                         </off>
+                                                      </UIToggleButton>
+                                                      <UIButton>
+                                                         <UIRegion x="18" y="0" w="0" h="0" xalign="min" yalign="min" walign="max" halign="max"/>
+                                                         <UIAspect>
+                                                            <default image=""/>
+                                                            <standard>
+                                                               <normal>
+                                                                  <BFFont>
+                                                                     <BFColor r="255" g="220" b="100" a="255"/>
+                                                                  </BFFont>
+                                                               </normal>
+                                                               <highlighted>
+                                                                  <BFFont>
+                                                                     <BFColor r="255" g="255" b="200" a="255"/>
+                                                                  </BFFont>
+                                                               </highlighted>
+                                                               <activated>
+                                                                  <BFFont>
+                                                                     <BFColor r="255" g="255" b="255" a="255"/>
+                                                                  </BFFont>
+                                                               </activated>
+                                                               <disabled>
+                                                                  <BFFont>
+                                                                     <BFColor r="128" g="128" b="128" a="255"/>
+                                                                  </BFFont>
+                                                               </disabled>
+                                                            </standard>
+                                                         </UIAspect>
+                                                         <text format="tools:tooltypeformat">Third</text>
+                                                      </UIButton>
+                                                   </children>
+                                                </UILayout>
+                                                <UITreeElement name="fourth" rows="-1">
+                                                   <UIRegion x="15" y="10" w="400" h="0" xalign="min" yalign="min" walign="len" halign="len"/>
+                                                   <children>
+                                                      <UILayout>
+                                                         <UIRegion x="0" y="0" w="200" h="14" xalign="min" yalign="min" walign="len" halign="len"/>
+                                                         <UIAspect>
+                                                            <default image=""/>
+                                                         </UIAspect>
+                                                         <children>
+                                                            <UIToggleButton name="expander" toggle="1">
+                                                               <UIRegion x="0" y="-6" w="12" h="12" xalign="min" yalign="mid" walign="len" halign="len"/>
+                                                               <UIState active="disabled"/>
+                                                               <UIAspect alwayshit="true">
+                                                                  <default image="ui/shared/plus_minus.tga">
+                                                                     <BFColor r="0" g="255" b="255" a="255"/>
+                                                                  </default>
+                                                                  <standard>
+                                                                     <normal>
+                                                                        <BFRect x="0" y="0" w="16" h="16"/>
+                                                                     </normal>
+                                                                     <highlighted>
+                                                                        <BFRect x="0" y="0" w="16" h="16"/>
+                                                                     </highlighted>
+                                                                     <activated>
+                                                                        <BFRect x="0" y="0" w="16" h="16"/>
+                                                                     </activated>
+                                                                     <disabled>
+                                                                        <BFRect x="0" y="16" w="16" h="16"/>
+                                                                        <BFColor r="255" g="0" b="255" a="128"/>
+                                                                     </disabled>
+                                                                  </standard>
+                                                                  <alternate>
+                                                                     <normal>
+                                                                        <BFRect x="16" y="0" w="16" h="16"/>
+                                                                     </normal>
+                                                                     <highlighted>
+                                                                        <BFRect x="16" y="0" w="16" h="16"/>
+                                                                     </highlighted>
+                                                                     <activated>
+                                                                        <BFRect x="16" y="0" w="16" h="16"/>
+                                                                     </activated>
+                                                                     <disabled>
+                                                                        <BFRect x="0" y="16" w="16" h="16"/>
+                                                                        <BFColor r="255" g="0" b="255" a="255"/>
+                                                                     </disabled>
+                                                                  </alternate>
+                                                               </UIAspect>
+                                                               <on>
+                                                                  <event msg="UI_EXPAND"/>
+                                                               </on>
+                                                               <off>
+                                                                  <event msg="UI_COLLAPSE"/>
+                                                               </off>
+                                                            </UIToggleButton>
+                                                            <UIButton>
+                                                               <UIRegion x="18" y="0" w="0" h="0" xalign="min" yalign="min" walign="max" halign="max"/>
+                                                               <UIAspect>
+                                                                  <default image=""/>
+                                                                  <standard>
+                                                                     <normal>
+                                                                        <BFFont>
+                                                                           <BFColor r="255" g="220" b="100" a="255"/>
+                                                                        </BFFont>
+                                                                     </normal>
+                                                                     <highlighted>
+                                                                        <BFFont>
+                                                                           <BFColor r="255" g="255" b="200" a="255"/>
+                                                                        </BFFont>
+                                                                     </highlighted>
+                                                                     <activated>
+                                                                        <BFFont>
+                                                                           <BFColor r="255" g="255" b="255" a="255"/>
+                                                                        </BFFont>
+                                                                     </activated>
+                                                                     <disabled>
+                                                                        <BFFont>
+                                                                           <BFColor r="128" g="128" b="128" a="255"/>
+                                                                        </BFFont>
+                                                                     </disabled>
+                                                                  </standard>
+                                                               </UIAspect>
+                                                               <text format="tools:tooltypeformat">Fourth</text>
+                                                            </UIButton>
+                                                         </children>
+                                                      </UILayout>
+                                                   </children>
+                                                </UITreeElement>
+                                                <UITreeElement name="fourth" rows="-1">
+                                                   <UIRegion x="15" y="10" w="400" h="0" xalign="min" yalign="min" walign="len" halign="len"/>
+                                                   <children>
+                                                      <UILayout>
+                                                         <UIRegion x="0" y="0" w="200" h="14" xalign="min" yalign="min" walign="len" halign="len"/>
+                                                         <UIAspect>
+                                                            <default image=""/>
+                                                         </UIAspect>
+                                                         <children>
+                                                            <UIToggleButton name="expander" toggle="1">
+                                                               <UIRegion x="0" y="-6" w="12" h="12" xalign="min" yalign="mid" walign="len" halign="len"/>
+                                                               <UIState active="disabled"/>
+                                                               <UIAspect alwayshit="true">
+                                                                  <default image="ui/shared/plus_minus.tga">
+                                                                     <BFColor r="0" g="255" b="255" a="255"/>
+                                                                  </default>
+                                                                  <standard>
+                                                                     <normal>
+                                                                        <BFRect x="0" y="0" w="16" h="16"/>
+                                                                     </normal>
+                                                                     <highlighted>
+                                                                        <BFRect x="0" y="0" w="16" h="16"/>
+                                                                     </highlighted>
+                                                                     <activated>
+                                                                        <BFRect x="0" y="0" w="16" h="16"/>
+                                                                     </activated>
+                                                                     <disabled>
+                                                                        <BFRect x="0" y="16" w="16" h="16"/>
+                                                                        <BFColor r="255" g="0" b="255" a="128"/>
+                                                                     </disabled>
+                                                                  </standard>
+                                                                  <alternate>
+                                                                     <normal>
+                                                                        <BFRect x="16" y="0" w="16" h="16"/>
+                                                                     </normal>
+                                                                     <highlighted>
+                                                                        <BFRect x="16" y="0" w="16" h="16"/>
+                                                                     </highlighted>
+                                                                     <activated>
+                                                                        <BFRect x="16" y="0" w="16" h="16"/>
+                                                                     </activated>
+                                                                     <disabled>
+                                                                        <BFRect x="0" y="16" w="16" h="16"/>
+                                                                        <BFColor r="255" g="0" b="255" a="255"/>
+                                                                     </disabled>
+                                                                  </alternate>
+                                                               </UIAspect>
+                                                               <on>
+                                                                  <event msg="UI_EXPAND"/>
+                                                               </on>
+                                                               <off>
+                                                                  <event msg="UI_COLLAPSE"/>
+                                                               </off>
+                                                            </UIToggleButton>
+                                                            <UIButton>
+                                                               <UIRegion x="18" y="0" w="0" h="0" xalign="min" yalign="min" walign="max" halign="max"/>
+                                                               <UIAspect>
+                                                                  <default image=""/>
+                                                                  <standard>
+                                                                     <normal>
+                                                                        <BFFont>
+                                                                           <BFColor r="255" g="220" b="100" a="255"/>
+                                                                        </BFFont>
+                                                                     </normal>
+                                                                     <highlighted>
+                                                                        <BFFont>
+                                                                           <BFColor r="255" g="255" b="200" a="255"/>
+                                                                        </BFFont>
+                                                                     </highlighted>
+                                                                     <activated>
+                                                                        <BFFont>
+                                                                           <BFColor r="255" g="255" b="255" a="255"/>
+                                                                        </BFFont>
+                                                                     </activated>
+                                                                     <disabled>
+                                                                        <BFFont>
+                                                                           <BFColor r="128" g="128" b="128" a="255"/>
+                                                                        </BFFont>
+                                                                     </disabled>
+                                                                  </standard>
+                                                               </UIAspect>
+                                                               <text format="tools:tooltypeformat">Fourth</text>
+                                                            </UIButton>
+                                                         </children>
+                                                      </UILayout>
+                                                   </children>
+                                                </UITreeElement>
+                                             </children>
+                                          </UITreeElement>
+                                          <UITreeElement name="third" rows="-1">
+                                             <UIRegion x="15" y="10" w="400" h="0" xalign="min" yalign="min" walign="len" halign="len"/>
+                                             <children>
+                                                <UILayout>
+                                                   <UIRegion x="0" y="0" w="200" h="14" xalign="min" yalign="min" walign="len" halign="len"/>
+                                                   <UIAspect>
+                                                      <default image=""/>
+                                                   </UIAspect>
+                                                   <children>
+                                                      <UIToggleButton name="expander" toggle="1">
+                                                         <UIRegion x="0" y="-6" w="12" h="12" xalign="min" yalign="mid" walign="len" halign="len"/>
+                                                         <UIAspect alwayshit="true">
+                                                            <default image="ui/shared/plus_minus.tga">
+                                                               <BFColor r="0" g="255" b="255" a="255"/>
+                                                            </default>
+                                                            <standard>
+                                                               <normal>
+                                                                  <BFRect x="0" y="0" w="16" h="16"/>
+                                                               </normal>
+                                                               <highlighted>
+                                                                  <BFRect x="0" y="0" w="16" h="16"/>
+                                                               </highlighted>
+                                                               <activated>
+                                                                  <BFRect x="0" y="0" w="16" h="16"/>
+                                                               </activated>
+                                                               <disabled>
+                                                                  <BFRect x="0" y="0" w="16" h="16"/>
+                                                                  <BFColor r="255" g="0" b="255" a="128"/>
+                                                               </disabled>
+                                                            </standard>
+                                                            <alternate>
+                                                               <normal>
+                                                                  <BFRect x="16" y="0" w="16" h="16"/>
+                                                               </normal>
+                                                               <highlighted>
+                                                                  <BFRect x="16" y="0" w="16" h="16"/>
+                                                               </highlighted>
+                                                               <activated>
+                                                                  <BFRect x="16" y="0" w="16" h="16"/>
+                                                               </activated>
+                                                               <disabled>
+                                                                  <BFRect x="16" y="0" w="16" h="16"/>
+                                                                  <BFColor r="255" g="0" b="255" a="255"/>
+                                                               </disabled>
+                                                            </alternate>
+                                                         </UIAspect>
+                                                         <on>
+                                                            <event msg="UI_EXPAND"/>
+                                                         </on>
+                                                         <off>
+                                                            <event msg="UI_COLLAPSE"/>
+                                                         </off>
+                                                      </UIToggleButton>
+                                                      <UIButton>
+                                                         <UIRegion x="18" y="0" w="0" h="0" xalign="min" yalign="min" walign="max" halign="max"/>
+                                                         <UIAspect>
+                                                            <default image=""/>
+                                                            <standard>
+                                                               <normal>
+                                                                  <BFFont>
+                                                                     <BFColor r="255" g="220" b="100" a="255"/>
+                                                                  </BFFont>
+                                                               </normal>
+                                                               <highlighted>
+                                                                  <BFFont>
+                                                                     <BFColor r="255" g="255" b="200" a="255"/>
+                                                                  </BFFont>
+                                                               </highlighted>
+                                                               <activated>
+                                                                  <BFFont>
+                                                                     <BFColor r="255" g="255" b="255" a="255"/>
+                                                                  </BFFont>
+                                                               </activated>
+                                                               <disabled>
+                                                                  <BFFont>
+                                                                     <BFColor r="128" g="128" b="128" a="255"/>
+                                                                  </BFFont>
+                                                               </disabled>
+                                                            </standard>
+                                                         </UIAspect>
+                                                         <text format="tools:tooltypeformat">Third</text>
+                                                      </UIButton>
+                                                   </children>
+                                                </UILayout>
+                                                <UITreeElement name="fourth" rows="-1">
+                                                   <UIRegion x="15" y="10" w="400" h="0" xalign="min" yalign="min" walign="len" halign="len"/>
+                                                   <children>
+                                                      <UILayout>
+                                                         <UIRegion x="0" y="0" w="200" h="14" xalign="min" yalign="min" walign="len" halign="len"/>
+                                                         <UIAspect>
+                                                            <default image=""/>
+                                                         </UIAspect>
+                                                         <children>
+                                                            <UIToggleButton name="expander" toggle="1">
+                                                               <UIRegion x="0" y="-6" w="12" h="12" xalign="min" yalign="mid" walign="len" halign="len"/>
+                                                               <UIState active="disabled"/>
+                                                               <UIAspect alwayshit="true">
+                                                                  <default image="ui/shared/plus_minus.tga">
+                                                                     <BFColor r="0" g="255" b="255" a="255"/>
+                                                                  </default>
+                                                                  <standard>
+                                                                     <normal>
+                                                                        <BFRect x="0" y="0" w="16" h="16"/>
+                                                                     </normal>
+                                                                     <highlighted>
+                                                                        <BFRect x="0" y="0" w="16" h="16"/>
+                                                                     </highlighted>
+                                                                     <activated>
+                                                                        <BFRect x="0" y="0" w="16" h="16"/>
+                                                                     </activated>
+                                                                     <disabled>
+                                                                        <BFRect x="0" y="16" w="16" h="16"/>
+                                                                        <BFColor r="255" g="0" b="255" a="128"/>
+                                                                     </disabled>
+                                                                  </standard>
+                                                                  <alternate>
+                                                                     <normal>
+                                                                        <BFRect x="16" y="0" w="16" h="16"/>
+                                                                     </normal>
+                                                                     <highlighted>
+                                                                        <BFRect x="16" y="0" w="16" h="16"/>
+                                                                     </highlighted>
+                                                                     <activated>
+                                                                        <BFRect x="16" y="0" w="16" h="16"/>
+                                                                     </activated>
+                                                                     <disabled>
+                                                                        <BFRect x="0" y="16" w="16" h="16"/>
+                                                                        <BFColor r="255" g="0" b="255" a="255"/>
+                                                                     </disabled>
+                                                                  </alternate>
+                                                               </UIAspect>
+                                                               <on>
+                                                                  <event msg="UI_EXPAND"/>
+                                                               </on>
+                                                               <off>
+                                                                  <event msg="UI_COLLAPSE"/>
+                                                               </off>
+                                                            </UIToggleButton>
+                                                            <UIButton>
+                                                               <UIRegion x="18" y="0" w="0" h="0" xalign="min" yalign="min" walign="max" halign="max"/>
+                                                               <UIAspect>
+                                                                  <default image=""/>
+                                                                  <standard>
+                                                                     <normal>
+                                                                        <BFFont>
+                                                                           <BFColor r="255" g="220" b="100" a="255"/>
+                                                                        </BFFont>
+                                                                     </normal>
+                                                                     <highlighted>
+                                                                        <BFFont>
+                                                                           <BFColor r="255" g="255" b="200" a="255"/>
+                                                                        </BFFont>
+                                                                     </highlighted>
+                                                                     <activated>
+                                                                        <BFFont>
+                                                                           <BFColor r="255" g="255" b="255" a="255"/>
+                                                                        </BFFont>
+                                                                     </activated>
+                                                                     <disabled>
+                                                                        <BFFont>
+                                                                           <BFColor r="128" g="128" b="128" a="255"/>
+                                                                        </BFFont>
+                                                                     </disabled>
+                                                                  </standard>
+                                                               </UIAspect>
+                                                               <text format="tools:tooltypeformat">Fourth</text>
+                                                            </UIButton>
+                                                         </children>
+                                                      </UILayout>
+                                                   </children>
+                                                </UITreeElement>
+                                                <UITreeElement name="fourth" rows="-1">
+                                                   <UIRegion x="15" y="10" w="400" h="0" xalign="min" yalign="min" walign="len" halign="len"/>
+                                                   <children>
+                                                      <UILayout>
+                                                         <UIRegion x="0" y="0" w="200" h="14" xalign="min" yalign="min" walign="len" halign="len"/>
+                                                         <UIAspect>
+                                                            <default image=""/>
+                                                         </UIAspect>
+                                                         <children>
+                                                            <UIToggleButton name="expander" toggle="1">
+                                                               <UIRegion x="0" y="-6" w="12" h="12" xalign="min" yalign="mid" walign="len" halign="len"/>
+                                                               <UIState active="disabled"/>
+                                                               <UIAspect alwayshit="true">
+                                                                  <default image="ui/shared/plus_minus.tga">
+                                                                     <BFColor r="0" g="255" b="255" a="255"/>
+                                                                  </default>
+                                                                  <standard>
+                                                                     <normal>
+                                                                        <BFRect x="0" y="0" w="16" h="16"/>
+                                                                     </normal>
+                                                                     <highlighted>
+                                                                        <BFRect x="0" y="0" w="16" h="16"/>
+                                                                     </highlighted>
+                                                                     <activated>
+                                                                        <BFRect x="0" y="0" w="16" h="16"/>
+                                                                     </activated>
+                                                                     <disabled>
+                                                                        <BFRect x="0" y="16" w="16" h="16"/>
+                                                                        <BFColor r="255" g="0" b="255" a="128"/>
+                                                                     </disabled>
+                                                                  </standard>
+                                                                  <alternate>
+                                                                     <normal>
+                                                                        <BFRect x="16" y="0" w="16" h="16"/>
+                                                                     </normal>
+                                                                     <highlighted>
+                                                                        <BFRect x="16" y="0" w="16" h="16"/>
+                                                                     </highlighted>
+                                                                     <activated>
+                                                                        <BFRect x="16" y="0" w="16" h="16"/>
+                                                                     </activated>
+                                                                     <disabled>
+                                                                        <BFRect x="0" y="16" w="16" h="16"/>
+                                                                        <BFColor r="255" g="0" b="255" a="255"/>
+                                                                     </disabled>
+                                                                  </alternate>
+                                                               </UIAspect>
+                                                               <on>
+                                                                  <event msg="UI_EXPAND"/>
+                                                               </on>
+                                                               <off>
+                                                                  <event msg="UI_COLLAPSE"/>
+                                                               </off>
+                                                            </UIToggleButton>
+                                                            <UIButton>
+                                                               <UIRegion x="18" y="0" w="0" h="0" xalign="min" yalign="min" walign="max" halign="max"/>
+                                                               <UIAspect>
+                                                                  <default image=""/>
+                                                                  <standard>
+                                                                     <normal>
+                                                                        <BFFont>
+                                                                           <BFColor r="255" g="220" b="100" a="255"/>
+                                                                        </BFFont>
+                                                                     </normal>
+                                                                     <highlighted>
+                                                                        <BFFont>
+                                                                           <BFColor r="255" g="255" b="200" a="255"/>
+                                                                        </BFFont>
+                                                                     </highlighted>
+                                                                     <activated>
+                                                                        <BFFont>
+                                                                           <BFColor r="255" g="255" b="255" a="255"/>
+                                                                        </BFFont>
+                                                                     </activated>
+                                                                     <disabled>
+                                                                        <BFFont>
+                                                                           <BFColor r="128" g="128" b="128" a="255"/>
+                                                                        </BFFont>
+                                                                     </disabled>
+                                                                  </standard>
+                                                               </UIAspect>
+                                                               <text format="tools:tooltypeformat">Fourth</text>
+                                                            </UIButton>
+                                                         </children>
+                                                      </UILayout>
+                                                   </children>
+                                                </UITreeElement>
+                                             </children>
+                                          </UITreeElement>
+                                       </children>
+                                    </UITreeElement>
+                                    <UITreeElement name="second" rows="-1">
+                                       <UIRegion x="10" y="10" w="200" h="0" xalign="min" yalign="min" walign="len" halign="len"/>
+                                       <children>
+                                          <UILayout>
+                                             <UIRegion x="0" y="0" w="200" h="14" xalign="min" yalign="min" walign="len" halign="len"/>
+                                             <UIAspect>
+                                                <default image=""/>
+                                             </UIAspect>
+                                             <children>
+                                                <UIToggleButton name="expander" toggle="1">
+                                                   <UIRegion x="0" y="-6" w="12" h="12" xalign="min" yalign="mid" walign="len" halign="len"/>
+                                                   <UIAspect alwayshit="true">
+                                                      <default image="ui/shared/plus_minus.tga">
+                                                         <BFColor r="0" g="255" b="255" a="255"/>
+                                                      </default>
+                                                      <standard>
+                                                         <normal>
+                                                            <BFRect x="0" y="0" w="16" h="16"/>
+                                                         </normal>
+                                                         <highlighted>
+                                                            <BFRect x="0" y="0" w="16" h="16"/>
+                                                         </highlighted>
+                                                         <activated>
+                                                            <BFRect x="0" y="0" w="16" h="16"/>
+                                                         </activated>
+                                                         <disabled>
+                                                            <BFRect x="0" y="0" w="16" h="16"/>
+                                                            <BFColor r="255" g="0" b="255" a="128"/>
+                                                         </disabled>
+                                                      </standard>
+                                                      <alternate>
+                                                         <normal>
+                                                            <BFRect x="16" y="0" w="16" h="16"/>
+                                                         </normal>
+                                                         <highlighted>
+                                                            <BFRect x="16" y="0" w="16" h="16"/>
+                                                         </highlighted>
+                                                         <activated>
+                                                            <BFRect x="16" y="0" w="16" h="16"/>
+                                                         </activated>
+                                                         <disabled>
+                                                            <BFRect x="16" y="0" w="16" h="16"/>
+                                                            <BFColor r="255" g="0" b="255" a="255"/>
+                                                         </disabled>
+                                                      </alternate>
+                                                   </UIAspect>
+                                                   <on>
+                                                      <event msg="UI_EXPAND"/>
+                                                   </on>
+                                                   <off>
+                                                      <event msg="UI_COLLAPSE"/>
+                                                   </off>
+                                                </UIToggleButton>
+                                                <UIButton>
+                                                   <UIRegion x="18" y="0" w="0" h="0" xalign="min" yalign="min" walign="max" halign="max"/>
+                                                   <UIAspect>
+                                                      <default image=""/>
+                                                      <standard>
+                                                         <normal>
+                                                            <BFFont>
+                                                               <BFColor r="255" g="220" b="100" a="255"/>
+                                                            </BFFont>
+                                                         </normal>
+                                                         <highlighted>
+                                                            <BFFont>
+                                                               <BFColor r="255" g="255" b="200" a="255"/>
+                                                            </BFFont>
+                                                         </highlighted>
+                                                         <activated>
+                                                            <BFFont>
+                                                               <BFColor r="255" g="255" b="255" a="255"/>
+                                                            </BFFont>
+                                                         </activated>
+                                                         <disabled>
+                                                            <BFFont>
+                                                               <BFColor r="128" g="128" b="128" a="255"/>
+                                                            </BFFont>
+                                                         </disabled>
+                                                      </standard>
+                                                   </UIAspect>
+                                                   <text format="tools:tooltypeformat">Second</text>
+                                                </UIButton>
+                                             </children>
+                                          </UILayout>
+                                          <UITreeElement name="third" rows="-1">
+                                             <UIRegion x="15" y="10" w="400" h="0" xalign="min" yalign="min" walign="len" halign="len"/>
+                                             <children>
+                                                <UILayout>
+                                                   <UIRegion x="0" y="0" w="200" h="14" xalign="min" yalign="min" walign="len" halign="len"/>
+                                                   <UIAspect>
+                                                      <default image=""/>
+                                                   </UIAspect>
+                                                   <children>
+                                                      <UIToggleButton name="expander" toggle="1">
+                                                         <UIRegion x="0" y="-6" w="12" h="12" xalign="min" yalign="mid" walign="len" halign="len"/>
+                                                         <UIAspect alwayshit="true">
+                                                            <default image="ui/shared/plus_minus.tga">
+                                                               <BFColor r="0" g="255" b="255" a="255"/>
+                                                            </default>
+                                                            <standard>
+                                                               <normal>
+                                                                  <BFRect x="0" y="0" w="16" h="16"/>
+                                                               </normal>
+                                                               <highlighted>
+                                                                  <BFRect x="0" y="0" w="16" h="16"/>
+                                                               </highlighted>
+                                                               <activated>
+                                                                  <BFRect x="0" y="0" w="16" h="16"/>
+                                                               </activated>
+                                                               <disabled>
+                                                                  <BFRect x="0" y="0" w="16" h="16"/>
+                                                                  <BFColor r="255" g="0" b="255" a="128"/>
+                                                               </disabled>
+                                                            </standard>
+                                                            <alternate>
+                                                               <normal>
+                                                                  <BFRect x="16" y="0" w="16" h="16"/>
+                                                               </normal>
+                                                               <highlighted>
+                                                                  <BFRect x="16" y="0" w="16" h="16"/>
+                                                               </highlighted>
+                                                               <activated>
+                                                                  <BFRect x="16" y="0" w="16" h="16"/>
+                                                               </activated>
+                                                               <disabled>
+                                                                  <BFRect x="16" y="0" w="16" h="16"/>
+                                                                  <BFColor r="255" g="0" b="255" a="255"/>
+                                                               </disabled>
+                                                            </alternate>
+                                                         </UIAspect>
+                                                         <on>
+                                                            <event msg="UI_EXPAND"/>
+                                                         </on>
+                                                         <off>
+                                                            <event msg="UI_COLLAPSE"/>
+                                                         </off>
+                                                      </UIToggleButton>
+                                                      <UIButton>
+                                                         <UIRegion x="18" y="0" w="0" h="0" xalign="min" yalign="min" walign="max" halign="max"/>
+                                                         <UIAspect>
+                                                            <default image=""/>
+                                                            <standard>
+                                                               <normal>
+                                                                  <BFFont>
+                                                                     <BFColor r="255" g="220" b="100" a="255"/>
+                                                                  </BFFont>
+                                                               </normal>
+                                                               <highlighted>
+                                                                  <BFFont>
+                                                                     <BFColor r="255" g="255" b="200" a="255"/>
+                                                                  </BFFont>
+                                                               </highlighted>
+                                                               <activated>
+                                                                  <BFFont>
+                                                                     <BFColor r="255" g="255" b="255" a="255"/>
+                                                                  </BFFont>
+                                                               </activated>
+                                                               <disabled>
+                                                                  <BFFont>
+                                                                     <BFColor r="128" g="128" b="128" a="255"/>
+                                                                  </BFFont>
+                                                               </disabled>
+                                                            </standard>
+                                                         </UIAspect>
+                                                         <text format="tools:tooltypeformat">Third</text>
+                                                      </UIButton>
+                                                   </children>
+                                                </UILayout>
+                                                <UITreeElement name="fourth" rows="-1">
+                                                   <UIRegion x="15" y="10" w="400" h="0" xalign="min" yalign="min" walign="len" halign="len"/>
+                                                   <children>
+                                                      <UILayout>
+                                                         <UIRegion x="0" y="0" w="200" h="14" xalign="min" yalign="min" walign="len" halign="len"/>
+                                                         <UIAspect>
+                                                            <default image=""/>
+                                                         </UIAspect>
+                                                         <children>
+                                                            <UIToggleButton name="expander" toggle="1">
+                                                               <UIRegion x="0" y="-6" w="12" h="12" xalign="min" yalign="mid" walign="len" halign="len"/>
+                                                               <UIState active="disabled"/>
+                                                               <UIAspect alwayshit="true">
+                                                                  <default image="ui/shared/plus_minus.tga">
+                                                                     <BFColor r="0" g="255" b="255" a="255"/>
+                                                                  </default>
+                                                                  <standard>
+                                                                     <normal>
+                                                                        <BFRect x="0" y="0" w="16" h="16"/>
+                                                                     </normal>
+                                                                     <highlighted>
+                                                                        <BFRect x="0" y="0" w="16" h="16"/>
+                                                                     </highlighted>
+                                                                     <activated>
+                                                                        <BFRect x="0" y="0" w="16" h="16"/>
+                                                                     </activated>
+                                                                     <disabled>
+                                                                        <BFRect x="0" y="16" w="16" h="16"/>
+                                                                        <BFColor r="255" g="0" b="255" a="128"/>
+                                                                     </disabled>
+                                                                  </standard>
+                                                                  <alternate>
+                                                                     <normal>
+                                                                        <BFRect x="16" y="0" w="16" h="16"/>
+                                                                     </normal>
+                                                                     <highlighted>
+                                                                        <BFRect x="16" y="0" w="16" h="16"/>
+                                                                     </highlighted>
+                                                                     <activated>
+                                                                        <BFRect x="16" y="0" w="16" h="16"/>
+                                                                     </activated>
+                                                                     <disabled>
+                                                                        <BFRect x="0" y="16" w="16" h="16"/>
+                                                                        <BFColor r="255" g="0" b="255" a="255"/>
+                                                                     </disabled>
+                                                                  </alternate>
+                                                               </UIAspect>
+                                                               <on>
+                                                                  <event msg="UI_EXPAND"/>
+                                                               </on>
+                                                               <off>
+                                                                  <event msg="UI_COLLAPSE"/>
+                                                               </off>
+                                                            </UIToggleButton>
+                                                            <UIButton>
+                                                               <UIRegion x="18" y="0" w="0" h="0" xalign="min" yalign="min" walign="max" halign="max"/>
+                                                               <UIAspect>
+                                                                  <default image=""/>
+                                                                  <standard>
+                                                                     <normal>
+                                                                        <BFFont>
+                                                                           <BFColor r="255" g="220" b="100" a="255"/>
+                                                                        </BFFont>
+                                                                     </normal>
+                                                                     <highlighted>
+                                                                        <BFFont>
+                                                                           <BFColor r="255" g="255" b="200" a="255"/>
+                                                                        </BFFont>
+                                                                     </highlighted>
+                                                                     <activated>
+                                                                        <BFFont>
+                                                                           <BFColor r="255" g="255" b="255" a="255"/>
+                                                                        </BFFont>
+                                                                     </activated>
+                                                                     <disabled>
+                                                                        <BFFont>
+                                                                           <BFColor r="128" g="128" b="128" a="255"/>
+                                                                        </BFFont>
+                                                                     </disabled>
+                                                                  </standard>
+                                                               </UIAspect>
+                                                               <text format="tools:tooltypeformat">Fourth</text>
+                                                            </UIButton>
+                                                         </children>
+                                                      </UILayout>
+                                                   </children>
+                                                </UITreeElement>
+                                                <UITreeElement name="fourth" rows="-1">
+                                                   <UIRegion x="15" y="10" w="400" h="0" xalign="min" yalign="min" walign="len" halign="len"/>
+                                                   <children>
+                                                      <UILayout>
+                                                         <UIRegion x="0" y="0" w="200" h="14" xalign="min" yalign="min" walign="len" halign="len"/>
+                                                         <UIAspect>
+                                                            <default image=""/>
+                                                         </UIAspect>
+                                                         <children>
+                                                            <UIToggleButton name="expander" toggle="1">
+                                                               <UIRegion x="0" y="-6" w="12" h="12" xalign="min" yalign="mid" walign="len" halign="len"/>
+                                                               <UIState active="disabled"/>
+                                                               <UIAspect alwayshit="true">
+                                                                  <default image="ui/shared/plus_minus.tga">
+                                                                     <BFColor r="0" g="255" b="255" a="255"/>
+                                                                  </default>
+                                                                  <standard>
+                                                                     <normal>
+                                                                        <BFRect x="0" y="0" w="16" h="16"/>
+                                                                     </normal>
+                                                                     <highlighted>
+                                                                        <BFRect x="0" y="0" w="16" h="16"/>
+                                                                     </highlighted>
+                                                                     <activated>
+                                                                        <BFRect x="0" y="0" w="16" h="16"/>
+                                                                     </activated>
+                                                                     <disabled>
+                                                                        <BFRect x="0" y="16" w="16" h="16"/>
+                                                                        <BFColor r="255" g="0" b="255" a="128"/>
+                                                                     </disabled>
+                                                                  </standard>
+                                                                  <alternate>
+                                                                     <normal>
+                                                                        <BFRect x="16" y="0" w="16" h="16"/>
+                                                                     </normal>
+                                                                     <highlighted>
+                                                                        <BFRect x="16" y="0" w="16" h="16"/>
+                                                                     </highlighted>
+                                                                     <activated>
+                                                                        <BFRect x="16" y="0" w="16" h="16"/>
+                                                                     </activated>
+                                                                     <disabled>
+                                                                        <BFRect x="0" y="16" w="16" h="16"/>
+                                                                        <BFColor r="255" g="0" b="255" a="255"/>
+                                                                     </disabled>
+                                                                  </alternate>
+                                                               </UIAspect>
+                                                               <on>
+                                                                  <event msg="UI_EXPAND"/>
+                                                               </on>
+                                                               <off>
+                                                                  <event msg="UI_COLLAPSE"/>
+                                                               </off>
+                                                            </UIToggleButton>
+                                                            <UIButton>
+                                                               <UIRegion x="18" y="0" w="0" h="0" xalign="min" yalign="min" walign="max" halign="max"/>
+                                                               <UIAspect>
+                                                                  <default image=""/>
+                                                                  <standard>
+                                                                     <normal>
+                                                                        <BFFont>
+                                                                           <BFColor r="255" g="220" b="100" a="255"/>
+                                                                        </BFFont>
+                                                                     </normal>
+                                                                     <highlighted>
+                                                                        <BFFont>
+                                                                           <BFColor r="255" g="255" b="200" a="255"/>
+                                                                        </BFFont>
+                                                                     </highlighted>
+                                                                     <activated>
+                                                                        <BFFont>
+                                                                           <BFColor r="255" g="255" b="255" a="255"/>
+                                                                        </BFFont>
+                                                                     </activated>
+                                                                     <disabled>
+                                                                        <BFFont>
+                                                                           <BFColor r="128" g="128" b="128" a="255"/>
+                                                                        </BFFont>
+                                                                     </disabled>
+                                                                  </standard>
+                                                               </UIAspect>
+                                                               <text format="tools:tooltypeformat">Fourth</text>
+                                                            </UIButton>
+                                                         </children>
+                                                      </UILayout>
+                                                   </children>
+                                                </UITreeElement>
+                                             </children>
+                                          </UITreeElement>
+                                          <UITreeElement name="third" rows="-1">
+                                             <UIRegion x="15" y="10" w="400" h="0" xalign="min" yalign="min" walign="len" halign="len"/>
+                                             <children>
+                                                <UILayout>
+                                                   <UIRegion x="0" y="0" w="200" h="14" xalign="min" yalign="min" walign="len" halign="len"/>
+                                                   <UIAspect>
+                                                      <default image=""/>
+                                                   </UIAspect>
+                                                   <children>
+                                                      <UIToggleButton name="expander" toggle="1">
+                                                         <UIRegion x="0" y="-6" w="12" h="12" xalign="min" yalign="mid" walign="len" halign="len"/>
+                                                         <UIAspect alwayshit="true">
+                                                            <default image="ui/shared/plus_minus.tga">
+                                                               <BFColor r="0" g="255" b="255" a="255"/>
+                                                            </default>
+                                                            <standard>
+                                                               <normal>
+                                                                  <BFRect x="0" y="0" w="16" h="16"/>
+                                                               </normal>
+                                                               <highlighted>
+                                                                  <BFRect x="0" y="0" w="16" h="16"/>
+                                                               </highlighted>
+                                                               <activated>
+                                                                  <BFRect x="0" y="0" w="16" h="16"/>
+                                                               </activated>
+                                                               <disabled>
+                                                                  <BFRect x="0" y="0" w="16" h="16"/>
+                                                                  <BFColor r="255" g="0" b="255" a="128"/>
+                                                               </disabled>
+                                                            </standard>
+                                                            <alternate>
+                                                               <normal>
+                                                                  <BFRect x="16" y="0" w="16" h="16"/>
+                                                               </normal>
+                                                               <highlighted>
+                                                                  <BFRect x="16" y="0" w="16" h="16"/>
+                                                               </highlighted>
+                                                               <activated>
+                                                                  <BFRect x="16" y="0" w="16" h="16"/>
+                                                               </activated>
+                                                               <disabled>
+                                                                  <BFRect x="16" y="0" w="16" h="16"/>
+                                                                  <BFColor r="255" g="0" b="255" a="255"/>
+                                                               </disabled>
+                                                            </alternate>
+                                                         </UIAspect>
+                                                         <on>
+                                                            <event msg="UI_EXPAND"/>
+                                                         </on>
+                                                         <off>
+                                                            <event msg="UI_COLLAPSE"/>
+                                                         </off>
+                                                      </UIToggleButton>
+                                                      <UIButton>
+                                                         <UIRegion x="18" y="0" w="0" h="0" xalign="min" yalign="min" walign="max" halign="max"/>
+                                                         <UIAspect>
+                                                            <default image=""/>
+                                                            <standard>
+                                                               <normal>
+                                                                  <BFFont>
+                                                                     <BFColor r="255" g="220" b="100" a="255"/>
+                                                                  </BFFont>
+                                                               </normal>
+                                                               <highlighted>
+                                                                  <BFFont>
+                                                                     <BFColor r="255" g="255" b="200" a="255"/>
+                                                                  </BFFont>
+                                                               </highlighted>
+                                                               <activated>
+                                                                  <BFFont>
+                                                                     <BFColor r="255" g="255" b="255" a="255"/>
+                                                                  </BFFont>
+                                                               </activated>
+                                                               <disabled>
+                                                                  <BFFont>
+                                                                     <BFColor r="128" g="128" b="128" a="255"/>
+                                                                  </BFFont>
+                                                               </disabled>
+                                                            </standard>
+                                                         </UIAspect>
+                                                         <text format="tools:tooltypeformat">Third</text>
+                                                      </UIButton>
+                                                   </children>
+                                                </UILayout>
+                                                <UITreeElement name="fourth" rows="-1">
+                                                   <UIRegion x="15" y="10" w="400" h="0" xalign="min" yalign="min" walign="len" halign="len"/>
+                                                   <children>
+                                                      <UILayout>
+                                                         <UIRegion x="0" y="0" w="200" h="14" xalign="min" yalign="min" walign="len" halign="len"/>
+                                                         <UIAspect>
+                                                            <default image=""/>
+                                                         </UIAspect>
+                                                         <children>
+                                                            <UIToggleButton name="expander" toggle="1">
+                                                               <UIRegion x="0" y="-6" w="12" h="12" xalign="min" yalign="mid" walign="len" halign="len"/>
+                                                               <UIState active="disabled"/>
+                                                               <UIAspect alwayshit="true">
+                                                                  <default image="ui/shared/plus_minus.tga">
+                                                                     <BFColor r="0" g="255" b="255" a="255"/>
+                                                                  </default>
+                                                                  <standard>
+                                                                     <normal>
+                                                                        <BFRect x="0" y="0" w="16" h="16"/>
+                                                                     </normal>
+                                                                     <highlighted>
+                                                                        <BFRect x="0" y="0" w="16" h="16"/>
+                                                                     </highlighted>
+                                                                     <activated>
+                                                                        <BFRect x="0" y="0" w="16" h="16"/>
+                                                                     </activated>
+                                                                     <disabled>
+                                                                        <BFRect x="0" y="16" w="16" h="16"/>
+                                                                        <BFColor r="255" g="0" b="255" a="128"/>
+                                                                     </disabled>
+                                                                  </standard>
+                                                                  <alternate>
+                                                                     <normal>
+                                                                        <BFRect x="16" y="0" w="16" h="16"/>
+                                                                     </normal>
+                                                                     <highlighted>
+                                                                        <BFRect x="16" y="0" w="16" h="16"/>
+                                                                     </highlighted>
+                                                                     <activated>
+                                                                        <BFRect x="16" y="0" w="16" h="16"/>
+                                                                     </activated>
+                                                                     <disabled>
+                                                                        <BFRect x="0" y="16" w="16" h="16"/>
+                                                                        <BFColor r="255" g="0" b="255" a="255"/>
+                                                                     </disabled>
+                                                                  </alternate>
+                                                               </UIAspect>
+                                                               <on>
+                                                                  <event msg="UI_EXPAND"/>
+                                                               </on>
+                                                               <off>
+                                                                  <event msg="UI_COLLAPSE"/>
+                                                               </off>
+                                                            </UIToggleButton>
+                                                            <UIButton>
+                                                               <UIRegion x="18" y="0" w="0" h="0" xalign="min" yalign="min" walign="max" halign="max"/>
+                                                               <UIAspect>
+                                                                  <default image=""/>
+                                                                  <standard>
+                                                                     <normal>
+                                                                        <BFFont>
+                                                                           <BFColor r="255" g="220" b="100" a="255"/>
+                                                                        </BFFont>
+                                                                     </normal>
+                                                                     <highlighted>
+                                                                        <BFFont>
+                                                                           <BFColor r="255" g="255" b="200" a="255"/>
+                                                                        </BFFont>
+                                                                     </highlighted>
+                                                                     <activated>
+                                                                        <BFFont>
+                                                                           <BFColor r="255" g="255" b="255" a="255"/>
+                                                                        </BFFont>
+                                                                     </activated>
+                                                                     <disabled>
+                                                                        <BFFont>
+                                                                           <BFColor r="128" g="128" b="128" a="255"/>
+                                                                        </BFFont>
+                                                                     </disabled>
+                                                                  </standard>
+                                                               </UIAspect>
+                                                               <text format="tools:tooltypeformat">Fourth</text>
+                                                            </UIButton>
+                                                         </children>
+                                                      </UILayout>
+                                                   </children>
+                                                </UITreeElement>
+                                                <UITreeElement name="fourth" rows="-1">
+                                                   <UIRegion x="15" y="10" w="400" h="0" xalign="min" yalign="min" walign="len" halign="len"/>
+                                                   <children>
+                                                      <UILayout>
+                                                         <UIRegion x="0" y="0" w="200" h="14" xalign="min" yalign="min" walign="len" halign="len"/>
+                                                         <UIAspect>
+                                                            <default image=""/>
+                                                         </UIAspect>
+                                                         <children>
+                                                            <UIToggleButton name="expander" toggle="1">
+                                                               <UIRegion x="0" y="-6" w="12" h="12" xalign="min" yalign="mid" walign="len" halign="len"/>
+                                                               <UIState active="disabled"/>
+                                                               <UIAspect alwayshit="true">
+                                                                  <default image="ui/shared/plus_minus.tga">
+                                                                     <BFColor r="0" g="255" b="255" a="255"/>
+                                                                  </default>
+                                                                  <standard>
+                                                                     <normal>
+                                                                        <BFRect x="0" y="0" w="16" h="16"/>
+                                                                     </normal>
+                                                                     <highlighted>
+                                                                        <BFRect x="0" y="0" w="16" h="16"/>
+                                                                     </highlighted>
+                                                                     <activated>
+                                                                        <BFRect x="0" y="0" w="16" h="16"/>
+                                                                     </activated>
+                                                                     <disabled>
+                                                                        <BFRect x="0" y="16" w="16" h="16"/>
+                                                                        <BFColor r="255" g="0" b="255" a="128"/>
+                                                                     </disabled>
+                                                                  </standard>
+                                                                  <alternate>
+                                                                     <normal>
+                                                                        <BFRect x="16" y="0" w="16" h="16"/>
+                                                                     </normal>
+                                                                     <highlighted>
+                                                                        <BFRect x="16" y="0" w="16" h="16"/>
+                                                                     </highlighted>
+                                                                     <activated>
+                                                                        <BFRect x="16" y="0" w="16" h="16"/>
+                                                                     </activated>
+                                                                     <disabled>
+                                                                        <BFRect x="0" y="16" w="16" h="16"/>
+                                                                        <BFColor r="255" g="0" b="255" a="255"/>
+                                                                     </disabled>
+                                                                  </alternate>
+                                                               </UIAspect>
+                                                               <on>
+                                                                  <event msg="UI_EXPAND"/>
+                                                               </on>
+                                                               <off>
+                                                                  <event msg="UI_COLLAPSE"/>
+                                                               </off>
+                                                            </UIToggleButton>
+                                                            <UIButton>
+                                                               <UIRegion x="18" y="0" w="0" h="0" xalign="min" yalign="min" walign="max" halign="max"/>
+                                                               <UIAspect>
+                                                                  <default image=""/>
+                                                                  <standard>
+                                                                     <normal>
+                                                                        <BFFont>
+                                                                           <BFColor r="255" g="220" b="100" a="255"/>
+                                                                        </BFFont>
+                                                                     </normal>
+                                                                     <highlighted>
+                                                                        <BFFont>
+                                                                           <BFColor r="255" g="255" b="200" a="255"/>
+                                                                        </BFFont>
+                                                                     </highlighted>
+                                                                     <activated>
+                                                                        <BFFont>
+                                                                           <BFColor r="255" g="255" b="255" a="255"/>
+                                                                        </BFFont>
+                                                                     </activated>
+                                                                     <disabled>
+                                                                        <BFFont>
+                                                                           <BFColor r="128" g="128" b="128" a="255"/>
+                                                                        </BFFont>
+                                                                     </disabled>
+                                                                  </standard>
+                                                               </UIAspect>
+                                                               <text format="tools:tooltypeformat">Fourth</text>
+                                                            </UIButton>
+                                                         </children>
+                                                      </UILayout>
+                                                   </children>
+                                                </UITreeElement>
+                                             </children>
+                                          </UITreeElement>
+                                       </children>
+                                    </UITreeElement>
+                                 </children>
+                              </UITreeElement>
+                           </children>
+                        </UIListBox>
+                        <UIDrag minWidth="10" bounded="true" cursor="rotobj.cur">
+                           <UIRegion x="-6" y="0" w="0" h="0" xalign="max" yalign="min" walign="max" halign="max"/>
+                           <UIAspect alwayshit="true">
+                              <default/>
+                           </UIAspect>
+                           <drag>
+                              <UIDragCommand msg="UI_ADD_SIZE" axis="x"/>
+                           </drag>
+                        </UIDrag>
+                     </children>
+                  </UILayout>
+                  <UILayout name="Edit Panel Layout" template="panelwell">
+                     <UIRegion x="0" y="0" w="0" h="768" xalign="min" yalign="min" walign="max" halign="len"/>
+                     <UIAspect>
+                        <default/>
+                     </UIAspect>
+                     <children>
+                        <UILayout name="Edit Panel Button Well" template="panelwell">
+                           <UIRegion x="0" y="0" w="-32" h="32" xalign="min" yalign="min" walign="max" halign="len"/>
+                           <children>
+                              <UIButton name="Destroy and Reload Binder">
+                                 <UIRegion x="6" y="2" w="28" h="28" xalign="min" yalign="min" walign="len" halign="len"/>
+                                 <UIAspect>
+                                    <default image="ui/shared/button_deleteall.dds"/>
+                                    <standard>
+                                       <normal>
+                                          <BFRect x="8" y="8" w="48" h="48"/>
+                                       </normal>
+                                       <highlighted>
+                                          <BFRect x="8" y="72" w="48" h="48"/>
+                                       </highlighted>
+                                       <activated>
+                                          <BFRect x="72" y="8" w="48" h="48"/>
+                                       </activated>
+                                       <disabled>
+                                          <BFRect x="72" y="72" w="48" h="48"/>
+                                       </disabled>
+                                    </standard>
+                                 </UIAspect>
+                                 <UIHelpInfo ids="tools:destroyandreloadbinder"/>
+                                 <activate>
+                                    <event msg="ZT_RUN_SCRIPT" data="BFString" string="global scripts\tool\entityeditor.lua reloadBinder"/>
+                                 </activate>
+                              </UIButton>
+                              <UIButton name="Reload Binder and Replace">
+                                 <UIRegion x="36" y="2" w="28" h="28" xalign="min" yalign="min" walign="len" halign="len"/>
+                                 <UIAspect>
+                                    <default image="ui/shared/button_load.dds"/>
+                                    <standard>
+                                       <normal>
+                                          <BFRect x="12" y="12" w="40" h="40"/>
+                                       </normal>
+                                       <highlighted>
+                                          <BFRect x="12" y="76" w="40" h="40"/>
+                                       </highlighted>
+                                       <activated>
+                                          <BFRect x="76" y="12" w="40" h="40"/>
+                                       </activated>
+                                       <disabled>
+                                          <BFRect x="76" y="76" w="40" h="40"/>
+                                       </disabled>
+                                    </standard>
+                                 </UIAspect>
+                                 <UIHelpInfo ids="tools:reloadbinderandreplace"/>
+                                 <activate>
+                                    <event msg="ZT_RUN_SCRIPT" data="BFString" string="global scripts\tool\entityeditor.lua reloadBinderAndReplace"/>
+                                 </activate>
+                              </UIButton>
+                           </children>
+                        </UILayout>
+                        <UIToggleSet name="Inheritance Types" columns="-1">
+                           <UIRegion x="7" y="34" w="0" h="20" xalign="min" yalign="min" walign="max" halign="len"/>
+                        </UIToggleSet>
+                        <UIText name="Selected Type Label">
+                           <UIRegion x="7" y="50" w="400" h="30" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIAspect>
+                              <default>
+                                 <BFFont>
+                                    <BFColor r="200" g="200" b="0" a="255"/>
+                                 </BFFont>
+                              </default>
+                           </UIAspect>
+                           <text format="tools:selectedtypeformat"/>
+                        </UIText>
+                        <UIButton name="close">
+                           <UIRegion x="-32" y="0" w="32" h="32" xalign="max" yalign="min" walign="len" halign="len"/>
+                           <UIAspect>
+                              <default image="ui/shared/button_close.dds"/>
+                              <standard>
+                                 <normal>
+                                    <BFRect x="16" y="16" w="32" h="32"/>
+                                 </normal>
+                                 <highlighted>
+                                    <BFRect x="16" y="80" w="32" h="32"/>
+                                 </highlighted>
+                                 <activated>
+                                    <BFRect x="80" y="16" w="32" h="32"/>
+                                 </activated>
+                                 <disabled>
+                                    <BFRect x="80" y="80" w="32" h="32"/>
+                                 </disabled>
+                              </standard>
+                           </UIAspect>
+                           <activate>
+                              <event msg="UI_CHILD" data="UIChildData" name="Editor Window">
+                                 <child msg="UI_HIDE"/>
+                              </event>
+                           </activate>
+                        </UIButton>
+                     </children>
+                  </UILayout>
+               </children>
+            </UIListBox>
+         </children>
+      </UILayout>
+   </children>
+</UILayout>

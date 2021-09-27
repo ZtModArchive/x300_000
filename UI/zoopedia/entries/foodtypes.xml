@@ -1,0 +1,18 @@
+<entries>
+   <BFHelpEntry entry="zoopedia_home">
+      <BFHelpEntry entry="zoopedia_food">
+         <BFHelpEntry entry="zoopedia_bamboo"/>
+         <BFHelpEntry entry="zoopedia_bananas"/>
+         <BFHelpEntry entry="zoopedia_branches"/>
+         <BFHelpEntry entry="zoopedia_fish"/>
+         <BFHelpEntry entry="zoopedia_grass"/>
+         <BFHelpEntry entry="zoopedia_hay"/>
+         <BFHelpEntry entry="zoopedia_lettuce"/>
+         <BFHelpEntry entry="zoopedia_meat"/>
+         <BFHelpEntry entry="zoopedia_water"/>
+         <BFHelpEntry entry="zoopedia_termitemound"/>
+         <BFHelpEntry entry="zoopedia_substratepile"/>
+         <BFHelpEntry entry="zoopedia_hollowlog"/>
+      </BFHelpEntry>
+   </BFHelpEntry>
+</entries>

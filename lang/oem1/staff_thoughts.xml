@@ -1,0 +1,24 @@
+<ZT2Strings>
+   <staffthoughts>
+      <!--Staff Thoughts-->
+      <WorkerSweepTrash>I was born to sweep trash.</WorkerSweepTrash>
+      <WorkerEmptyTrashcan>I'm glad people are using the trashcan.</WorkerEmptyTrashcan>
+      <WaitingForTask>I love my job.</WaitingForTask>
+      <WaitingForTaskBench>This bench is comfortable.</WaitingForTaskBench>
+      <WaitingForTaskCenter>I need to resupply at the staff center.</WaitingForTaskCenter>
+      <EducatorGotoEducateGuests>I can't wait to teach the guests.</EducatorGotoEducateGuests>
+      <EducatorEducateGuests>I enjoy hearing myself talk.</EducatorEducateGuests>
+      <KeeperGoFillDish>The animals need to be fed.</KeeperGoFillDish>
+      <KeeperFillDish>I hope the animals like this food.</KeeperFillDish>
+      <KeeperRakePoo>It's a dirty job but someone has to do it.</KeeperRakePoo>
+      <KeeperGoHealAnimal>A sick animal needs my help!</KeeperGoHealAnimal>
+      <KeeperHealAnimal>Thankfully I treated the sick animal in time.</KeeperHealAnimal>
+      <KeeperGoCrateAnimal>An animal has attacked a guest!</KeeperGoCrateAnimal>
+      <KeeperCrateAnimal>The animal is now in a crate and everyone is safe.</KeeperCrateAnimal>
+      <KeeperCheckupBaby>I love caring for the baby animals.</KeeperCheckupBaby>
+      <StaffFailure>I can't reach %s!</StaffFailure>
+      <RunningFromAnimal>Help, %s is on a rampage!</RunningFromAnimal>
+      <KeeperGoCleanAnimal>An animal is dirty and needs to be cleaned.</KeeperGoCleanAnimal>
+      <KeeperCleanAnimal>Good hygiene is important for animals!</KeeperCleanAnimal>
+   </staffthoughts>
+</ZT2Strings>

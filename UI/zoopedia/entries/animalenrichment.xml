@@ -1,0 +1,30 @@
+<entries>
+   <BFHelpEntry entry="zoopedia_home">
+      <BFHelpEntry order="zoopedia_animal2" entry="zoopedia_animalenrichment">
+         <BFHelpEntry entry="zoopedia_apple"/>
+         <BFHelpEntry entry="zoopedia_ball"/>
+         <BFHelpEntry entry="zoopedia_ballwithrattle"/>
+         <BFHelpEntry entry="zoopedia_beddingmaterial"/>
+         <BFHelpEntry entry="zoopedia_beefshank"/>
+         <BFHelpEntry entry="zoopedia_bone"/>
+         <BFHelpEntry entry="zoopedia_cartire"/>
+         <BFHelpEntry entry="zoopedia_carrot"/>
+         <BFHelpEntry entry="zoopedia_easel"/>
+         <BFHelpEntry entry="zoopedia_fig"/>
+         <BFHelpEntry entry="zoopedia_heatedrock"/>
+         <BFHelpEntry entry="zoopedia_iceblock"/>
+         <BFHelpEntry entry="zoopedia_icefloatlrg"/>
+         <BFHelpEntry entry="zoopedia_icefloatmed"/>
+         <BFHelpEntry entry="zoopedia_lookoutpost"/>
+         <BFHelpEntry entry="zoopedia_peanutfeeder"/>
+         <BFHelpEntry entry="zoopedia_pileofleaves" order="zoopedia_leavespileof"/>
+         <BFHelpEntry entry="zoopedia_plasticbarrel"/>
+         <BFHelpEntry entry="zoopedia_pursuitball"/>
+         <BFHelpEntry entry="zoopedia_rubbertoy"/>
+         <BFHelpEntry entry="zoopedia_scratchingpost"/>
+         <BFHelpEntry entry="zoopedia_monkeybars"/>
+         <BFHelpEntry entry="zoopedia_stickpile" order="zoopedia_branchespileof"/>
+         <BFHelpEntry entry="zoopedia_polewithiceblock"/>
+      </BFHelpEntry>
+   </BFHelpEntry>
+</entries>

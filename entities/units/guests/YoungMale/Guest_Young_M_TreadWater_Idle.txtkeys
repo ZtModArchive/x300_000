@@ -1,0 +1,5 @@
+<TEXTKEY>
+<key time="0" text="{Bip01 Head} runps TreadWaterRipples useZRot"/>
+   <key time="0.9" text="{Bip01 Head} snd 'guest_swim'"/>
+<key time=".5" text="{Bip01 Head} runps TreadWaterRipples useZRot"/>
+</TEXTKEY>

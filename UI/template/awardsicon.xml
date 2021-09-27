@@ -1,0 +1,8 @@
+<UIStatic templateName="awardsicon" name="image">
+   <UIRegion x="0" y="0" w="64" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+   <UIAspect>
+      <default image="">
+         <BFRect x="0" y="0" w="64" h="64"/>
+      </default>
+   </UIAspect>
+</UIStatic>

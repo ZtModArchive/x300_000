@@ -1,0 +1,16 @@
+<BFGTraversabilityMgr constantWork="25" invalidationDelay="2.000000" viewingDistance="9.000000" viewingRange="32.000000" minOpenAreaSize="3" displayMotionClass="displayer" guestViewHeight="1.7" exhibitViewHeight="0.5" messageTimeout="180">
+   <entities>
+      <b_ViewingArea/>
+      <b_DonationAcceptor/>
+      <b_Food/>
+      <b_Water/>
+      <vpintersect/>
+   </entities>
+   <collisionTesters>
+      <BFGCollisionTester noBinder="true" motionClass="outsideZoo" waterScore="0" landScore="0"/>
+      <BFGCollisionTester noBinder="true" motionClass="guestPath" waterScore="10000" landScore="0" maxSlope=".75" requiredType="path" ignoredType="entrance"/>
+   </collisionTesters>
+   <distantViewTypes>
+      <binoculars_df/>
+   </distantViewTypes>
+</BFGTraversabilityMgr>

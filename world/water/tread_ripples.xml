@@ -1,0 +1,5 @@
+<BFPhysObj drawLast="true">
+   <BFSceneGraphComponent updateBounds="true" modelfile="world\water\Tread_Ripples.nif" applyFog="false"/>
+   <BFHasParticleComponent/>
+   <BFForceUpdateWhenVisibleComponent controllersOnly="false"/>
+</BFPhysObj>

@@ -1,0 +1,22 @@
+<BFParticleDictionary>
+   <stardisappear>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\zoofame\stardisappear.xml" removeTime="2.0"/>
+      </Conditions>
+   </stardisappear>
+   <starappear>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\zoofame\starappear.xml" removeTime="5.0"/>
+      </Conditions>
+   </starappear>
+   <starfull>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\zoofame\starfull.xml" removeTime=""/>
+      </Conditions>
+   </starfull>
+   <starhalffull>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\zoofame\starhalffull.xml" removeTime=""/>
+      </Conditions>
+   </starhalffull>
+</BFParticleDictionary>

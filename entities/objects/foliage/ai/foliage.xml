@@ -1,0 +1,17 @@
+<BFTypedBinder binderType="foliage" abstract="true">
+   <types>
+      <entity>
+         <foliage/>
+      </entity>
+   </types>
+   <shared>
+      <BFGCollisionData isPassable="true" isTraversable="true"/>
+      <ZTPlacementData deleteSound="recycle_foliage">
+         <stompData>
+            <delete>
+               <Poop/>
+            </delete>
+         </stompData>
+      </ZTPlacementData>
+   </shared>
+</BFTypedBinder>

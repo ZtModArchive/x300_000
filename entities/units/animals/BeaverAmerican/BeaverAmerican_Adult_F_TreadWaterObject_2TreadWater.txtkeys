@@ -1,0 +1,5 @@
+<TEXTKEY>
+   <key time="0" text="{Bip01 Spine1} runps TreadWaterRipples useZRot scale=.5"/>
+   <key time=".73" text="{Node_Carry} detach object"/>
+   <key time=".09" text="snd 'small_splash' "/>
+</TEXTKEY>

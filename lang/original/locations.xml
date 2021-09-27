@@ -1,0 +1,261 @@
+<ZT2Strings>
+   <worldlocation>
+      <!--GLOBE WORLD REGIONS-->
+      <northamerica>North America</northamerica>
+      <northamerica_ltt>
+         <color r="255" g="248" b="178">
+            <b>North America</b>
+         </color>
+         <br/>
+      </northamerica_ltt>
+      <southamerica>South America</southamerica>
+      <southamerica_ltt>
+         <color r="255" g="248" b="178">
+            <b>South America</b>
+         </color>
+         <br/>
+      </southamerica_ltt>
+      <centralamerica>Central America &amp; Caribbean</centralamerica>
+      <centralamerica_ltt>
+         <color r="255" g="248" b="178">
+            <b>Central America &amp; Caribbean</b>
+         </color>
+         <br/>
+      </centralamerica_ltt>
+      <westafrica>West Africa</westafrica>
+      <westafrica_ltt>
+         <color r="255" g="248" b="178">
+            <b>West Africa</b>
+         </color>
+         <br/>
+      </westafrica_ltt>
+      <northafrica>North Africa</northafrica>
+      <northafrica_ltt>
+         <color r="255" g="248" b="178">
+            <b>North Africa</b>
+         </color>
+         <br/>
+      </northafrica_ltt>
+      <eastafrica>East Africa</eastafrica>
+      <eastafrica_ltt>
+         <color r="255" g="248" b="178">
+            <b>East Africa</b>
+         </color>
+         <br/>
+      </eastafrica_ltt>
+      <centralafrica>Central Africa</centralafrica>
+      <centralafrica_ltt>
+         <color r="255" g="248" b="178">
+            <b>Central Africa</b>
+         </color>
+         <br/>
+      </centralafrica_ltt>
+      <southernafrica>Southern Africa</southernafrica>
+      <southernafrica_ltt>
+         <color r="255" g="248" b="178">
+            <b>Southern Africa</b>
+         </color>
+         <br/>
+      </southernafrica_ltt>
+      <southasia>South Asia</southasia>
+      <southasia_ltt>
+         <color r="255" g="248" b="178">
+            <b>South Asia</b>
+         </color>
+         <br/>
+      </southasia_ltt>
+      <southeastasia>Southeast Asia</southeastasia>
+      <southeastasia_ltt>
+         <color r="255" g="248" b="178">
+            <b>Southeast Asia</b>
+         </color>
+         <br/>
+      </southeastasia_ltt>
+      <centralasia>Central Asia</centralasia>
+      <centralasia_ltt>
+         <color r="255" g="248" b="178">
+            <b>Central Asia</b>
+         </color>
+         <br/>
+      </centralasia_ltt>
+      <eastasia>East Asia</eastasia>
+      <eastasia_ltt>
+         <color r="255" g="248" b="178">
+            <b>East Asia</b>
+         </color>
+         <br/>
+      </eastasia_ltt>
+      <oceania>Oceania</oceania>
+      <oceania_ltt>
+         <color r="255" g="248" b="178">
+            <b>Oceania</b>
+         </color>
+         <br/>
+      </oceania_ltt>
+      <arctic>Arctic</arctic>
+      <arctic_ltt>
+         <color r="255" g="248" b="178">
+            <b>Arctic</b>
+         </color>
+         <br/>
+      </arctic_ltt>
+      <antarctica>Antarctica</antarctica>
+      <antarctica_ltt>
+         <color r="255" g="248" b="178">
+            <b>Antarctica</b>
+         </color>
+         <br/>
+      </antarctica_ltt>
+      <westerneurope>Western Europe</westerneurope>
+      <westerneurope_ltt>
+         <color r="255" g="248" b="178">
+            <b>Western Europe</b>
+         </color>
+         <br/>
+      </westerneurope_ltt>
+      <southerneurope>Southern Europe</southerneurope>
+      <southerneurope_ltt>
+         <color r="255" g="248" b="178">
+            <b>Southern Europe</b>
+         </color>
+         <br/>
+      </southerneurope_ltt>
+      <notherneurope>Northern Europe</notherneurope>
+      <notherneurope_ltt>
+         <color r="255" g="248" b="178">
+            <b>Northern Europe</b>
+         </color>
+         <br/>
+      </notherneurope_ltt>
+      <easterneurope>Eastern Europe</easterneurope>
+      <easterneurope_ltt>
+         <color r="255" g="248" b="178">
+            <b>Eastern Europe</b>
+         </color>
+         <br/>
+      </easterneurope_ltt>
+      <worldwide>Worldwide</worldwide>
+      <worldwide_ltt>
+         <color r="255" g="248" b="178">
+            <b>Worldwide</b>
+         </color>
+         <br/>
+      </worldwide_ltt>
+      <middleeast>Middle East</middleeast>
+      <middleeast_ltt>
+         <color r="255" g="248" b="178">
+            <b>Middle East</b>
+         </color>
+         <br/>
+      </middleeast_ltt>
+      <all>All Biome Maps</all>
+   </worldlocation>
+   <worldlocation>
+      <!--ANIMAL REGIONS -->
+      <africa>Africa</africa>
+      <africa_ltt>
+         <color r="255" g="248" b="178">
+            <b>Africa</b>
+         </color>
+         <br/>
+      </africa_ltt>
+      <southafrica>South Africa</southafrica>
+      <southafrica_ltt>
+         <color r="255" g="248" b="178">
+            <b>South Africa</b>
+         </color>
+         <br/>
+      </southafrica_ltt>
+      <southeastafrica>Southeast Africa</southeastafrica>
+      <southeastafrica_ltt>
+         <color r="255" g="248" b="178">
+            <b>Southeast Africa</b>
+         </color>
+         <br/>
+      </southeastafrica_ltt>
+      <southwestafrica>Southwest Africa</southwestafrica>
+      <southwestafrica_ltt>
+         <color r="255" g="248" b="178">
+            <b>Southwest Africa</b>
+         </color>
+         <br/>
+      </southwestafrica_ltt>
+      <madagascar>Madagascar</madagascar>
+      <madagascar_ltt>
+         <color r="255" g="248" b="178">
+            <b>Madagascar</b>
+         </color>
+         <br/>
+      </madagascar_ltt>
+      <asia>Asia</asia>
+      <asia_ltt>
+         <color r="255" g="248" b="178">
+            <b>Asia</b>
+         </color>
+         <br/>
+      </asia_ltt>
+      <westernasia>Western Asia</westernasia>
+      <westernasia_ltt>
+         <color r="255" g="248" b="178">
+            <b>Western Asia</b>
+         </color>
+         <br/>
+      </westernasia_ltt>
+      <australia>Australia</australia>
+      <australia_ltt>
+         <color r="255" g="248" b="178">
+            <b>Australia</b>
+         </color>
+         <br/>
+      </australia_ltt>
+      <eastaustralia>East Australia</eastaustralia>
+      <eastaustralia_ltt>
+         <color r="255" g="248" b="178">
+            <b>East Australia</b>
+         </color>
+         <br/>
+      </eastaustralia_ltt>
+      <arcticantarctica>Arctic Antarctica</arcticantarctica>
+      <arcticantarctica_ltt>
+         <color r="255" g="248" b="178">
+            <b>Arctic Antarctica</b>
+         </color>
+         <br/>
+      </arcticantarctica_ltt>
+      <everglades>Florida Everglades</everglades>
+      <everglades_ltt>
+         <color r="255" g="248" b="178">
+            <b>Florida Everglades</b>
+         </color>
+         <br/>
+      </everglades_ltt>
+      <outback>Australian Outback</outback>
+      <outback_ltt>
+         <color r="255" g="248" b="178">
+            <b>Australian Outback</b>
+         </color>
+         <br/>
+      </outback_ltt>
+      <europe>Europe</europe>
+      <europe_ltt>
+         <color r="255" g="248" b="178">
+            <b>Europe</b>
+         </color>
+         <br/>
+      </europe_ltt>
+      <china>China</china>
+      <china_ltt>
+         <color r="255" g="248" b="178">
+            <b>China</b>
+         </color>
+         <br/>
+      </china_ltt>
+      <alps>European Alps</alps>
+      <alps_ltt>
+         <color r="255" g="248" b="178">
+            <b>European Alps</b>
+         </color>
+         <br/>
+      </alps_ltt>
+   </worldlocation>
+</ZT2Strings>

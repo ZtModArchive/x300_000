@@ -1,0 +1,10 @@
+<lights>
+   <terrLights l1="world/lights/terrain/night.nif" l2="world/lights/terrain/sunrise.nif" l3="world/lights/terrain/morning.nif" l4="world/lights/terrain/noon.nif" l5="world/lights/terrain/noon.nif" l6="world/lights/terrain/afternoon.nif" l7="world/lights/terrain/sunset.nif" l8="world/lights/terrain/night.nif"/>
+   <objLights l1="world/lights/objects/night.nif" l2="world/lights/objects/sunrise.nif" l3="world/lights/objects/morning.nif" l4="world/lights/objects/noon.nif" l5="world/lights/objects/noon.nif" l6="world/lights/objects/afternoon.nif" l7="world/lights/objects/sunset.nif" l8="world/lights/objects/night.nif"/>
+   <waterLights>
+	  <low l1="world/lights/water/low_water_night.nif" l2="world/lights/water/low_water_sunrise.nif" l3="world/lights/water/low_water_morning.nif" l4="world/lights/water/low_water_noon.nif" l5="world/lights/water/low_water_noon.nif" l6="world/lights/water/low_water_afternoon.nif" l7="world/lights/water/low_water_sunset.nif" l8="world/lights/water/low_water_night.nif"/>
+	  <med l1="world/lights/water/med_water_night.nif" l2="world/lights/water/med_water_sunrise.nif" l3="world/lights/water/med_water_morning.nif" l4="world/lights/water/med_water_noon.nif" l5="world/lights/water/med_water_noon.nif" l6="world/lights/water/med_water_afternoon.nif" l7="world/lights/water/med_water_sunset.nif" l8="world/lights/water/med_water_night.nif"/>	  
+	  <high l1="world/lights/water/high_water_night.nif" l2="world/lights/water/high_water_sunrise.nif" l3="world/lights/water/high_water_morning.nif" l4="world/lights/water/high_water_noon.nif" l5="world/lights/water/high_water_noon.nif" l6="world/lights/water/high_water_afternoon.nif" l7="world/lights/water/high_water_sunset.nif" l8="world/lights/water/high_water_night.nif"/>	  
+   </waterLights>
+   <times t1="0.0" t2="0.05" t3="0.2" t4="0.3" t5="0.7" t6="0.8" t7="0.98" t8="1.0"/>
+</lights>

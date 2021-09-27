@@ -1,0 +1,18 @@
+<UILayout>
+   <UIRegion x="0" y="0" w="0" h="74" walign="max"/>
+   <children>
+      <UIStatic template="awardsicon">
+         
+         <UIAspect>
+            <default image="awards/AnimalBirth.dds">
+             
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIText template="awardstext">
+         
+         <UIAspect locid="awards:AnimalBirthElephant"/>
+         <text type="multi"/>
+      </UIText>
+   </children>
+</UILayout>

@@ -1,0 +1,6 @@
+<TEXTKEY>
+   <key time="0" text="{Bip01 Spine3} runps TreadWaterRipples useZRot scale=.3"/>
+   <key time=".09" text="{Bip01 Spine3} snd 'small_swim'"/>
+   <key time=".5" text="{Bip01 Spine3} runps TreadWaterRipples useZRot scale=.3"/>
+
+</TEXTKEY>

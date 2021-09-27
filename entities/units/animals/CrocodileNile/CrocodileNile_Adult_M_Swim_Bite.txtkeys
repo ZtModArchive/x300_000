@@ -1,0 +1,16 @@
+<TEXTKEY>
+   <key time="0" text="{Bip01 Head} runps WaterRipples useZRot"/>
+   <key time=".1" text="{Bip01 Head} runps WaterRipples useZRot"/>
+   <key time=".2" text="{Bip01 Head} runps WaterRipples useZRot"/>
+   <key time=".3" text="{Bip01 Head} runps WaterRipples useZRot"/>
+      <key time=".31" text="{Bip01 Head} snd 'Bite'"/>
+   <key time=".4" text="{Bip01 Head} runps WaterRipples useZRot"/>
+   <key time=".43" text="{Bip01 L Finger0Nub} runps Biomefx_Splash"/>
+      <key time=".44" text="{Bip01 R Finger0Nub} runps Biomefx_Splash"/>
+   <key time=".45" text="{Bip01 Head} runps Biomefx_Splash"/>
+   <key time=".5" text="{Bip01 Head} runps WaterRipples useZRot"/>
+   <key time=".6" text="{Bip01 Head} runps WaterRipples useZRot"/>
+   <key time=".7" text="{Bip01 Head} runps WaterRipples useZRot"/>
+   <key time=".8" text="{Bip01 Head} runps WaterRipples useZRot"/>
+   <key time=".9" text="{Bip01 Head} runps WaterRipples useZRot"/>
+</TEXTKEY>

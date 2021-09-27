@@ -1,0 +1,235 @@
+<UILayout name="profile_manager_dialog_shell">
+   <UIRegion x="0" y="0" w="1024" h="768" xalign="min" yalign="min" walign="len" halign="len"/>
+   <UIState active="normal" visible="normal"/>
+   <UIAspect>
+      <default alwayshit="true" image="">
+         <BFColor r="0" g="0" b="0" a="128"/>
+      </default>
+   </UIAspect>
+   <children>
+      <UILayout name="profile_manager_dialog" modal="true">
+         <UIRegion x="0" y="0" w="1024" h="768" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="hidden"/>
+         <UIAspect>
+            <default>
+               <BFColor r="0" g="0" b="0" a="128"/>
+            </default>
+         </UIAspect>
+         <UIHotKeys>
+            <file name="UI/hotkeys/hotkeys.xml" node="esccancel"/>
+         </UIHotKeys>
+         <children>
+            <UILayout name="profile_manager">
+               <UIRegion x="0" y="0" w="1024" h="768" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState active="normal" visible="normal"/>
+               <UIAspect>
+                  <default alwayshit="true" image="ui\shared\white1x1.dds">
+                     <BFColor r="0" g="0" b="0" a="128"/>
+                  </default>
+               </UIAspect>
+               <children>
+                  <UILayout name="">
+                     <UIRegion x="255" y="250" w="512" h="256" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect>
+                        <default image="ui/shared/confirm_profile.dds">
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                     </UIAspect>
+                     <children>
+                        <UIWindow template="listbox">
+                           <UIRegion x="15" y="72" w="-26" h="112" walign="max"/>
+                           <children>
+                              <UIToggleSet name="profilelist" rows="-1" autosize="true">
+                                 <UIRegion walign="max"/>
+                              </UIToggleSet>
+                           </children>
+                        </UIWindow>
+                        <UIButton name="continue_button">
+                           <UIRegion x="400" y="187" w="70" h="70" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIState active="normal" visible="normal"/>
+                           <UIHelpInfo name="" short="" long="" help="" ids="mainmenu:continue_button"/>
+                           <UIAspect string="">
+                              <default image="ui\shared\button_ok.dds" sound="">
+                                 <BFRect x="0" y="0" w="-1" h="-1"/>
+                                 <BFColor r="255" g="255" b="255" a="255"/>
+                              </default>
+                              <standard>
+                                 <normal>
+                                    <BFRect x="0" y="0" w="64" h="64"/>
+                                 </normal>
+                                 <highlighted>
+                                    <BFRect x="0" y="64" w="64" h="64"/>
+                                 </highlighted>
+                                 <activated sound="uiclick">
+                                    <BFRect x="64" y="0" w="64" h="64"/>
+                                 </activated>
+                                 <disabled>
+                                    <BFRect x="64" y="64" w="64" h="64"/>
+                                 </disabled>
+                              </standard>
+                           </UIAspect>
+                           <activate>
+                              <event msg="UI_CHILD" data="UIChildData" name="Profile_Display">
+                                 <event msg="UI_SEND_TEXT" data="BFType" type="BFUSERPROFILE_SET_PROFILE"/>
+                              </event>
+                              <event msg="UI_CHILD" data="UIChildData" name="profile_manager_dialog">
+                                 <child msg="UI_HIDE"/>
+                              </event>
+                              <event msg="UI_CHILD" data="UIChildData" name="Profile_Display">
+                                 <event msg="UI_COPY_TEXT" data="BFString" string="currentprofile"/>
+                              </event>
+                           </activate>
+                           <UIHotKeys/>
+                        </UIButton>
+                        <UIButton name="delete_button">
+                           <UIRegion x="222" y="187" w="70" h="70" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIState active="normal" visible="normal"/>
+                           <UIHelpInfo name="" short="" long="" help="" ids="mainmenu:delete_button"/>
+                           <UIAspect string="">
+                              <default image="ui\shared\button_delete.dds" sound="">
+                                 <BFRect x="0" y="0" w="-1" h="-1"/>
+                                 <BFColor r="255" g="255" b="255" a="255"/>
+                              </default>
+                              <standard>
+                                 <normal>
+                                    <BFRect x="0" y="0" w="64" h="64"/>
+                                 </normal>
+                                 <highlighted>
+                                    <BFRect x="0" y="64" w="64" h="64"/>
+                                 </highlighted>
+                                 <activated sound="uiclick">
+                                    <BFRect x="64" y="0" w="64" h="64"/>
+                                 </activated>
+                                 <disabled>
+                                    <BFRect x="64" y="64" w="64" h="64"/>
+                                 </disabled>
+                              </standard>
+                           </UIAspect>
+                           <activate>
+                              <event msg="UI_CHILD" data="UIChildData" name="delete_profile_confirmation">
+                                 <child msg="UI_SHOW"/>
+                              </event>
+                              <event msg="UI_CHILD" data="UIChildData" name="profile_ manager_dialog">
+                                 <child msg="UI_HIDE"/>
+                              </event>
+                           </activate>
+                           <UIHotKeys/>
+                        </UIButton>
+                        <UIButton name="add_button">
+                           <UIRegion x="43" y="187" w="70" h="70" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIState active="normal" visible="normal"/>
+                           <UIHelpInfo name="" short="" long="" help="" ids="mainmenu:add_button"/>
+                           <UIAspect string="">
+                              <default image="ui\shared\button_addprofile.dds" sound="">
+                                 <BFRect x="0" y="0" w="-1" h="-1"/>
+                                 <BFColor r="255" g="255" b="255" a="255"/>
+                              </default>
+                              <standard>
+                                 <normal>
+                                    <BFRect x="0" y="0" w="64" h="64"/>
+                                 </normal>
+                                 <highlighted>
+                                    <BFRect x="0" y="64" w="64" h="64"/>
+                                 </highlighted>
+                                 <activated sound="uiclick">
+                                    <BFRect x="64" y="0" w="64" h="64"/>
+                                 </activated>
+                                 <disabled>
+                                    <BFRect x="64" y="64" w="64" h="64"/>
+                                 </disabled>
+                              </standard>
+                           </UIAspect>
+                           <activate>
+                              <event msg="UI_CHILD" data="UIChildData" name="add_profile_confirmation">
+                                 <child msg="UI_SHOW"/>
+                              </event>
+                              <event msg="UI_CHILD" data="UIChildData" name="profile_ manager_dialog">
+                                 <child msg="UI_HIDE"/>
+                              </event>
+                              <event msg="UI_CHILD" data="UIChildData" name="userstring_profile">
+                                 <child msg="UI_LBUTTONUP"/>
+                              </event>
+                           </activate>
+                           <UIHotKeys/>
+                        </UIButton>
+                        <UIText name="selected_profile_label">
+                           <UIRegion x="55" y="41" w="230" h="30" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIState active="normal" visible="normal"/>
+                           <UIAspect locid="mainmenu:selected_profile_label">
+                              <default image="" sound="">
+                                 <BFFont>
+                                    <BFColor r="255" g="248" b="178" a="255"/>
+                                 </BFFont>
+                                 <BFRect x="175" y="130" w="100" h="16"/>
+                                 <BFColor r="255" g="255" b="255" a="255"/>
+                              </default>
+                              <normal/>
+                           </UIAspect>
+                        </UIText>
+                        <UIText name="Profile_Display">
+                           <UIRegion x="225" y="41" w="230" h="50" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIState active="normal" visible="normal"/>
+                           <UIAspect locid="">
+                              <default image="" sound="">
+                                 <BFFont>
+                                    <BFColor r="255" g="248" b="178" a="255"/>
+                                 </BFFont>
+                              </default>
+                              <normal/>
+                           </UIAspect>
+                           <text format="shell:profilenameformat"/>
+                        </UIText>
+                        <UIText name="profile_manager_label">
+                           <UIRegion x="0" y="2" w="512" h="50" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIState active="normal" visible="normal"/>
+                           <UIAspect locid="mainmenu:profile_manager_label">
+                              <default image="" sound="">
+                                 <BFFont align="center">
+                                    <BFColor r="255" g="248" b="178" a="255"/>
+                                 </BFFont>
+                                 <BFRect x="175" y="130" w="100" h="16"/>
+                                 <BFColor r="255" g="255" b="255" a="255"/>
+                              </default>
+                              <normal/>
+                           </UIAspect>
+                        </UIText>
+                        <UIButton name="cancel">
+                           <UIRegion x="470" y="-4" w="39" h="39" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIState active="normal" visible="normal"/>
+                           <UIHelpInfo name="" short="" long="" help="" ids="mainmenu:profile_manger_close_button"/>
+                           <UIAspect string="">
+                              <default image="ui\shared\button_close.dds" sound="">
+                                 <BFRect x="0" y="0" w="-1" h="-1"/>
+                                 <BFColor r="255" g="255" b="255" a="255"/>
+                              </default>
+                              <standard>
+                                 <normal>
+                                    <BFRect x="0" y="0" w="64" h="64"/>
+                                 </normal>
+                                 <highlighted>
+                                    <BFRect x="0" y="64" w="64" h="64"/>
+                                 </highlighted>
+                                 <activated sound="">
+                                    <BFRect x="64" y="0" w="64" h="64"/>
+                                 </activated>
+                                 <disabled>
+                                    <BFRect x="64" y="64" w="64" h="64"/>
+                                 </disabled>
+                              </standard>
+                           </UIAspect>
+                           <activate>
+                              <event msg="UI_CHILD" data="UIChildData" name="profile_manager_dialog">
+                                 <child msg="UI_HIDE"/>
+                              </event>
+                           </activate>
+                           <UIHotKeys/>
+                        </UIButton>
+                     </children>
+                  </UILayout>
+               </children>
+            </UILayout>
+         </children>
+      </UILayout>
+   </children>
+</UILayout>

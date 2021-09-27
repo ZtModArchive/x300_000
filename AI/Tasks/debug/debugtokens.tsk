@@ -1,0 +1,2115 @@
+<BFAITaskTemplateList>
+   <BFAITaskTemplate Name="RockTapTest" UniqueID="debugtokens:RockTapTest">
+      <BFAICreateData>
+         <Subjects>
+            <TigerBengal/>
+            <Cheetah/>
+            <Lion/>
+            <LeopardSnow/>
+            <PandaRed/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <GorillaMountain/>
+            <Chimpanzee/>
+            <BearPolar/>
+            <BearGrizzly/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestRock/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterRock1"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock1"/>
+         <BFBehPlaySet behSet="Idle"/>
+         <BFBehPlaySet behSet="EnterRock2"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock2"/>
+         <BFBehPlaySet behSet="Idle"/>
+         <BFBehPlaySet behSet="EnterRock3"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock3"/>
+         <BFBehPlaySet behSet="Idle"/>
+         <BFBehPlaySet behSet="EnterRock4"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock4"/>
+         <BFBehPlaySet behSet="Idle"/>
+         <BFBehPlaySet behSet="EnterRock5"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock5"/>
+         <BFBehPlaySet behSet="Idle"/>
+         <BFBehPlaySet behSet="EnterRock6"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock6"/>
+         <BFBehPlaySet behSet="Idle"/>
+         <BFBehPlaySet behSet="EnterRock7"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock7"/>
+         <BFBehPlaySet behSet="Idle"/>
+         <BFBehPlaySet behSet="EnterRock8"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock8"/>
+         <BFBehPlaySet behSet="Idle"/>
+         <BFBehPlaySet behSet="EnterRock9"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock9"/>
+         <BFBehPlaySet behSet="Idle"/>
+         <BFBehPlaySet behSet="EnterRock10"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock10"/>
+         <BFBehPlaySet behSet="Idle"/>
+         <BFBehPlaySet behSet="EnterRock11"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock11"/>
+         <BFBehPlaySet behSet="Idle"/>
+         <BFBehPlaySet behSet="EnterRock12"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock12"/>
+         <BFBehPlaySet behSet="Idle"/>
+         <BFBehPlaySet behSet="EnterRock13"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock13"/>
+         <BFBehPlaySet behSet="Idle"/>
+         <BFBehPlaySet behSet="EnterRock14"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock14"/>
+         <BFBehPlaySet behSet="Idle"/>
+         <BFBehPlaySet behSet="EnterRock15"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock15"/>
+         <BFBehPlaySet behSet="Idle"/>
+         <BFBehPlaySet behSet="EnterRock16"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock16"/>
+         <BFBehPlaySet behSet="Idle"/>
+         <BFBehPlaySet behSet="EnterRock17"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock17"/>
+         <BFBehPlaySet behSet="Idle"/>
+         <BFBehPlaySet behSet="EnterRock18"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock18"/>
+         <BFBehPlaySet behSet="Idle"/>
+         <BFBehPlaySet behSet="EnterRock19"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock19"/>
+         <BFBehPlaySet behSet="Idle"/>
+         <BFBehPlaySet behSet="EnterRock20"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock20"/>
+         <BFBehPlaySet behSet="Idle"/>
+         <BFBehPlaySet behSet="EnterRock21"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock21"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="RockTapTest1" UniqueID="debugtokens:RockTapTest1">
+      <BFAICreateData>
+         <Subjects>
+            <TigerBengal/>
+            <Cheetah/>
+            <Lion/>
+            <LeopardSnow/>
+            <PandaRed/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <GorillaMountain/>
+            <Chimpanzee/>
+            <BearPolar/>
+            <BearGrizzly/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestRock1/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterRock1"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock1"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="RockTapTest2" UniqueID="debugtokens:RockTapTest2">
+      <BFAICreateData>
+         <Subjects>
+            <TigerBengal/>
+            <Cheetah/>
+            <Lion/>
+            <LeopardSnow/>
+            <PandaRed/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <GorillaMountain/>
+            <Chimpanzee/>
+            <BearPolar/>
+            <BearGrizzly/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestRock2/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterRock2"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock2"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="RockTapTest3" UniqueID="debugtokens:RockTapTest3">
+      <BFAICreateData>
+         <Subjects>
+            <TigerBengal/>
+            <Cheetah/>
+            <Lion/>
+            <LeopardSnow/>
+            <Jaguar/>
+            <PandaRed/>
+            <LemurRingtailed/>
+            <GorillaMountain/>
+            <Chimpanzee/>
+            <BearPolar/>
+            <BearGrizzly/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestRock3/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterRock3"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock3"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="RockTapTest4" UniqueID="debugtokens:RockTapTest4">
+      <BFAICreateData>
+         <Subjects>
+            <TigerBengal/>
+            <Cheetah/>
+            <Lion/>
+            <LeopardSnow/>
+            <PandaRed/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <GorillaMountain/>
+            <Chimpanzee/>
+            <BearPolar/>
+            <BearGrizzly/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestRock4/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterRock4"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock4"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="RockTapTest5" UniqueID="debugtokens:RockTapTest5">
+      <BFAICreateData>
+         <Subjects>
+            <TigerBengal/>
+            <Cheetah/>
+            <Lion/>
+            <LeopardSnow/>
+            <PandaRed/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <GorillaMountain/>
+            <Chimpanzee/>
+            <BearPolar/>
+            <BearGrizzly/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestRock5/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterRock5"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock5"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="RockTapTest6" UniqueID="debugtokens:RockTapTest6">
+      <BFAICreateData>
+         <Subjects>
+            <TigerBengal/>
+            <Cheetah/>
+            <Lion/>
+            <LeopardSnow/>
+            <Jaguar/>
+            <PandaRed/>
+            <LemurRingtailed/>
+            <GorillaMountain/>
+            <Chimpanzee/>
+            <BearPolar/>
+            <BearGrizzly/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestRock6/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterRock6"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock6"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="RockTapTest7" UniqueID="debugtokens:RockTapTest7">
+      <BFAICreateData>
+         <Subjects>
+            <TigerBengal/>
+            <Cheetah/>
+            <Lion/>
+            <PandaRed/>
+            <LeopardSnow/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <GorillaMountain/>
+            <Chimpanzee/>
+            <BearPolar/>
+            <BearGrizzly/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestRock7/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterRock7"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock7"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="RockTapTest8" UniqueID="debugtokens:RockTapTest8">
+      <BFAICreateData>
+         <Subjects>
+            <TigerBengal/>
+            <Cheetah/>
+            <Lion/>
+            <LeopardSnow/>
+            <Jaguar/>
+            <PandaRed/>
+            <LemurRingtailed/>
+            <GorillaMountain/>
+            <Chimpanzee/>
+            <BearPolar/>
+            <BearGrizzly/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestRock8/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterRock8"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock8"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="RockTapTest9" UniqueID="debugtokens:RockTapTest9">
+      <BFAICreateData>
+         <Subjects>
+            <TigerBengal/>
+            <PandaRed/>
+            <Cheetah/>
+            <Lion/>
+            <LeopardSnow/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <GorillaMountain/>
+            <Chimpanzee/>
+            <BearPolar/>
+            <BearGrizzly/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestRock9/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterRock9"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock9"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="RockTapTest10" UniqueID="debugtokens:RockTapTest10">
+      <BFAICreateData>
+         <Subjects>
+            <TigerBengal/>
+            <Cheetah/>
+            <Lion/>
+            <LeopardSnow/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <PandaRed/>
+            <GorillaMountain/>
+            <Chimpanzee/>
+            <BearPolar/>
+            <BearGrizzly/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestRock10/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterRock10"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock10"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="RockTapTest11" UniqueID="debugtokens:RockTapTest11">
+      <BFAICreateData>
+         <Subjects>
+            <TigerBengal/>
+            <Cheetah/>
+            <Lion/>
+            <LeopardSnow/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <PandaRed/>
+            <GorillaMountain/>
+            <Chimpanzee/>
+            <BearPolar/>
+            <BearGrizzly/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestRock11/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterRock11"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock11"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="RockTapTest12" UniqueID="debugtokens:RockTapTest12">
+      <BFAICreateData>
+         <Subjects>
+            <TigerBengal/>
+            <Cheetah/>
+            <Lion/>
+            <LeopardSnow/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <GorillaMountain/>
+            <Chimpanzee/>
+            <PandaRed/>
+            <BearPolar/>
+            <BearGrizzly/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestRock12/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterRock12"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock12"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="RockTapTest13" UniqueID="debugtokens:RockTapTest13">
+      <BFAICreateData>
+         <Subjects>
+            <TigerBengal/>
+            <Cheetah/>
+            <Lion/>
+            <LeopardSnow/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <GorillaMountain/>
+            <Chimpanzee/>
+            <PandaRed/>
+            <BearPolar/>
+            <BearGrizzly/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestRock13/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterRock13"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock13"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="RockTapTest14" UniqueID="debugtokens:RockTapTest14">
+      <BFAICreateData>
+         <Subjects>
+            <TigerBengal/>
+            <Cheetah/>
+            <Lion/>
+            <LeopardSnow/>
+            <PandaRed/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <GorillaMountain/>
+            <Chimpanzee/>
+            <BearPolar/>
+            <BearGrizzly/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestRock14/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterRock14"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock14"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="RockTapTest15" UniqueID="debugtokens:RockTapTest15">
+      <BFAICreateData>
+         <Subjects>
+            <TigerBengal/>
+            <Cheetah/>
+            <Lion/>
+            <LeopardSnow/>
+            <PandaRed/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <GorillaMountain/>
+            <Chimpanzee/>
+            <BearPolar/>
+            <BearGrizzly/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestRock15/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterRock15"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock15"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="RockTapTest16" UniqueID="debugtokens:RockTapTest16">
+      <BFAICreateData>
+         <Subjects>
+            <TigerBengal/>
+            <Cheetah/>
+            <Lion/>
+            <PandaRed/>
+            <LeopardSnow/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <GorillaMountain/>
+            <Chimpanzee/>
+            <BearPolar/>
+            <BearGrizzly/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestRock16/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterRock16"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock16"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="RockTapTest17" UniqueID="debugtokens:RockTapTest17">
+      <BFAICreateData>
+         <Subjects>
+            <TigerBengal/>
+            <PandaRed/>
+            <Cheetah/>
+            <Lion/>
+            <LeopardSnow/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <GorillaMountain/>
+            <Chimpanzee/>
+            <BearPolar/>
+            <BearGrizzly/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestRock17/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterRock17"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock17"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="RockTapTest18" UniqueID="debugtokens:RockTapTest18">
+      <BFAICreateData>
+         <Subjects>
+            <TigerBengal/>
+            <Cheetah/>
+            <Lion/>
+            <PandaRed/>
+            <LeopardSnow/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <GorillaMountain/>
+            <Chimpanzee/>
+            <BearPolar/>
+            <BearGrizzly/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestRock18/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterRock18"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock18"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="RockTapTest19" UniqueID="debugtokens:RockTapTest19">
+      <BFAICreateData>
+         <Subjects>
+            <TigerBengal/>
+            <Cheetah/>
+            <Lion/>
+            <LeopardSnow/>
+            <Jaguar/>
+            <PandaRed/>
+            <LemurRingtailed/>
+            <GorillaMountain/>
+            <Chimpanzee/>
+            <BearPolar/>
+            <BearGrizzly/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestRock19/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterRock20"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock20"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="RockTapTest20" UniqueID="debugtokens:RockTapTest20">
+      <BFAICreateData>
+         <Subjects>
+            <TigerBengal/>
+            <Cheetah/>
+            <Lion/>
+            <LeopardSnow/>
+            <PandaRed/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <GorillaMountain/>
+            <Chimpanzee/>
+            <BearPolar/>
+            <BearGrizzly/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestRock20/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterRock20"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock20"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="RockTapTest21" UniqueID="debugtokens:RockTapTest21">
+      <BFAICreateData>
+         <Subjects>
+            <TigerBengal/>
+            <Cheetah/>
+            <Lion/>
+            <LeopardSnow/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <GorillaMountain/>
+            <PandaRed/>
+            <Chimpanzee/>
+            <BearPolar/>
+            <BearGrizzly/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestRock21/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterRock21"/>
+         <BFBehPlaySet behSet="UseRock"/>
+         <BFBehPlaySet behSet="ExitRock21"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="TreeTapTest1" UniqueID="debugtokens:TreeTapTest1">
+      <BFAICreateData>
+         <Subjects>
+            <Chimpanzee/>
+            <GorillaMountain/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <LeopardSnow/>
+            <PandaGiant/>
+            <PandaRed/>
+            <TigerBengal/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestTree1/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="ClimbOntoTree1"/>
+         <BFBehPlaySet behSet="InTree"/>
+         <BFBehPlaySet behSet="ClimbOffTree1"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="TreeTapTest2" UniqueID="debugtokens:TreeTapTest2">
+      <BFAICreateData>
+         <Subjects>
+            <Chimpanzee/>
+            <LemurRingtailed/>
+            <PandaRed/>
+            <PandaGiant/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestTree2/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="ClimbOntoTree2"/>
+         <BFBehPlaySet behSet="InTree"/>
+         <BFBehPlaySet behSet="ClimbOffTree2"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="TreeTapTest3" UniqueID="debugtokens:TreeTapTest3">
+      <BFAICreateData>
+         <Subjects>
+            <Chimpanzee/>
+            <LemurRingtailed/>
+            <PandaRed/>
+            <PandaGiant/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestTree3/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="ClimbOntoTree3"/>
+         <BFBehPlaySet behSet="InTree"/>
+         <BFBehPlaySet behSet="ClimbOffTree3"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="TreeTapTestSit1" UniqueID="debugtokens:TreeTapTestSit1">
+      <BFAICreateData>
+         <Subjects>
+            <LemurRingtailed/>
+            <PandaRed/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestTreeSit1/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="ClimbOntoTree1"/>
+         <BFBehPlaySet behSet="SitInTree"/>
+         <BFBehPlaySet behSet="ClimbOffTree1"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="ShelterTapTest1" UniqueID="debugtokens:ShelterTapTest1">
+      <BFAICreateData>
+         <Subjects>
+            <BearGrizzly/>
+            <BearPolar/>
+            <CamelDromedary/>
+            <Chimpanzee/>
+            <ElephantAfrican/>
+            <GazelleThomsons/>
+            <Gemsbok/>
+            <PandaRed/>
+            <Giraffe/>
+            <GorillaMountain/>
+            <Hippopotamus/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <LeopardSnow/>
+            <Lion/>
+            <PandaGiant/>
+            <PandaRed/>
+            <RhinocerosBlack/>
+            <TigerBengal/>
+            <Cheetah/>
+            <ZebraCommon/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestShelter1/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterShelter1"/>
+         <BFBehPlaySet behSet="UseShelter"/>
+         <BFBehPlaySet behSet="ExitShelter1"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="ShelterTapTest2" UniqueID="debugtokens:ShelterTapTest2">
+      <BFAICreateData>
+         <Subjects>
+            <BearGrizzly/>
+            <BearPolar/>
+            <CamelDromedary/>
+            <ElephantAfrican/>
+            <GazelleThomsons/>
+            <Gemsbok/>
+            <Giraffe/>
+            <PandaRed/>
+            <GorillaMountain/>
+            <Hippopotamus/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <LeopardSnow/>
+            <Lion/>
+            <PandaGiant/>
+            <PandaRed/>
+            <RhinocerosBlack/>
+            <TigerBengal/>
+            <Cheetah/>
+            <ZebraCommon/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestShelter2/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterShelter2"/>
+         <BFBehPlaySet behSet="UseShelter"/>
+         <BFBehPlaySet behSet="ExitShelter2"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="ShelterTapTest3" UniqueID="debugtokens:ShelterTapTest3">
+      <BFAICreateData>
+         <Subjects>
+            <BearGrizzly/>
+            <BearPolar/>
+            <CamelDromedary/>
+            <GazelleThomsons/>
+            <PandaRed/>
+            <Gemsbok/>
+            <Giraffe/>
+            <GorillaMountain/>
+            <Hippopotamus/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <LeopardSnow/>
+            <Lion/>
+            <PandaGiant/>
+            <PandaRed/>
+            <RhinocerosBlack/>
+            <TigerBengal/>
+            <Cheetah/>
+            <ZebraCommon/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestShelter3/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterShelter3"/>
+         <BFBehPlaySet behSet="UseShelter"/>
+         <BFBehPlaySet behSet="ExitShelter3"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="ShelterTapTest4" UniqueID="debugtokens:ShelterTapTest4">
+      <BFAICreateData>
+         <Subjects>
+            <BearGrizzly/>
+            <BearPolar/>
+            <CamelDromedary/>
+            <GazelleThomsons/>
+            <Gemsbok/>
+            <Giraffe/>
+            <PandaRed/>
+            <GorillaMountain/>
+            <Hippopotamus/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <LeopardSnow/>
+            <Lion/>
+            <PandaGiant/>
+            <PandaRed/>
+            <RhinocerosBlack/>
+            <TigerBengal/>
+            <Cheetah/>
+            <ZebraCommon/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestShelter4/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterShelter4"/>
+         <BFBehPlaySet behSet="UseShelter"/>
+         <BFBehPlaySet behSet="ExitShelter4"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="ShelterTapTest5" UniqueID="debugtokens:ShelterTapTest5">
+      <BFAICreateData>
+         <Subjects>
+            <BearGrizzly/>
+            <BearPolar/>
+            <CamelDromedary/>
+            <GazelleThomsons/>
+            <Gemsbok/>
+            <PandaRed/>
+            <Giraffe/>
+            <GorillaMountain/>
+            <Hippopotamus/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <LeopardSnow/>
+            <Lion/>
+            <PandaGiant/>
+            <PandaRed/>
+            <RhinocerosBlack/>
+            <TigerBengal/>
+            <Cheetah/>
+            <ZebraCommon/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestShelter5/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterShelter5"/>
+         <BFBehPlaySet behSet="UseShelter"/>
+         <BFBehPlaySet behSet="ExitShelter5"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="ShelterTapTest6" UniqueID="debugtokens:ShelterTapTest6">
+      <BFAICreateData>
+         <Subjects>
+            <BearGrizzly/>
+            <BearPolar/>
+            <CamelDromedary/>
+            <GazelleThomsons/>
+            <Gemsbok/>
+            <Giraffe/>
+            <GorillaMountain/>
+            <PandaRed/>
+            <Hippopotamus/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <LeopardSnow/>
+            <Lion/>
+            <PandaGiant/>
+            <PandaRed/>
+            <RhinocerosBlack/>
+            <TigerBengal/>
+            <Cheetah/>
+            <ZebraCommon/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestShelter6/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterShelter6"/>
+         <BFBehPlaySet behSet="UseShelter"/>
+         <BFBehPlaySet behSet="ExitShelter6"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="HeatedRockTapTest1" UniqueID="debugtokens:HeatedRockTapTest1">
+      <BFAICreateData>
+         <Subjects>
+            <BearGrizzly/>
+            <BearPolar/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <LeopardSnow/>
+            <Lion/>
+            <PandaRed/>
+            <TigerBengal/>
+            <Cheetah/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestHeatedRock1/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterHeatedRock1"/>
+         <BFBehPlaySet behSet="UseHeatedRock"/>
+         <BFBehPlaySet behSet="ExitHeatedRock1"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="HeatedRockTapTest2" UniqueID="debugtokens:HeatedRockTapTest2">
+      <BFAICreateData>
+         <Subjects>
+            <BearGrizzly/>
+            <BearPolar/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <LeopardSnow/>
+            <Lion/>
+            <PandaRed/>
+            <TigerBengal/>
+            <Cheetah/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestHeatedRock2/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterHeatedRock2"/>
+         <BFBehPlaySet behSet="UseHeatedRock"/>
+         <BFBehPlaySet behSet="ExitHeatedRock2"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="HeatedRockTapTest3" UniqueID="debugtokens:HeatedRockTapTest3">
+      <BFAICreateData>
+         <Subjects>
+            <BearGrizzly/>
+            <BearPolar/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <LeopardSnow/>
+            <Lion/>
+            <PandaRed/>
+            <TigerBengal/>
+            <Cheetah/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestHeatedRock3/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterHeatedRock3"/>
+         <BFBehPlaySet behSet="UseHeatedRock"/>
+         <BFBehPlaySet behSet="ExitHeatedRock3"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="HeatedRockTapTest4" UniqueID="debugtokens:HeatedRockTapTest4">
+      <BFAICreateData>
+         <Subjects>
+            <BearGrizzly/>
+            <BearPolar/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <LeopardSnow/>
+            <Lion/>
+            <PandaRed/>
+            <TigerBengal/>
+            <Cheetah/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestHeatedRock4/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterHeatedRock4"/>
+         <BFBehPlaySet behSet="UseHeatedRock"/>
+         <BFBehPlaySet behSet="ExitHeatedRock4"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="HeatedRockTapTest5" UniqueID="debugtokens:HeatedRockTapTest5">
+      <BFAICreateData>
+         <Subjects>
+            <BearGrizzly/>
+            <BearPolar/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <LeopardSnow/>
+            <Lion/>
+            <PandaRed/>
+            <TigerBengal/>
+            <Cheetah/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestHeatedRock5/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterHeatedRock5"/>
+         <BFBehPlaySet behSet="UseHeatedRock"/>
+         <BFBehPlaySet behSet="ExitHeatedRock5"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="HeatedRockTapTest6" UniqueID="debugtokens:HeatedRockTapTest6">
+      <BFAICreateData>
+         <Subjects>
+            <BearGrizzly/>
+            <BearPolar/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <LeopardSnow/>
+            <Lion/>
+            <PandaRed/>
+            <TigerBengal/>
+            <Cheetah/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestHeatedRock6/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterHeatedRock6"/>
+         <BFBehPlaySet behSet="UseHeatedRock"/>
+         <BFBehPlaySet behSet="ExitHeatedRock6"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="HeatedRockTapTest7" UniqueID="debugtokens:HeatedRockTapTest7">
+      <BFAICreateData>
+         <Subjects>
+            <BearGrizzly/>
+            <BearPolar/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <LeopardSnow/>
+            <Lion/>
+            <PandaRed/>
+            <TigerBengal/>
+            <Cheetah/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestHeatedRock7/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterHeatedRock7"/>
+         <BFBehPlaySet behSet="UseHeatedRock"/>
+         <BFBehPlaySet behSet="ExitHeatedRock7"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="HeatedRockTapTest8" UniqueID="debugtokens:HeatedRockTapTest8">
+      <BFAICreateData>
+         <Subjects>
+            <BearGrizzly/>
+            <BearPolar/>
+            <Jaguar/>
+            <LemurRingtailed/>
+            <LeopardSnow/>
+            <Lion/>
+            <PandaRed/>
+            <TigerBengal/>
+            <Cheetah/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestHeatedRock8/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterHeatedRock8"/>
+         <BFBehPlaySet behSet="UseHeatedRock"/>
+         <BFBehPlaySet behSet="ExitHeatedRock8"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="LargeIceFloeTapTest1" UniqueID="debugtokens:LargeIceFloeTapTest1">
+      <BFAICreateData>
+         <Subjects>
+            <BearPolar/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestLargeIceFloe1/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterIceFloe_Large1"/>
+         <BFBehPlaySet behSet="UseIceFloe_Large"/>
+         <BFBehPlaySet behSet="ExitIceFloe_Large1"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="LargeIceFloeTapTest2" UniqueID="debugtokens:LargeIceFloeTapTest2">
+      <BFAICreateData>
+         <Subjects>
+            <BearPolar/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestLargeIceFloe2/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterIceFloe_Large2"/>
+         <BFBehPlaySet behSet="UseIceFloe_Large"/>
+         <BFBehPlaySet behSet="ExitIceFloe_Large2"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="LargeIceFloeTapTest3" UniqueID="debugtokens:LargeIceFloeTapTest3">
+      <BFAICreateData>
+         <Subjects>
+            <PenguinEmperor/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestLargeIceFloe3/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterIceFloe_Large3"/>
+         <BFBehPlaySet behSet="UseIceFloe_Large"/>
+         <BFBehPlaySet behSet="ExitIceFloe_Large3"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="LargeIceFloeTapTest4" UniqueID="debugtokens:LargeIceFloeTapTest4">
+      <BFAICreateData>
+         <Subjects>
+            <PenguinEmperor/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestLargeIceFloe4/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterIceFloe_Large4"/>
+         <BFBehPlaySet behSet="UseIceFloe_Large"/>
+         <BFBehPlaySet behSet="ExitIceFloe_Large4"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="MediumIceFloeTapTest1" UniqueID="debugtokens:MediumIceFloeTapTest1">
+      <BFAICreateData>
+         <Subjects>
+            <BearPolar/>
+            <PenguinEmperor/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestMediumIceFloe1/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterIceFloe_Medium1"/>
+         <BFBehPlaySet behSet="UseIceFloe_Medium"/>
+         <BFBehPlaySet behSet="ExitIceFloe_Medium1"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="MediumIceFloeTapTest2" UniqueID="debugtokens:MediumIceFloeTapTest2">
+      <BFAICreateData>
+         <Subjects>
+            <BearPolar/>
+            <PenguinEmperor/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestMediumIceFloe2/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterIceFloe_Medium2"/>
+         <BFBehPlaySet behSet="UseIceFloe_Medium"/>
+         <BFBehPlaySet behSet="ExitIceFloe_Medium2"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="MediumIceFloeTapTest3" UniqueID="debugtokens:MediumIceFloeTapTest3">
+      <BFAICreateData>
+         <Subjects>
+            <BearPolar/>
+            <PenguinEmperor/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestMediumIceFloe3/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterIceFloe_Medium3"/>
+         <BFBehPlaySet behSet="UseIceFloe_Medium"/>
+         <BFBehPlaySet behSet="ExitIceFloe_Medium3"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="MediumIceFloeTapTest4" UniqueID="debugtokens:MediumIceFloeTapTest4">
+      <BFAICreateData>
+         <Subjects>
+            <BearPolar/>
+            <PenguinEmperor/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestMediumIceFloe4/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterIceFloe_Medium4"/>
+         <BFBehPlaySet behSet="UseIceFloe_Medium"/>
+         <BFBehPlaySet behSet="ExitIceFloe_Medium4"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="MediumIceFloeTapTest5" UniqueID="debugtokens:MediumIceFloeTapTest5">
+      <BFAICreateData>
+         <Subjects>
+            <BearPolar/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestMediumIceFloe5/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterIceFloe_Medium5"/>
+         <BFBehPlaySet behSet="UseIceFloe_Medium"/>
+         <BFBehPlaySet behSet="ExitIceFloe_Medium5"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="MediumIceFloeTapTest6" UniqueID="debugtokens:MediumIceFloeTapTest6">
+      <BFAICreateData>
+         <Subjects>
+            <BearPolar/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestMediumIceFloe6/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterIceFloe_Medium6"/>
+         <BFBehPlaySet behSet="UseIceFloe_Medium"/>
+         <BFBehPlaySet behSet="ExitIceFloe_Medium6"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="MediumIceFloeTapTest7" UniqueID="debugtokens:MediumIceFloeTapTest7">
+      <BFAICreateData>
+         <Subjects>
+            <BearPolar/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestMediumIceFloe7/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterIceFloe_Medium7"/>
+         <BFBehPlaySet behSet="UseIceFloe_Medium"/>
+         <BFBehPlaySet behSet="ExitIceFloe_Medium7"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="MediumIceFloeTapTest8" UniqueID="debugtokens:MediumIceFloeTapTest8">
+      <BFAICreateData>
+         <Subjects>
+            <BearPolar/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestMediumIceFloe8/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterIceFloe_Medium8"/>
+         <BFBehPlaySet behSet="UseIceFloe_Medium"/>
+         <BFBehPlaySet behSet="ExitIceFloe_Medium8"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="MediumIceFloeTapTest9" UniqueID="debugtokens:MediumIceFloeTapTest9">
+      <BFAICreateData>
+         <Subjects>
+            <BearPolar/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestMediumIceFloe9/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterIceFloe_Medium9"/>
+         <BFBehPlaySet behSet="UseIceFloe_Medium"/>
+         <BFBehPlaySet behSet="ExitIceFloe_Medium9"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="MediumIceFloeTapTest10" UniqueID="debugtokens:MediumIceFloeTapTest10">
+      <BFAICreateData>
+         <Subjects>
+            <BearPolar/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestMediumIceFloe10/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterIceFloe_Medium10"/>
+         <BFBehPlaySet behSet="UseIceFloe_Medium"/>
+         <BFBehPlaySet behSet="ExitIceFloe_Medium10"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="MediumIceFloeTapTest11" UniqueID="debugtokens:MediumIceFloeTapTest11">
+      <BFAICreateData>
+         <Subjects>
+            <BearPolar/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestMediumIceFloe11/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterIceFloe_Medium11"/>
+         <BFBehPlaySet behSet="UseIceFloe_Medium"/>
+         <BFBehPlaySet behSet="ExitIceFloe_Medium11"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="MediumIceFloeTapTest12" UniqueID="debugtokens:MediumIceFloeTapTest12">
+      <BFAICreateData>
+         <Subjects>
+            <BearPolar/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestMediumIceFloe12/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterIceFloe_Medium12"/>
+         <BFBehPlaySet behSet="UseIceFloe_Medium"/>
+         <BFBehPlaySet behSet="ExitIceFloe_Medium12"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="MediumIceFloeTapTest13" UniqueID="debugtokens:MediumIceFloeTapTest13">
+      <BFAICreateData>
+         <Subjects>
+            <BearPolar/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestMediumIceFloe13/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterIceFloe_Medium13"/>
+         <BFBehPlaySet behSet="UseIceFloe_Medium"/>
+         <BFBehPlaySet behSet="ExitIceFloe_Medium13"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="MediumIceFloeTapTest14" UniqueID="debugtokens:MediumIceFloeTapTest14">
+      <BFAICreateData>
+         <Subjects>
+            <BearPolar/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestMediumIceFloe14/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterIceFloe_Medium14"/>
+         <BFBehPlaySet behSet="UseIceFloe_Medium"/>
+         <BFBehPlaySet behSet="ExitIceFloe_Medium14"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="MediumIceFloeTapTest15" UniqueID="debugtokens:MediumIceFloeTapTest15">
+      <BFAICreateData>
+         <Subjects>
+            <BearPolar/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestMediumIceFloe15/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterIceFloe_Medium15"/>
+         <BFBehPlaySet behSet="UseIceFloe_Medium"/>
+         <BFBehPlaySet behSet="ExitIceFloe_Medium15"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="MediumIceFloeTapTest16" UniqueID="debugtokens:MediumIceFloeTapTest16">
+      <BFAICreateData>
+         <Subjects>
+            <BearPolar/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestMediumIceFloe16/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterIceFloe_Medium16"/>
+         <BFBehPlaySet behSet="UseIceFloe_Medium"/>
+         <BFBehPlaySet behSet="ExitIceFloe_Medium16"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="LogTapTest" UniqueID="debugtokens:LogTapTest">
+      <BFAICreateData>
+         <Subjects>
+            <Chimpanzee/>
+            <LemurRingtailed/>
+            <PandaRed/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestLog1/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="ClimbOntoLog1"/>
+         <BFBehPlaySet behSet="OnLog"/>
+         <BFBehPlaySet behSet="ClimbOffLog1"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="StaffCenterTapTest1" UniqueID="debugtokens:StaffCenterTapTest1">
+      <BFAICreateData>
+         <Subjects>
+            <Staff/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestStaffCenter1/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterStaffCenter1"/>
+         <BFBehPlaySet behSet="UseStaffCenter1"/>
+         <BFBehPlaySet behSet="ExitStaffCenter1"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="StaffCenterTapTest2" UniqueID="debugtokens:StaffCenterTapTest2">
+      <BFAICreateData>
+         <Subjects>
+            <Staff/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestStaffCenter2/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterStaffCenter2"/>
+         <BFBehPlaySet behSet="UseStaffCenter2"/>
+         <BFBehPlaySet behSet="ExitStaffCenter2"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="StaffCenterTapTest3" UniqueID="debugtokens:StaffCenterTapTest3">
+      <BFAICreateData>
+         <Subjects>
+            <Staff/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestStaffCenter3/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterStaffCenter3"/>
+         <BFBehPlaySet behSet="UseStaffCenter3"/>
+         <BFBehPlaySet behSet="ExitStaffCenter3"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="StaffCenterTapTest4" UniqueID="debugtokens:StaffCenterTapTest4">
+      <BFAICreateData>
+         <Subjects>
+            <Staff/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestStaffCenter4/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterStaffCenter4"/>
+         <BFBehPlaySet behSet="UseStaffCenter4"/>
+         <BFBehPlaySet behSet="ExitStaffCenter4"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="StaffCenterTapTest5" UniqueID="debugtokens:StaffCenterTapTest5">
+      <BFAICreateData>
+         <Subjects>
+            <Staff/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestStaffCenter5/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterStaffCenter5"/>
+         <BFBehPlaySet behSet="UseStaffCenter5"/>
+         <BFBehPlaySet behSet="ExitStaffCenter5"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="StaffCenterTapTest6" UniqueID="debugtokens:StaffCenterTapTest6">
+      <BFAICreateData>
+         <Subjects>
+            <Staff/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestStaffCenter6/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterStaffCenter6"/>
+         <BFBehPlaySet behSet="UseStaffCenter6"/>
+         <BFBehPlaySet behSet="ExitStaffCenter6"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="LookoutPostTapTest1" UniqueID="debugtokens:LookoutPostTapTest1">
+      <BFAICreateData>
+         <Subjects>
+            <LemurRingtailed/>
+            <PandaRed/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestLookoutPost1/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterLookoutPost"/>
+         <BFBehPlaySet behSet="UseLookoutPost"/>
+         <BFBehPlaySet behSet="ExitLookoutPost"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="BeaverLodgeTapTest1" UniqueID="debugtokens:BeaverLodgeTapTest1">
+      <BFAICreateData>
+         <Subjects>
+            <BeaverAmerican/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestBeaverLodge1/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterBeaverLodge1"/>
+         <BFBehPlaySet behSet="UseBeaverLodge"/>
+         <BFBehPlaySet behSet="ExitBeaverLodge1"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="BeaverLodgeTapTest2" UniqueID="debugtokens:BeaverLodgeTapTest2">
+      <BFAICreateData>
+         <Subjects>
+            <BeaverAmerican/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestBeaverLodge2/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterBeaverLodge2"/>
+         <BFBehPlaySet behSet="UseBeaverLodge"/>
+         <BFBehPlaySet behSet="ExitBeaverLodge2"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="BeaverLodgeTapTest3" UniqueID="debugtokens:BeaverLodgeTapTest3">
+      <BFAICreateData>
+         <Subjects>
+            <BeaverAmerican/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestBeaverLodge3/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterBeaverLodge3"/>
+         <BFBehPlaySet behSet="UseBeaverLodge"/>
+         <BFBehPlaySet behSet="ExitBeaverLodge3"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="BeaverLodgeTapTest4" UniqueID="debugtokens:BeaverLodgeTapTest4">
+      <BFAICreateData>
+         <Subjects>
+            <BeaverAmerican/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestBeaverLodge4/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterBeaverLodge4"/>
+         <BFBehPlaySet behSet="UseBeaverLodge"/>
+         <BFBehPlaySet behSet="ExitBeaverLodge4"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="PeafowlTapTest1" UniqueID="debugtokens:PeafowlTapTest1">
+      <BFAICreateData>
+         <Subjects>
+            <PeafowlCommon/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestPeafowl1/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterPerch1"/>
+         <BFBehPlaySet behSet="Perch"/>
+         <BFBehPlaySet behSet="ExitPerch1"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="PeafowlTapTest2" UniqueID="debugtokens:PeafowlTapTest2">
+      <BFAICreateData>
+         <Subjects>
+            <PeafowlCommon/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestPeafowl2/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterPerch2"/>
+         <BFBehPlaySet behSet="Perch"/>
+         <BFBehPlaySet behSet="ExitPerch2"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="PeafowlTapTest_Rest1" UniqueID="debugtokens:PeafowlTapTest_Rest1">
+      <BFAICreateData>
+         <Subjects>
+            <PeafowlCommon/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestPeafowl_Rest1/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterPerch1"/>
+         <BFBehPlaySet behSet="Sleep"/>
+         <BFBehPlaySet behSet="ExitPerch1"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="PeafowlTapTest_Groom1" UniqueID="debugtokens:PeafowlTapTest_Groom1">
+      <BFAICreateData>
+         <Subjects>
+            <PeafowlCommon/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestPeafowl_Groom1/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterPerch1"/>
+         <BFBehPlaySet behSet="Perch_Groom"/>
+         <BFBehPlaySet behSet="ExitPerch1"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="RedPandaTreeRestTapTest1" UniqueID="debugtokens:RedPandaTreeRestTapTest1">
+      <BFAICreateData>
+         <Subjects>
+            <PandaRed/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TapTestRedPandaTreeRest1/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="EnterRedPandaTree1"/>
+         <BFBehPlaySet behSet="SleepTree"/>
+         <BFBehPlaySet behSet="ExitRedPandaTree1"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+</BFAITaskTemplateList>

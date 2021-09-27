@@ -1,0 +1,114 @@
+<UserSettings>
+   <settings>
+      <!--Lighting and Effects-->
+      <environmentDetail labelLocID="options:environmentdetail" settingWidget="Environment Detail Text" low="0" medium="1" high="2" disabled="0">
+         <setting locid="options:low">
+            <ambientsOn type="bool" value="false"/>
+            <skyboxQuality type="int" value="1"/>
+         </setting>
+         <setting locid="options:medium">
+            <ambientsOn type="bool" value="true"/>
+            <skyboxQuality type="int" value="2"/>
+         </setting>
+         <setting locid="options:high">
+            <ambientsOn type="bool" value="true"/>
+            <skyboxQuality type="int" value="2"/>
+         </setting>
+      </environmentDetail>
+      <lightingDetail labelLocID="options:lightingdetail" settingWidget="Lighting Detail Text" low="0" medium="1" high="2" disabled="0">
+         <setting locid="options:low"/>
+         <setting locid="options:medium"/>
+         <setting locid="options:high"/>
+      </lightingDetail>
+      <shadowDetail labelLocID="options:enableshadows" settingWidget="Shadow Detail Text" low="0" medium="1" high="2" disabled="0">
+         <setting locid="options:off"/>
+         <setting locid="options:medium"/>
+         <setting locid="options:high"/>
+      </shadowDetail>
+      <specularEffects labelLocID="options:speculareffects" settingWidget="Specular Effects Settings Text" low="0" medium="0" high="0" disabled="0" max="1">
+         <setting locid="options:disable"/>
+         <setting locid="options:enable"/>
+      </specularEffects>
+      <!--Terrain and Water-->
+      <!--
+      <terrainBlending labelLocID="options:terrainblending" settingWidget="Terrain Blending Text" low="0" medium="1" high="1" disabled="0" max="1">
+         <setting locid="options:low"/>
+         <setting locid="options:high"/>
+      </terrainBlending>
+      -->
+      <terrainResolution labelLocID="options:terrainresolution" settingWidget="Terrain Resolution Text" low="0" medium="1" high="2" disabled="0">
+         <setting locid="options:low"/>
+         <setting locid="options:medium"/>
+         <setting locid="options:high"/>
+      </terrainResolution>
+      <terrainTextureSize labelLocID="options:terraintexturesize" settingWidget="Terrain Texture Size Text" low="0" medium="1" high="2" disabled="0">
+         <setting locid="options:low"/>
+         <setting locid="options:medium"/>
+         <setting locid="options:high"/>
+      </terrainTextureSize>
+      <waterDetail labelLocID="options:waterdetail" settingWidget="Water Detail Text" low="0" medium="1" high="2" disabled="0">
+         <setting locid="options:low"/>
+         <setting locid="options:medium"/>
+         <setting locid="options:high"/>
+      </waterDetail>
+      <detailObjects labelLocID="options:enabledetailobjects" settingWidget="Detail Object Setting Text" low="0" medium="1" high="1" disabled="0">
+         <setting locid="options:off"/>
+         <setting locid="options:medium"/>
+         <setting locid="options:high"/>
+      </detailObjects>
+      <!--Objects and Animation-->
+      <objectDetail labelLocID="options:objectdetail" settingWidget="Object Detail Text" low="0" medium="1" high="2" disabled="0">
+         <setting locid="options:low">
+            <physAnimOn type="bool" value="false"/>
+            <propAttachOn type="bool" value="false"/>
+         </setting>
+         <setting locid="options:medium">
+            <physAnimOn type="bool" value="true"/>
+            <propAttachOn type="bool" value="true"/>
+         </setting>
+         <setting locid="options:high">
+            <physAnimOn type="bool" value="true"/>
+            <propAttachOn type="bool" value="true"/>
+         </setting>
+      </objectDetail>
+      <objectTextureDetail labelLocID="options:objecttexturedetail" settingWidget="Object Texture Detail Text" low="0" medium="1" high="2" disabled="0">
+         <setting locid="options:low">
+            <textureReplaceOn type="bool" value="false"/>
+         </setting>
+         <setting locid="options:medium">
+            <textureReplaceOn type="bool" value="true"/>
+         </setting>
+         <setting locid="options:high">
+            <textureReplaceOn type="bool" value="true"/>
+         </setting>
+      </objectTextureDetail>
+      <animationDetail labelLocID="options:animationdetail" settingWidget="Animation Detail Text" low="0" medium="1" high="2" disabled="0">
+         <setting locid="options:low"/>
+         <setting locid="options:medium"/>
+         <setting locid="options:high"/>
+      </animationDetail>
+      <!--Advanced-->
+      <viewDistance labelLocID="options:viewdistance" settingWidget="View Distance Text" low="0" medium="1" high="2" disabled="0">
+         <setting locid="options:low"/>
+         <setting locid="options:medium"/>
+         <setting locid="options:high"/>
+      </viewDistance>
+      <maxOverheadZoom labelLocID="options:overheadcameradistance" settingWidget="Overhead Camera Distance Text" low="0" medium="0" high="0" disabled="0">
+         <setting locid="options:low"/>
+         <setting locid="options:medium"/>
+         <setting locid="options:high"/>
+      </maxOverheadZoom>
+      <screenDetail labelLocID="options:screendetail" settingWidget="Screen Detail Settings Text" low="0" medium="0" high="0" disabled="0" max="1">
+         <setting locid="options:disable"/>
+         <setting locid="options:enable"/>
+      </screenDetail>
+      <uiTextShadows labelLocID="options:fontshadows" settingWidget="Font Shadow Settings Text" low="0" medium="0" high="1" disabled="0" max="1">
+         <setting locid="options:disable"/>
+         <setting locid="options:enable"/>
+      </uiTextShadows>
+      <uiTextTextures labelLocID="options:fonttexture" settingWidget="Font Texture Settings Text" low="0" medium="0" high="1" disabled="0" max="1">
+         <setting locid="options:disable"/>
+         <setting locid="options:enable"/>
+      </uiTextTextures>
+   </settings>
+</UserSettings>

@@ -1,0 +1,60 @@
+<entries>
+   <BFHelpEntry entry="zoopedia_home">
+      <BFHelpEntry entry="zoopedia_foliage">
+         <BFHelpEntry entry="zoopedia_blackthorn"/>
+         <BFHelpEntry entry="zoopedia_bananaleaf" order="zoopedia_plantbananaleaf"/>
+         <BFHelpEntry entry="zoopedia_gambagrass" order="zoopedia_grassgamba"/>
+         <BFHelpEntry entry="zoopedia_papyrus"/>
+         <BFHelpEntry entry="zoopedia_cattails"/>
+         <BFHelpEntry entry="zoopedia_bluebush"/>
+         <BFHelpEntry entry="zoopedia_sedge"/>
+         <BFHelpEntry entry="zoopedia_spinosa" order="zoopedia_bushspinosa"/>
+         <BFHelpEntry entry="zoopedia_flowerbed"/>
+         <BFHelpEntry entry="zoopedia_elephantgrass" order="zoopedia_grasselephant"/>
+         <BFHelpEntry entry="zoopedia_toadstools"/>
+         <BFHelpEntry entry="zoopedia_reindeerlichen" order="zoopedia_lichenreindeer"/>
+         <BFHelpEntry entry="zoopedia_waterlily" order="zoopedia_lilywater"/>
+         <BFHelpEntry entry="zoopedia_junegrass" order="zoopedia_grassjune"/>
+         <BFHelpEntry entry="zoopedia_dandelions"/>
+         <BFHelpEntry entry="zoopedia_arcticmoss" order="zoopedia_mossarctic"/>
+         <BFHelpEntry entry="zoopedia_whitelillies" order="zoopedia_lilieswhite"/>
+         <BFHelpEntry entry="zoopedia_larkspur"/>
+         <BFHelpEntry entry="zoopedia_africandaisy"/>
+         <BFHelpEntry entry="zoopedia_africanviolet" order="zoopedia_violetafrican"/>
+         <BFHelpEntry entry="zoopedia_junglelillies"/>
+         <BFHelpEntry entry="zoopedia_lilyofvalley"/>
+         <BFHelpEntry entry="zoopedia_fringedpolygala" order="zoopedia_polygalafringed"/>
+         <BFHelpEntry entry="zoopedia_proteawildflowers"/>
+         <BFHelpEntry entry="zoopedia_baobab" order="zoopedia_treebaobab"/>
+         <BFHelpEntry entry="zoopedia_umbrellaacacia" order="zoopedia_treeumbrellaacacia"/>
+         <BFHelpEntry entry="zoopedia_acaciacaffra" order="zoopedia_treeacaciacaffra"/>
+         <BFHelpEntry entry="zoopedia_orchid" order="zoopedia_treeorchid"/>
+         <BFHelpEntry entry="zoopedia_elephantear"/>
+         <BFHelpEntry entry="zoopedia_kily" order="zoopedia_treekily"/>
+         <BFHelpEntry entry="zoopedia_bananatree" order="zoopedia_treebanana"/>
+         <BFHelpEntry entry="zoopedia_kapok" order="zoopedia_treekapok"/>
+         <BFHelpEntry entry="zoopedia_redcedar" order="zoopedia_treeredcedar"/>
+         <BFHelpEntry entry="zoopedia_foxtailpalm" order="zoopedia_treefoxtailpalm"/>
+         <BFHelpEntry entry="zoopedia_treefern"/>
+         <BFHelpEntry entry="zoopedia_birch" order="zoopedia_treebirch"/>
+         <BFHelpEntry entry="zoopedia_maple" order="zoopedia_treemaple"/>
+         <BFHelpEntry entry="zoopedia_fountainbamboo" order="zoopedia_bamboofountain"/>
+         <BFHelpEntry entry="zoopedia_waterbamboo" order="zoopedia_bamboowater"/>
+         <BFHelpEntry entry="zoopedia_himalayanbirch" order="zoopedia_treehimalayanbirch"/>
+         <BFHelpEntry entry="zoopedia_blackspruce" order="zoopedia_treeblackspruce"/>
+         <BFHelpEntry entry="zoopedia_balsamfir" order="zoopedia_treebalsamfir"/>
+         <BFHelpEntry entry="zoopedia_tamarack" order="zoopedia_treetamarack"/>
+         <BFHelpEntry entry="zoopedia_himalayanpine" order="zoopedia_treehimalayanpine"/>
+         <BFHelpEntry entry="zoopedia_yellowcedar" order="zoopedia_treeyellowcedar"/>
+         <BFHelpEntry entry="zoopedia_datepalm" order="zoopedia_treedatepalm"/>
+         <BFHelpEntry entry="zoopedia_camelthornacacia" order="zoopedia_treecamelthornacacia"/>
+         <BFHelpEntry entry="zoopedia_mangrove" order="zoopedia_treemangrove"/>
+         <BFHelpEntry entry="zoopedia_cypress" order="zoopedia_treecypress"/>
+         <BFHelpEntry entry="zoopedia_weepingmyall" order="zoopedia_treeweepingmyall"/>
+         <BFHelpEntry entry="zoopedia_yellowfeveracacia" order="zoopedia_treeyellowfeveracacia"/>
+         <BFHelpEntry entry="zoopedia_tremblingaspen" order="zoopedia_treetremblingaspen"/>
+         <BFHelpEntry entry="zoopedia_wetlandlog"/>
+         <BFHelpEntry entry="zoopedia_desertgrass" order="zoopedia_grassdesert"/>
+      </BFHelpEntry>
+   </BFHelpEntry>
+</entries>

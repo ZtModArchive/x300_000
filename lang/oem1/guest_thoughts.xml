@@ -1,0 +1,109 @@
+<ZT2Strings>
+   <guestthoughts>
+      <!--Guest_Thoughts-->
+      <CantSeeAnimal>I can't see any animals from here!</CantSeeAnimal>
+      <Hungry>I'm really hungry.</Hungry>
+      <Thirsty>I'm parched.</Thirsty>
+      <DessertBad>This zoo needs some dessert carts!</DessertBad>
+      <Tired>I'm exhausted. I need a place to rest.</Tired>
+      <AmusementBad>This zoo isn't amusing enough for me.</AmusementBad>
+      <Bathroom>I need to find a bathroom soon.</Bathroom>
+      <TrashGround>I'm upset at the lack of trash cans.</TrashGround>
+      <TrashFull>Gross! I can't find a trash can that isn't overflowing!</TrashFull>
+      <GotEducated>Watching %s is very educational.</GotEducated>
+      <EatBurgerNotLike>I'd prefer something other than a burger.</EatBurgerNotLike>
+      <EatBurger>The burger tastes really good.</EatBurger>
+      <EatBurgerLove>I really love to eat burgers.</EatBurgerLove>
+      <EatHotdogNotLike>I'd prefer something other than a hot dog.</EatHotdogNotLike>
+      <EatHotdog>I relish eating a good hot dog.</EatHotdog>
+      <EatHotdogLike>I relish eating a good hot dog.</EatHotdogLike>
+      <EatSaladNotLike>I'd prefer something other than a salad.</EatSaladNotLike>
+      <EatSalad>The salad has lots of green lettuce.</EatSalad>
+      <EatSaladLike>I really like eating the salad.</EatSaladLike>
+      <EatShishkabobNotLike>I'd prefer something other than a shish kebab.</EatShishkabobNotLike>
+      <EatShishkabob>The shish kebab has lots of veggies.</EatShishkabob>
+      <EatShishkabobLove>I just love eating the shish kebab!</EatShishkabobLove>
+      <EatSubNotLike>I'd prefer something other than a sub.</EatSubNotLike>
+      <EatSub>The sub sandwich is really big.</EatSub>
+      <EatSubLike>I really like the sub sandwich.</EatSubLike>
+      <EatSushiNotLike>I'd prefer something other than sushi.</EatSushiNotLike>
+      <EatSushi>The sushi is not too fishy tasting.</EatSushi>
+      <EatSushiLove>Sushi is my favorite food.</EatSushiLove>
+      <EatStanding>I'd prefer to sit down and enjoy my food.</EatStanding>
+      <DrinkCoffeeNotLike>I really don't like coffee.</DrinkCoffeeNotLike>
+      <DrinkCoffee>The coffee smells great and tastes good.</DrinkCoffee>
+      <DrinkCoffeeLove>I love drinking the coffee.</DrinkCoffeeLove>
+      <DrinkSodaNotLike>I'd prefer something other than soda.</DrinkSodaNotLike>
+      <DrinkSoda>The soda has lots of bubbles.</DrinkSoda>
+      <DrinkSodaLike>I really like drinking soda.</DrinkSodaLike>
+      <DrinkWaterNotLike>I'd prefer something other than water.</DrinkWaterNotLike>
+      <DrinkWater>The water is very clear and tasty.</DrinkWater>
+      <DrinkWaterLike>I really like the water.</DrinkWaterLike>
+      <EatCheesecakeNotLike>I'd prefer something other than cheesecake.</EatCheesecakeNotLike>
+      <EatCheesecake>The cheesecake is very cheesy.</EatCheesecake>
+      <EatCheesecakeLove>Cheesecake is my favorite dessert.</EatCheesecakeLove>
+      <EatCottoncandyNotLike>I'd prefer something other than cotton candy.</EatCottoncandyNotLike>
+      <EatCottoncandy>The cotton candy sticks to my face.</EatCottoncandy>
+      <EatCottoncandyLike>Cotton candy is one of my all-time favorites.</EatCottoncandyLike>
+      <EatFruitcupNotLike>I'd prefer something other than a fruit cup.</EatFruitcupNotLike>
+      <EatFruitcup>The fruit in the fruit cup is very fresh.</EatFruitcup>
+      <EatFruitcupLove>I love eating the fruit cup.</EatFruitcupLove>
+      <EatIcecreamNotLike>I'd prefer something other than ice cream.</EatIcecreamNotLike>
+      <EatIcecream>The ice cream is great with sprinkles.</EatIcecream>
+      <EatIcecreamLove>I scream for ice cream. I love it!</EatIcecreamLove>
+      <EatPopcornNotLike>I'd prefer something other than popcorn.</EatPopcornNotLike>
+      <EatPopcorn>The popcorn tastes great with lots of butter.</EatPopcorn>
+      <EatPopcornLike>I like eating popcorn.</EatPopcornLike>
+      <EatPretzelNotLike>I'd prefer something other than a pretzel.</EatPretzelNotLike>
+      <EatPretzel>I like mustard on my pretzel.</EatPretzel>
+      <EatPretzelLike>I really like eating the pretzel.</EatPretzelLike>
+      <SitBench>The bench is really comfortable.</SitBench>
+      <BuyGift>I really like the gift I just bought.</BuyGift>
+      <EatFancyMeal>I like eating at the fancy restaurant.</EatFancyMeal>
+      <EatFamilyMeal>I like eating at the family restaurant.</EatFamilyMeal>
+      <EatRegularMeal>I like eating at the restaurant.</EatRegularMeal>
+      <NeedUseBathroom>I really need to use the bathroom.</NeedUseBathroom>
+      <UseBathroomSmall>Whew. That feels better.</UseBathroomSmall>
+      <UseBathroomLarge>Whew. That feels better.</UseBathroomLarge>
+      <LeaveZoo>It's time for me to go home.</LeaveZoo>
+      <DonateMoney>I'm giving the zoo a donation.</DonateMoney>
+      <UseAtm>I'm glad I had enough money in my account.</UseAtm>
+      <GetPhoto>I think I look really good in this photo.</GetPhoto>
+      <GetZooHat>This hat makes me look fantastic!</GetZooHat>
+      <GoViewAnimal>I can't wait to see some animals.</GoViewAnimal>
+      <GoThrowawayTrash>I need to throw away this trash.</GoThrowawayTrash>
+      <GoRecycleTrash>I need to recycle this trash.</GoRecycleTrash>
+      <RunningFromAnimal>Help! %s is chasing me!</RunningFromAnimal>
+      <AttackedAnimal>I was just attacked by %s!</AttackedAnimal>
+      <GoingToBuyGift>I'd like to buy a gift.</GoingToBuyGift>
+      <GoSit>Is there someplace for me to sit down?</GoSit>
+      <GoingToATM>I'm out of money. Where is the ATM?</GoingToATM>
+      <GoToRestaurant>I really want to eat at the restaurant.</GoToRestaurant>
+      <LikeEatContainer>It's really neat seeing %1s eating from %2s.</LikeEatContainer>
+      <BinocularsCool>Cool I can see really far with these binoculars!</BinocularsCool>
+      <CantFindATM>I needed money but couldn't find an ATM!</CantFindATM>
+      <FoundATMUnhappy>I'm out of money and this zoo isn't fun enough for me to withdraw more.</FoundATMUnhappy>
+      <CantFindDonationBox>I wanted to donate, but I couldn't find a donation box!</CantFindDonationBox>
+      <CheapItem>I got a great deal at %s!</CheapItem>
+      <ModerateItem>I think %s has reasonable prices.</ModerateItem>
+      <ExpensiveItem>I think %s is overpriced!</ExpensiveItem>
+      <UseAmusement>The zoo rides are awesome!</UseAmusement>
+      <UseGazebo>The gazebo is quite relaxing.</UseGazebo>
+      <LookAtFountain>I just made a wish in the fountain.</LookAtFountain>
+      <LookAtFountainTheme>I really like the theme of this fountain.</LookAtFountainTheme>
+      <LookAtStatue>I think %s is really cool.</LookAtStatue>
+      <LookAtStatueTheme>I really like the theme of %s.</LookAtStatueTheme>
+      <LookAtZooMap>The zoo map is very interesting.</LookAtZooMap>
+      <LookAtArch>I think %s adds some style to the zoo.</LookAtArch>
+      <LookAtArchTheme>The style of %s is really awesome!</LookAtArchTheme>
+      <UseInsectKiosk>The insects in the kiosk are creepy!</UseInsectKiosk>
+      <UseReptileKiosk>The reptiles are really cool!</UseReptileKiosk>
+      <SmellTerrible>This area smells terrible! Someone needs to clean it up!</SmellTerrible>
+      <UsePonyRide>I love riding on the pony!</UsePonyRide>
+      <WaitLine>I hope the %s line moves quickly.</WaitLine>
+      <RestTable>I'm glad there is a table here to rest on.</RestTable>
+      <DefaultThought>I can't find anything to do.</DefaultThought>
+      <GuestHappy>This zoo is great!</GuestHappy>
+      <GuestAngry>I don't like this zoo.</GuestAngry>
+   </guestthoughts>
+</ZT2Strings>

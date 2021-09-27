@@ -1,0 +1,60 @@
+<BehaviorSets>
+   <Idle>
+      <subjects>
+         <ambient_air/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimateSwitch>
+            <animTable>
+               <Fly anim="Fly_Ahead"/>
+               <default anim="Fly_Ahead"/>
+            </animTable>
+         </BFBehAnimateSwitch>
+      </behaviors>
+   </Idle>
+   <Airborne>
+      <subjects>
+         <ambient_air/>
+      </subjects>
+      <behaviors>
+         <BFBehPlaySet behSet="Wander"/>
+      </behaviors>
+   </Airborne>
+   <Airborne_Caller>
+      <subjects>
+         <ambient_air/>
+      </subjects>
+      <behaviors>
+         <BFBehRandomSet>
+            <randomSets>
+               <Wander weight="70"/>
+               <FlyCall weight="30"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </Airborne_Caller>
+   <Wander>
+      <subjects>
+         <ambient_air/>
+      </subjects>
+      <behaviors>
+         <BFBehWander playTime="20"/>
+      </behaviors>
+   </Wander>
+   <FlyStraight>
+      <subjects>
+         <ambient_air/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Fly_Ahead" playTime="30"/>
+      </behaviors>
+   </FlyStraight>
+   <FlyCall>
+      <subjects>
+         <ambient_air/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Fly_Call"/>
+      </behaviors>
+   </FlyCall>
+</BehaviorSets>

@@ -1,0 +1,79 @@
+<ZT2Strings>
+   <tools>
+      <tooltypeformat>
+         <font name="arial" size="9" shadowx="-1" shadowy="1">
+            <b>%text%</b>
+         </font>
+      </tooltypeformat>
+      <inheritanceformat>
+         <font name="arial" size="9" shadowx="-1" shadowy="1">
+            <b>%text%</b>
+         </font>
+      </inheritanceformat>
+      <selectedtypeformat>
+         <font name="arial" size="14">
+            <b>%text%</b>
+         </font>
+      </selectedtypeformat>
+      <toolheadingformat>
+         <font name="arial" size="14">
+            <b>%text%</b>
+         </font>
+      </toolheadingformat>
+      <noshadow>
+         <font shadowx="0" shadowy="0">%text%</font>
+      </noshadow>
+      <toolheading>Tools Menu</toolheading>
+      <guitool>UI Tool</guitool>
+      <guitool_stt>Run UI tool</guitool_stt>
+      <guitool_ltt>
+         <color r="255" g="248" b="178">
+            <b>Run UI tool</b>
+         </color>
+         <br>Click to run the UI tool and view layout files.</br>
+      </guitool_ltt>
+      <entityeditor>Entity Editor</entityeditor>
+      <entityeditor_stt>Run Entity Editor</entityeditor_stt>
+      <entityeditor_ltt>
+         <color r="255" g="248" b="178">
+            <b>Run Entity Editor</b>
+         </color>
+         <br>Click to run the Entity Editor to test and modify entitys in the game.</br>
+      </entityeditor_ltt>
+      <destroyandreloadbinder_stt>Destroy and Reload Entity Binder</destroyandreloadbinder_stt>
+      <destroyandreloadbinder_ltt>
+         <color r="255" g="248" b="178">
+            <b>Destroy and Reload Entity Binder</b>
+         </color>
+         <br>Click to destroy all current instances of the entity, and reload the entity binder.</br>
+      </destroyandreloadbinder_ltt>
+      <reloadbinderandreplace_stt>Reload Entity Binder and Replace</reloadbinderandreplace_stt>
+      <reloadbinderandreplace_ltt>
+         <color r="255" g="248" b="178">
+            <b>Reload Entity Binder and Replace</b>
+         </color>
+         <br>Click to reload the entity binder. All current instances of the entity will be replaced with the new one.</br>
+      </reloadbinderandreplace_ltt>
+      <entityeditoropen_stt>Open Entity Editor</entityeditoropen_stt>
+      <entityeditoropen_ltt>
+         <color r="255" g="248" b="178">
+            <b>Open Entity Editor</b>
+         </color>
+         <br>Click to open the Entity Editor tool window.</br>
+      </entityeditoropen_ltt>
+      <expand_stt>Expand</expand_stt>
+      <expand_ltt>
+         <color r="255" g="248" b="178">
+            <b>Expand</b>
+         </color>
+         <br>Click to expand the tree view</br>
+      </expand_ltt>
+      <collapse_stt>Collapse</collapse_stt>
+      <collapse_ltt>
+         <color r="255" g="248" b="178">
+            <b>Collapse</b>
+         </color>
+         <br>Click to collapse the tree view</br>
+      </collapse_ltt>
+   </tools>
+</ZT2Strings>

@@ -1,0 +1,16 @@
+<entries>
+	<BFHelpEntry entry="zoopedia_home">
+		<BFHelpEntry entry="zoopedia_rocks">
+			<BFHelpEntry entry="zoopedia_savannahrocks" />
+			<BFHelpEntry entry="zoopedia_rainforestrocks" />
+			<BFHelpEntry entry="zoopedia_borealrocks" />
+			<BFHelpEntry entry="zoopedia_alpinerocks" />
+			<BFHelpEntry entry="zoopedia_scrubrocks" />
+			<BFHelpEntry entry="zoopedia_desertrocks" />
+			<BFHelpEntry entry="zoopedia_wetlandrocks" />
+			<BFHelpEntry entry="zoopedia_tundrarocks" />
+			<BFHelpEntry entry="zoopedia_grasslandrocks" />
+			<BFHelpEntry entry="zoopedia_temperaterocks" />
+		</BFHelpEntry>
+	</BFHelpEntry>
+</entries>

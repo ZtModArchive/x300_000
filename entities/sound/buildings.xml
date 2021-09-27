@@ -1,0 +1,32 @@
+<soundtags>
+   <BFSoundtag>
+      <BF3DSndFactory name="fountain">
+         <snd name="entities/objects/scenery/sound/fountain_extra.wav" volume="1.0" mindist="4" maxdist="60" looping="1"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="waterfall">
+         <snd name="entities/objects/scenery/sound/fountain_tiger.wav" volume="1.0" mindist="3" maxdist="50" looping="1"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="rockmusic">
+         <snd name="entities/objects/scenery/musicalrock_df/sound/rockmusic.wav" volume="1" mindist="6" maxdist="20" looping="1"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="rockmusic_1">
+         <snd name="entities/objects/scenery/musicalrock_jt/sound/rockmusic_jt.wav" volume="1" mindist="6" maxdist="20" looping="1"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="rockmusic_2">
+         <snd name="entities/objects/scenery/musicalrock_st/sound/rockmusic_st.wav" volume="1" mindist="6" maxdist="20" looping="1"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="rockmusic_3">
+         <snd name="entities/objects/scenery/musicalrock_ac/sound/rockmusic_ac.wav" volume="1" mindist="6" maxdist="20" looping="1"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+</soundtags>

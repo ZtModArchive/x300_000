@@ -1,0 +1,99 @@
+<UILayout templateName="topbars">
+   <UIRegion x="0" y="0" w="64" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+   <UIState active="normal" visible="normal"/>
+   <UIAspect>
+      <default/>
+   </UIAspect>
+   <children>
+      <UIStatic name="TopLeft">
+         <UIRegion x="0" y="0" w="22" h="21" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="UI/template/backs/topbars.dds">
+               <BFRect x="0" y="0" w="22" h="21"/>
+               <BFColor r="255" g="255" b="255" a="175"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="TopMiddle">
+         <UIRegion x="22" y="0" w="-24" h="21" xalign="min" yalign="min" walign="max" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="UI/template/backs/topbars.dds">
+               <BFRect x="22" y="0" w="18" h="21"/>
+               <BFColor r="255" g="255" b="255" a="175"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="TopRight">
+         <UIRegion x="-24" y="0" w="24" h="21" xalign="max" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="UI/template/backs/topbars.dds">
+               <BFRect x="40" y="0" w="24" h="21"/>
+               <BFColor r="255" g="255" b="255" a="175"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="MidLeft">
+         <UIRegion x="0" y="21" w="22" h="-23" xalign="min" yalign="min" walign="len" halign="max"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="UI/template/backs/topbars.dds">
+               <BFRect x="0" y="21" w="22" h="20"/>
+               <BFColor r="255" g="255" b="255" a="175"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="BottomLeft">
+         <UIRegion x="0" y="-23" w="22" h="23" xalign="min" yalign="max" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="UI/template/backs/topbars.dds">
+               <BFRect x="0" y="41" w="22" h="23"/>
+               <BFColor r="255" g="255" b="255" a="175"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="BottomMiddle">
+         <UIRegion x="22" y="-23" w="-24" h="23" xalign="min" yalign="max" walign="max" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="UI/template/backs/topbars.dds">
+               <BFRect x="22" y="41" w="18" h="23"/>
+               <BFColor r="255" g="255" b="255" a="175"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="BottomRight">
+         <UIRegion x="-24" y="-23" w="24" h="23" xalign="max" yalign="max" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="UI/template/backs/topbars.dds">
+               <BFRect x="40" y="41" w="24" h="23"/>
+               <BFColor r="255" g="255" b="255" a="175"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="MidRight">
+         <UIRegion x="-24" y="21" w="24" h="-23" xalign="max" yalign="min" walign="len" halign="max"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="UI/template/backs/topbars.dds">
+               <BFRect x="40" y="21" w="24" h="20"/>
+               <BFColor r="255" g="255" b="255" a="175"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="Center">
+         <UIRegion x="22" y="21" w="-24" h="-23" xalign="min" yalign="min" walign="max" halign="max"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="UI/template/backs/topbars.dds">
+               <BFRect x="22" y="21" w="18" h="20"/>
+               <BFColor r="255" g="255" b="255" a="175"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+   </children>
+</UILayout>

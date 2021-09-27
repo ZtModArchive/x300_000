@@ -1,0 +1,22 @@
+<entries>
+   <BFHelpEntry entry="zoopedia_home">
+      <BFHelpEntry entry="zoopedia_fences">
+         <BFHelpEntry entry="zoopedia_ironbar"/>
+         <BFHelpEntry entry="zoopedia_chainlink"/>
+         <BFHelpEntry entry="zoopedia_plexiglass" order="zoopedia_glassacrylic"/>
+         <BFHelpEntry entry="zoopedia_postrail" order="zoopedia_woodenrail"/>
+         <BFHelpEntry entry="zoopedia_woodenslat"/>
+         <BFHelpEntry entry="zoopedia_woodslatwindow"/>
+         <BFHelpEntry entry="zoopedia_brick"/>
+         <BFHelpEntry entry="zoopedia_hedge"/>
+         <BFHelpEntry entry="zoopedia_postrope"/>
+         <BFHelpEntry entry="zoopedia_picket" order="zoopedia_whitepicketfence"/>
+         <BFHelpEntry entry="zoopedia_stonewall"/>
+         <BFHelpEntry entry="zoopedia_zoowall"/>
+         <BFHelpEntry entry="zoopedia_safarifence"/>
+         <BFHelpEntry entry="zoopedia_junglefence"/>
+         <BFHelpEntry entry="zoopedia_fencegate" order="zoopedia_gatestaff"/>
+         <BFHelpEntry entry="zoopedia_concretefence"/>
+      </BFHelpEntry>
+   </BFHelpEntry>
+</entries>

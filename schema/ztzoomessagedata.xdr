@@ -1,0 +1,8 @@
+<Schema name="ZTZooMessageData">
+	<ElementType name="ZTZooMessageData">
+		<extends type="BFXMLObj"/>
+		<attribute name="display" dt:type="string" default="" />
+		<attribute name="priority" dt:type="int" default="" />
+		<attribute name="timeout" dt:type="float" default="" />
+	</ElementType>
+</Schema>

@@ -1,0 +1,51 @@
+<BFTypedBinder binderType="Keeper_Adult_F_02">
+   <types>
+      <entity>
+         <actor>
+            <people>
+               <Staff>
+                  <Keeper>
+                     <Keeper_Adult_F>
+                     	<Keeper_Adult_F_02/>
+                     </Keeper_Adult_F>
+                  </Keeper>
+               </Staff>
+            </people>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj/>
+         </instance>
+        <shared>
+            <BFSharedRandomTextureInfo>
+               <replacementSet>
+                  <group weight="1">
+                     <item material="body" image="entities\units\staff\shared\staff_keeper_m_02.dds" layer="base"/>
+                  </group>
+               </replacementSet>
+            </BFSharedRandomTextureInfo>
+         </shared>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="headObj">
+         <instance>
+            <BFPhysObj/>
+         </instance>
+         <shared>
+            <BFSharedRandomTextureInfo>
+               <replacementSet>
+                  <group weight="1">
+                     <item material="guest_f_head" image="entities\units\guests\shared\guest_adult_f_head_02.dds" layer="base"/>
+                     <item material="guest_f_headlo" image="entities\units\guests\shared\guest_adult_f_headlo_02.dds" layer="base"/>
+                  </group>
+               </replacementSet>
+            </BFSharedRandomTextureInfo>
+         </shared>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

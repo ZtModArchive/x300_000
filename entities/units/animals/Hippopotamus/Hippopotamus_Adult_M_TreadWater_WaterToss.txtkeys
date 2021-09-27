@@ -1,0 +1,7 @@
+<TEXTKEY>
+<key time="0" text="{Bip01 Head} runps TreadWaterRipples useZRot scale=1.4"/>
+   <key frame=".01" text="{Bip01 Head} snd 'WaterToss'"/>
+   <key frame=".05" text="{Bip01 Head} runps Biomefx_Splash"/>
+   <key time=".5" text="{Bip01 Head} runps TreadWaterRipples useZRot scale=1.4"/>
+
+</TEXTKEY>

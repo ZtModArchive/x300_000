@@ -1,0 +1,7 @@
+<Schema name="BFGBiomeFeatureData">
+	<ElementType name="BFGBiomeFeatureData">
+		<extends type="BFXMLObj"/>
+		<attribute name="biomeName" dt:type="string" required="no"/>
+		<attribute name="featureName" dt:type="string" required="no"/>
+	</ElementType>
+</Schema>

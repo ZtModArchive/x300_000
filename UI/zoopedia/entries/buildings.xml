@@ -1,0 +1,38 @@
+<entries>
+   <BFHelpEntry entry="zoopedia_home">
+      <BFHelpEntry entry="zoopedia_buildings">
+         <BFHelpEntry entry="zoopedia_adultresto" order="zoopedia_restaurant"/>
+         <BFHelpEntry entry="zoopedia_animalphotobooth"/>
+         <BFHelpEntry entry="zoopedia_atm"/>
+         <BFHelpEntry entry="zoopedia_cheesecake"/>
+         <BFHelpEntry entry="zoopedia_coffee"/>
+         <BFHelpEntry entry="zoopedia_compost"/>
+         <BFHelpEntry entry="zoopedia_cottoncandy"/>
+         <BFHelpEntry entry="zoopedia_familyrestroom" order="zoopedia_restroomfamily"/>
+         <BFHelpEntry entry="zoopedia_frontgate"/>
+         <BFHelpEntry entry="zoopedia_fruitcup"/>
+         <BFHelpEntry entry="zoopedia_giftcart"/>
+         <BFHelpEntry entry="zoopedia_giftshop"/>
+         <BFHelpEntry entry="zoopedia_gourmetresto" order="zoopedia_restaurantfancy"/>
+         <BFHelpEntry entry="zoopedia_hamburger"/>
+         <BFHelpEntry entry="zoopedia_hotdog"/>
+         <BFHelpEntry entry="zoopedia_icecream"/>
+         <BFHelpEntry entry="zoopedia_kidsresto" order="zoopedia_restaurantfamily"/>
+         <BFHelpEntry entry="zoopedia_popcorn"/>
+         <BFHelpEntry entry="zoopedia_pretzel"/>
+         <BFHelpEntry entry="zoopedia_restroom"/>
+         <BFHelpEntry entry="zoopedia_salad"/>
+         <BFHelpEntry entry="zoopedia_shish"/>
+         <BFHelpEntry entry="zoopedia_soda"/>
+         <BFHelpEntry entry="zoopedia_sparklingwater" order="zoopedia_waterdrinkstand"/>
+         <BFHelpEntry entry="zoopedia_staffcenter"/>
+         <BFHelpEntry entry="zoopedia_substand"/>
+         <BFHelpEntry entry="zoopedia_sushi"/>
+         <BFHelpEntry entry="zoopedia_zebrabars"/>
+         <BFHelpEntry entry="zoopedia_educator_podium" order="zoopedia_animaleducatorpodium"/>
+         <BFHelpEntry entry="zoopedia_insect_house"/>
+         <BFHelpEntry entry="zoopedia_reptile_house"/>
+         <BFHelpEntry entry="zoopedia_shetland_pony_ride"/>
+      </BFHelpEntry>
+   </BFHelpEntry>
+</entries>

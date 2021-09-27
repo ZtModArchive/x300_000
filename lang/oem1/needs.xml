@@ -1,0 +1,476 @@
+<ZT2Strings>
+   <entityneeds>
+      <satisfied>Satisfied</satisfied>
+      <pressing>Pressing</pressing>
+      <critical>Critical</critical>
+      <healthy>Healthy</healthy>
+      <unhealthy>Unhealthy</unhealthy>
+      <sick>Sick</sick>
+      <animal_environment>Environment: </animal_environment>
+      <animal_environment_ltt>
+         <color r="255" g="248" b="178">
+            <b>Environment Need</b>
+         </color>
+         <br/>
+         This represents how comfortable the animal is in its current exhibit. Animals and guests both benefit when an exhibit represents the animal's biome.
+         
+         
+         
+         
+         
+         
+         
+           
+      
+      
+      
+      
+      
+      
+      
+      </animal_environment_ltt>
+      <animal_space>Space: </animal_space>
+      <animal_biome>Biome: </animal_biome>
+      <animal_hunger>Hunger: </animal_hunger>
+      <animal_hunger_ltt>
+         <color r="255" g="248" b="178">
+            <b>Hunger Need</b>
+         </color>
+         <br/>
+         
+         This represents how hungry the animal is. All animals require food and drink in order to survive.
+      
+      </animal_hunger_ltt>
+      <animal_thirst>Thirst: </animal_thirst>
+      <animal_thirst_ltt>
+         <color r="255" g="248" b="178">
+            <b>Thirst Need</b>
+         </color>
+         <br/>
+         
+         
+         
+         
+   This represents how thirsty the animal is. All animals should have 24-hour access to fresh water.
+      
+      </animal_thirst_ltt>
+      <animal_rest>Rest: </animal_rest>
+      <animal_rest_ltt>
+         <color r="255" g="248" b="178">
+            <b>Rest Need</b>
+         </color>
+         <br/>
+         
+         
+         
+         
+         
+         
+         
+         
+         This represents the current rest level of the animal. Tired animals will sleep anyplace they can to recuperate. 
+      
+      
+      
+      
+      
+      
+      
+      
+      </animal_rest_ltt>
+      <animal_hygiene>Hygiene: </animal_hygiene>
+      <animal_hygiene_ltt>
+         <color r="255" g="248" b="178">
+            <b>Hygiene Need</b>
+         </color>
+         <br/>
+         This represents the current hygiene level of the animal. Dirty animals are more likely to get sick. Animals will often groom themselves.
+
+      </animal_hygiene_ltt>
+      <animal_exercise>Exercise: </animal_exercise>
+      <animal_exercise_ltt>
+         <color r="255" g="248" b="178">
+            <b>Exercise Need</b>
+         </color>
+         <br/>
+         
+         
+         
+         
+         
+         
+         
+         
+         The current exercise level of the animal. Animals can exercise by moving around, interacting with other animals and using enrichment objects.
+      
+      
+      
+      
+      
+      
+      
+      
+      </animal_exercise_ltt>
+      <animal_shelter>Shelter: </animal_shelter>
+      <animal_shelter_ltt>
+         <color r="255" g="248" b="178">
+            <b>Shelter</b>
+         </color>
+         <br/>
+         
+         
+         
+         
+         
+         
+         
+         
+          Player should never see this.
+      
+      
+      
+      
+      
+      
+      
+      
+      </animal_shelter_ltt>
+      <animal_privacy>Privacy: </animal_privacy>
+      <animal_privacy_ltt>
+         <color r="255" g="248" b="178">
+            <b>Privacy Need</b>
+         </color>
+         <br/>
+         
+         
+         
+         
+         
+         This represents the animal's current privacy level. Animals can use shelters or lie in grass or shade to regain their privacy as more guests view them.     
+      
+      
+      
+      
+      
+      
+      </animal_privacy_ltt>
+      <animal_reproduction>Reproduction: </animal_reproduction>
+      <animal_reproduction_ltt>
+         <color r="255" g="248" b="178">
+            <b>Reproduction</b>
+         </color>
+         <br/>
+         
+         
+         
+         
+         
+         
+         
+         
+          Player should never see this.
+      
+      
+      
+      
+      
+      
+      
+      
+      </animal_reproduction_ltt>
+      <animal_social>Social: </animal_social>
+      <animal_social_ltt>
+         <color r="255" g="248" b="178">
+            <b>Social Need</b>
+         </color>
+         <br/>
+         
+This represents the current social level of the animal. Some animals are more social with other animals than others.         
+         
+         
+         
+         
+         
+ 
+      
+      
+      
+      
+      
+      
+      
+      
+      </animal_social_ltt>
+      <animal_stimulation>Stimulation: </animal_stimulation>
+      <animal_stimulation_ltt>
+         <color r="255" g="248" b="178">
+            <b>Stimulation Need</b>
+         </color>
+         <br/>
+         
+  This represents the current stimulation level of the animal. Animals can meet this need by interacting with different enrichment objects.       
+         
+         
+         
+         
+         
+       
+      </animal_stimulation_ltt>
+      <animal_happy>Happiness: </animal_happy>
+      <animal_happy_ltt>
+         <color r="255" g="248" b="178">
+            <b>Happiness:</b>
+         </color>
+         <br/>
+         
+         
+         
+         
+         
+         
+         
+         Animal is happy and content.
+      
+      
+      
+      
+      
+      
+      
+      </animal_happy_ltt>
+      <animal_not_happy>Happiness: </animal_not_happy>
+      <animal_not_happy_ltt>
+         <color r="255" g="248" b="178">
+            <b>Happiness:</b>
+         </color>
+         <br/>
+         
+         
+         
+         
+         
+         
+         
+         Animal is not happy. Guests don't like to see unhappy animals.
+      
+      
+      
+      
+      
+      
+      
+      </animal_not_happy_ltt>
+      <animal_well>Health: </animal_well>
+      <animal_well_ltt>
+         <color r="255" g="248" b="178">
+            <b>Health:</b>
+         </color>
+         <br/>
+         
+         
+         
+         
+         
+         
+         
+         Animal is healthy.
+      
+      
+      
+      
+      
+      
+      
+      </animal_well_ltt>
+      <animal_sick>Health: </animal_sick>
+      <animal_sick_ltt>
+         <color r="255" g="248" b="178">
+            <b>Health:</b>
+         </color>
+         <br/>
+         
+         
+         
+         
+         
+         
+         
+         Animal is sick. If the animal is not treated soon it may die. Keepers can heal sick animals. 
+      
+      
+      
+      
+      
+      
+      
+      </animal_sick_ltt>
+      <animal_not_pregnant>Pregnant: No</animal_not_pregnant>
+      <animal_not_pregnant_ltt>
+         <color r="255" g="248" b="178">
+            <b>Pregnant:</b>
+         </color>
+         <br/>
+         
+         
+         
+         
+         
+         
+         
+         Animal is not pregnant.
+      
+      
+      
+      
+      
+      
+      
+      </animal_not_pregnant_ltt>
+      <animal_pregnant>Pregnant: Yes</animal_pregnant>
+      <animal_pregnant_ltt>
+         <color r="255" g="248" b="178">
+            <b>Pregnant:</b>
+         </color>
+         <br/>
+         
+         
+         
+         
+         
+         
+         
+         Animal is pregnant. When the icon turns red, the animal will give birth. 
+      
+      
+      
+      
+      
+      
+      
+      </animal_pregnant_ltt>
+      <guest_happy>Happiness: </guest_happy>
+      <guest_happy_ltt>
+         <color r="255" g="248" b="178">
+            <b>Happiness:</b>
+         </color>
+         <br/>
+         
+         
+       This represents the guest's current level of happiness. Guests are happy when they are fed, watered, and entertained.
+      
+      </guest_happy_ltt>
+      <guest_hunger>Hunger: </guest_hunger>
+      <guest_hunger_ltt>
+         <color r="255" g="248" b="178">
+            <b>Hunger Need</b>
+         </color>
+         <br/>
+         
+         
+         
+         
+         
+         
+         
+         
+         This represents the current hunger level of the guest. Guests like to eat different foods from food stands, restaurants, and snack carts.
+      
+      
+      
+      
+      
+      
+      
+      
+      </guest_hunger_ltt>
+      <guest_thirst>Thirst: </guest_thirst>
+      <guest_thirst_ltt>
+         <color r="255" g="248" b="178">
+            <b>Thirst Need</b>
+         </color>
+         <br/>
+         
+         
+         
+         
+         
+         
+         
+         
+         This represents the current thirst level of the guest. Guests like to buy drinks from food stands. 
+      
+      
+      
+      
+      
+      
+      
+      
+      </guest_thirst_ltt>
+      <guest_rest>Rest: </guest_rest>
+      <guest_rest_ltt>
+         <color r="255" g="248" b="178">
+            <b>Rest Need</b>
+         </color>
+         <br/>
+         
+         
+         
+         
+         
+         
+         
+         
+         This represents the current fatigue level of the guest. Guests get tired as they walk around the zoo and like to rest on benches and other seating. 
+      
+      
+      
+      
+      
+      
+      
+      
+      </guest_rest_ltt>
+      <guest_bathroom>Bathroom: </guest_bathroom>
+      <guest_bathroom_ltt>
+         <color r="255" g="248" b="178">
+            <b>Bathroom Need</b>
+         </color>
+         <br/>
+         
+         
+         
+         
+         
+         
+         
+         
+         This represents how urgently the guest needs to find a restroom. Guests often need to use the restroom after eating or drinking. 
+      
+      
+      
+      
+      
+      
+      
+      
+      </guest_bathroom_ltt>
+      <guest_amusement>Amusement: </guest_amusement>
+      <guest_amusement_ltt>
+         <color r="255" g="248" b="178">
+            <b>Amusement Need</b>
+         </color>
+         <br/>
+         
+         
+         
+         
+         
+         
+         
+         
+         This represents the current amusement level of the guest. Guests are amused by interesting objects like fountains, arches, and statues.
+      
+      </guest_amusement_ltt>
+   </entityneeds>
+</ZT2Strings>

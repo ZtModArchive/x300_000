@@ -1,0 +1,12 @@
+<entries>
+	<BFHelpEntry entry="zoopedia_home">
+		<BFHelpEntry entry="zoopedia_foodcontainer">
+			<BFHelpEntry entry="zoopedia_animalcarcass" />
+			<BFHelpEntry entry="zoopedia_browseholder" />
+			<BFHelpEntry entry="zoopedia_elevateddish" />
+			<BFHelpEntry entry="zoopedia_fooddish" />
+			<BFHelpEntry entry="zoopedia_metaltrough" />
+			<BFHelpEntry entry="zoopedia_trough" />
+		</BFHelpEntry>
+	</BFHelpEntry>
+</entries>

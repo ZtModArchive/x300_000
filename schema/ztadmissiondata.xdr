@@ -1,0 +1,5 @@
+<Schema name="ZTAdmissionData">
+	<ElementType name="ZTAdmissionData">
+		<extends type="BFStringFloatObj"/>
+	</ElementType>
+</Schema>

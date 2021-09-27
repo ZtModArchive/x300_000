@@ -1,0 +1,4 @@
+<TEXTKEY>
+	<key frame="90" text = "{Bip01 Head} snd 'Spit'" />
+<key frame="120" text="{Bip01 Head} attachps Biomefx_Spit_Food useRot"/>
+</TEXTKEY>

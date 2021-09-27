@@ -1,0 +1,6 @@
+<TEXTKEY>
+   <key time="0" text="{Bip01 Neck2} runps TreadWaterRipples useZRot"/>
+      <key time=".09" text="snd &quot;medium_swim&quot;"/>
+   <key time=".466" text = "{Node_Carry} detach object" />
+   <key time=".5" text="{Bip01 Neck2} runps TreadWaterRipples useZRot"/>
+</TEXTKEY>

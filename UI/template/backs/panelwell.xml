@@ -1,0 +1,90 @@
+<UILayout templateName="panelwell">
+   <UIRegion x="0" y="0" w="64" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+   <UIState active="normal" visible="normal"/>
+   <UIAspect>
+      <default/>
+   </UIAspect>
+   <children>
+      <UIStatic name="TopLeft">
+         <UIRegion x="0" y="0" w="7" h="7" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="UI/template/backs/well_panel.dds">
+               <BFRect x="0" y="0" w="7" h="7"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="TopMiddle">
+         <UIRegion x="7" y="OUT_TOP" w="-7" h="7" xalign="min" yalign="min" walign="max" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="UI/template/backs/well_panel.dds">
+               <BFRect x="7" y="0" w="2" h="7"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="TopRight">
+         <UIRegion x="-7" y="0" w="7" h="7" xalign="max" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="UI/template/backs/well_panel.dds">
+               <BFRect x="9" y="0" w="7" h="7"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="MidLeft">
+         <UIRegion x="0" y="7" w="7" h="-7" xalign="min" yalign="min" walign="len" halign="max"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="UI/template/backs/well_panel.dds">
+               <BFRect x="0" y="7" w="7" h="2"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="BottomLeft">
+         <UIRegion x="0" y="-7" w="7" h="7" xalign="min" yalign="max" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="UI/template/backs/well_panel.dds">
+               <BFRect x="0" y="9" w="7" h="7"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="BottomMiddle">
+         <UIRegion x="7" y="-7" w="-7" h="7" xalign="min" yalign="max" walign="max" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="UI/template/backs/well_panel.dds">
+               <BFRect x="7" y="9" w="2" h="7"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="BottomRight">
+         <UIRegion x="-7" y="-7" w="7" h="7" xalign="max" yalign="max" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="UI/template/backs/well_panel.dds">
+               <BFRect x="9" y="9" w="7" h="7"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="MidRight">
+         <UIRegion x="-7" y="7" w="7" h="-7" xalign="max" yalign="min" walign="len" halign="max"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="UI/template/backs/well_panel.dds">
+               <BFRect x="9" y="7" w="7" h="2"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="Center">
+         <UIRegion x="7" y="7" w="-7" h="-7" xalign="min" yalign="min" walign="max" halign="max"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="UI/template/backs/well_panel.dds">
+               <BFRect x="7" y="7" w="2" h="2"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+   </children>
+</UILayout>

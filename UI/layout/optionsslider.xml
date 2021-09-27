@@ -1,0 +1,33 @@
+<UILayout>
+   <UIRegion x="0" y="0" w="300" h="44" xalign="min" yalign="min" walign="len" halign="len"/>
+   <children>
+      <UIText name="Label">
+         <UIRegion x="0" y="0" w="200" h="16" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="ui/shared/back_buy.dds">
+               <BFFont x="5" y="0">
+                  <BFColor r="59" g="83" b="66" a="255"/>
+               </BFFont>
+               <BFRect x="0" y="0" w="138" h="15"/>
+               <BFColor r="255" g="255" b="255" a="255"/>
+            </default>
+         </UIAspect>
+         <UIHotKeys/>
+         <UIHelpInfo name="" short="" long="" help="" ids=""/>
+      </UIText>
+      <UISlider name="Slider" template="Options Slider" min="0" max="2">
+         <UIRegion x="5" y="18" w="200" h="20"/>
+      </UISlider>
+      <UIText name="Setting">
+         <UIRegion x="210" y="19" w="150" h="16"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="">
+               <BFColor r="255" g="255" b="255" a="255"/>
+            </default>
+         </UIAspect>
+         <UIHotKeys/>
+      </UIText>
+   </children>
+</UILayout>

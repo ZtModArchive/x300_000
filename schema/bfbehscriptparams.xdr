@@ -1,0 +1,31 @@
+<Schema name="BFBehScriptParams">
+	<ElementType name="BFBehScriptParams">
+		<extends type="BFXMLObj"/>
+	
+		<AttributeType name="comp_pointer">
+			<datatype dt:type="bin.hex" bf:pointer="BFComponent"/>
+		</AttributeType>
+	
+		<ElementType name="Subject">
+			<attribute name="value" type="comp_pointer"/>
+		</ElementType>
+		
+		<ElementType name="Target">
+			<attribute name="value" type="comp_pointer"/>
+		</ElementType>
+		
+		<ElementType name="Object">
+			<attribute name="value" type="comp_pointer"/>
+		</ElementType>
+		
+		<ElementType name="string">
+			<attribute name="value" dt:type="string" required="yes"/>
+		</ElementType>
+		
+		<element type="Subject"/>
+		<element type="Target" occurs="optional" />
+		<element type="Object" occurs="optional" />
+		
+		<element type="string" occurs="zeroOrMore"/>
+	</ElementType>
+</Schema>

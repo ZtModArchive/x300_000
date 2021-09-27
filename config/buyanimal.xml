@@ -1,0 +1,29 @@
+<ZTAdoptionMgr panel="Animal Typelist">
+	<loadEvents>
+		<event msg="UI_CHILD" data="UIChildData" name="Adopt Animal Tab">
+			<child msg="UI_HIDE" />
+		</event>
+		<event msg="UI_CHILD" data="UIChildData" name="Buy Animal Tab">
+			<child msg="UI_SHOW" />
+		</event>
+		<event msg="UI_CHILD" data="UIChildData" name="Buy Animal Tab">
+			<child msg="UI_ACTIVATE_OFF" />
+		</event>
+		<event msg="UI_CHILD" data="UIChildData" name="Buy Animal Tab">
+			<child msg="UI_ACTIVATE_ON" />
+		</event>
+		<event msg="UI_CHILD" data="UIChildData" name="scenariogoals">
+			<child msg="UI_DISABLE" />
+		</event>
+		<event msg="UI_CHILD" data="UIChildData" name="researchfilter1">
+			<child msg="UI_HIDE" />
+		</event>
+		<event msg="UI_CHILD" data="UIChildData" name="researchfilter2">
+			<child msg="UI_HIDE" />
+		</event>
+		<event msg="UI_CHILD" data="UIChildData" name="researchfilter3">
+			<child msg="UI_HIDE" />
+		</event>
+		<event msg="ZT_SETPLACEMENTOBJECT" />
+	</loadEvents>
+</ZTAdoptionMgr>

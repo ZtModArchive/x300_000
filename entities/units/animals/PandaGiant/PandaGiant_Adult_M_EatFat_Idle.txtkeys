@@ -1,0 +1,5 @@
+<TEXTKEY>
+   <key frame="1" text="{Bip01 Head} snd 'EatA'"/>
+   <key percent="0" text = "{FootFrontRight} attach object"/>
+   <key percent="100" text = "{FootFrontRight} detach object"/>
+</TEXTKEY>
